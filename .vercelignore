@@ -1,0 +1,11 @@
+tmp/
+test-results/
+playwright-report/
+.next/
+.next-e2e/
+.next-build/
+node_modules/
+.env*
+
+.data/
+.next-admin-dev/

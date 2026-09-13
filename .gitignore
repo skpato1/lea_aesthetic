@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.next-e2e/
+.next-build/
+.env*
+!.env.example
+tmp/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.vercel/
+
+.data/
+.next-admin-dev/
+.next-i18n-dev/

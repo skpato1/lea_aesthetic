@@ -1,0 +1,1572 @@
+{
+  "home": {
+    "label": "Accueil",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Surtitre — L’esthétique, avec attention",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Titre — Votre projet",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Titre — esthétique,",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte mis en valeur — un accompagnement",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Titre — à chaque étape.",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Texte — À Istanbul, LEA Aesthetic vous aide à préparer votre projet et coordonne vos échanges",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Lien — /contact",
+        "section": "home",
+        "kind": "url"
+      },
+      {
+        "key": "text008",
+        "label": "Texte — Parlons de votre projet",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Lien — /interventions",
+        "section": "home",
+        "kind": "url"
+      },
+      {
+        "key": "text010",
+        "label": "Texte — Découvrir les interventions",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Texte — Prendre le temps de vous découvrir",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Libellé — Vue d’Istanbul et du Bosphore",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text013",
+        "label": "Texte — Istanbul, Turquie",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Texte — Votre projet commence par une rencontre.",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text015",
+        "label": "Texte — À votre écoute.",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text016",
+        "label": "Texte mis en valeur — À votre rythme.",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text017",
+        "label": "Texte — LEA AESTHETIC · ISTANBUL",
+        "section": "home",
+        "kind": "text"
+      },
+      {
+        "key": "text018",
+        "label": "Texte — Un accompagnement humain",
+        "section": "principles-strip",
+        "kind": "text"
+      },
+      {
+        "key": "text019",
+        "label": "Texte — Une évaluation par le chirurgien",
+        "section": "principles-strip",
+        "kind": "text"
+      },
+      {
+        "key": "text020",
+        "label": "Texte — Des échanges en toute clarté",
+        "section": "principles-strip",
+        "kind": "text"
+      },
+      {
+        "key": "text021",
+        "label": "Surtitre — Bienvenue chez LEA",
+        "section": "about",
+        "kind": "text"
+      },
+      {
+        "key": "text022",
+        "label": "Titre — Avant toute démarche,",
+        "section": "about",
+        "kind": "text"
+      },
+      {
+        "key": "text023",
+        "label": "Texte mis en valeur — une relation de confiance.",
+        "section": "about",
+        "kind": "text"
+      },
+      {
+        "key": "text024",
+        "label": "Texte — Un projet esthétique est une décision personnelle. Il mérite de l’écoute, du temps et",
+        "section": "about",
+        "kind": "text"
+      },
+      {
+        "key": "text025",
+        "label": "Texte — LEA Aesthetic est une agence de coordination à Istanbul. Nous vous aidons à formuler ",
+        "section": "about",
+        "kind": "text"
+      },
+      {
+        "key": "text026",
+        "label": "Texte — L’évaluation médicale et les soins relèvent exclusivement des professionnels de santé",
+        "section": "about",
+        "kind": "text"
+      },
+      {
+        "key": "text027",
+        "label": "Lien — /agence",
+        "section": "about",
+        "kind": "url"
+      },
+      {
+        "key": "text028",
+        "label": "Texte — Découvrir notre approche",
+        "section": "about",
+        "kind": "text"
+      },
+      {
+        "key": "text029",
+        "label": "Surtitre — Les interventions",
+        "section": "services",
+        "kind": "text"
+      },
+      {
+        "key": "text030",
+        "label": "Titre — Votre réflexion.",
+        "section": "services",
+        "kind": "text"
+      },
+      {
+        "key": "text031",
+        "label": "Texte mis en valeur — Vos possibilités.",
+        "section": "services",
+        "kind": "text"
+      },
+      {
+        "key": "text032",
+        "label": "Texte — Des repères pour découvrir les interventions",
+        "section": "services",
+        "kind": "text"
+      },
+      {
+        "key": "text033",
+        "label": "Texte — et préparer votre consultation.",
+        "section": "services",
+        "kind": "text"
+      },
+      {
+        "key": "text034",
+        "label": "Lien — /interventions",
+        "section": "services",
+        "kind": "url"
+      },
+      {
+        "key": "text035",
+        "label": "Texte — Explorer les interventions",
+        "section": "services",
+        "kind": "text"
+      },
+      {
+        "key": "text036",
+        "label": "Texte — Découvrir",
+        "section": "services",
+        "kind": "text"
+      },
+      {
+        "key": "text037",
+        "label": "Libellé — Portrait du Dr Anıl Pehlivan",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text038",
+        "label": "Texte — Dr Anıl PEHLIVAN",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text039",
+        "label": "Surtitre — Rencontrer le chirurgien",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text040",
+        "label": "Titre — Le Dr Anıl",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text041",
+        "label": "Texte mis en valeur — Pehlivan.",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text042",
+        "label": "Texte — Chirurgie plastique, reconstructrice et esthétique",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text043",
+        "label": "Texte — Comprendre votre démarche commence aussi par connaître le professionnel à qui vous ad",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text044",
+        "label": "Texte — Diplômé en médecine de l’Université d’Istanbul en 2017, le Dr Anıl Pehlivan a achevé ",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text045",
+        "label": "Texte — 2017",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text046",
+        "label": "Texte — Université d’Istanbul",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text047",
+        "label": "Texte — Diplôme de médecine",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text048",
+        "label": "Texte — 2023",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text049",
+        "label": "Texte — Université Adnan Menderes",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text050",
+        "label": "Texte — Spécialisation",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text051",
+        "label": "Lien — /chirurgien",
+        "section": "doctors",
+        "kind": "url"
+      },
+      {
+        "key": "text052",
+        "label": "Texte — Découvrir son parcours",
+        "section": "doctors",
+        "kind": "text"
+      },
+      {
+        "key": "text053",
+        "label": "Surtitre — Votre parcours",
+        "section": "process",
+        "kind": "text"
+      },
+      {
+        "key": "text054",
+        "label": "Titre — Un premier échange.",
+        "section": "process",
+        "kind": "text"
+      },
+      {
+        "key": "text055",
+        "label": "Texte mis en valeur — Un projet qui se précise.",
+        "section": "process",
+        "kind": "text"
+      },
+      {
+        "key": "text056",
+        "label": "Lien — /parcours",
+        "section": "process",
+        "kind": "url"
+      },
+      {
+        "key": "text057",
+        "label": "Texte — Comprendre les étapes",
+        "section": "process",
+        "kind": "text"
+      },
+      {
+        "key": "text058",
+        "label": "Texte — 0",
+        "section": "process",
+        "kind": "text"
+      },
+      {
+        "key": "text059",
+        "label": "Texte — Chaque organisation est précisée individuellement, avant tout engagement.",
+        "section": "process",
+        "kind": "text"
+      },
+      {
+        "key": "text060",
+        "label": "Surtitre — Quelques réponses",
+        "section": "faq",
+        "kind": "text"
+      },
+      {
+        "key": "text061",
+        "label": "Titre — Faire le premier pas,",
+        "section": "faq",
+        "kind": "text"
+      },
+      {
+        "key": "text062",
+        "label": "Texte mis en valeur — en toute clarté.",
+        "section": "faq",
+        "kind": "text"
+      },
+      {
+        "key": "text063",
+        "label": "Lien — /faq",
+        "section": "faq",
+        "kind": "url"
+      },
+      {
+        "key": "text064",
+        "label": "Texte — Toutes vos questions",
+        "section": "faq",
+        "kind": "text"
+      }
+    ]
+  },
+  "agence": {
+    "label": "L’agence",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — L’agence LEA Aesthetic",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Une présence attentive.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte mis en valeur — Un projet qui vous ressemble.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Une démarche esthétique mérite d’être comprise, préparée et accompagnée. À Istanbul, ",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Surtitre — Notre rôle",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Titre — Vous écouter.",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Titre — Vous informer.",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Texte mis en valeur — Faciliter vos démarches.",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Texte — LEA Aesthetic coordonne les demandes d’information et l’organisation envisagée autour",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text010",
+        "label": "Texte — Notre approche repose sur une distinction claire : nous assurons un rôle de coordinat",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Texte — Chaque projet commence par une discussion. Vous pouvez poser vos questions, préciser ",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Lien — /parcours",
+        "section": "section",
+        "kind": "url"
+      },
+      {
+        "key": "text013",
+        "label": "Texte — Comprendre votre parcours",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Titre — Une écoute personnelle",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text015",
+        "label": "Texte — Comprendre ce qui vous amène à nous contacter, sans présumer de la décision que vous ",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text016",
+        "label": "Titre — Des informations claires",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text017",
+        "label": "Texte — Distinguer les informations générales, les recommandations médicales et les modalités",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text018",
+        "label": "Titre — Une organisation précisée",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text019",
+        "label": "Texte — Clarifier les étapes et les interlocuteurs, en fonction de la proposition que vous au",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text020",
+        "label": "Texte — Les modalités du séjour se confirment individuellement.",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text021",
+        "label": "Texte — L’hébergement, les transferts, l’interprétariat et les éventuelles prestations d’acco",
+        "section": "container",
+        "kind": "text"
+      }
+    ]
+  },
+  "interventions": {
+    "label": "Présentation des interventions",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — Les interventions",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Des repères pour",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte mis en valeur — votre réflexion.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Découvrez les objectifs généraux de chaque intervention et les questions à aborder en",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Texte — Le visage · La silhouette · La poitrine",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Texte — Toute intervention comporte des risques et des limites. Seul le professionnel de sant",
+        "section": "container",
+        "kind": "text"
+      }
+    ]
+  },
+  "treatment": {
+    "label": "Modèle des fiches",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Texte — Accueil",
+        "section": "page-intro",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Lien — /interventions",
+        "section": "page-intro",
+        "kind": "url"
+      },
+      {
+        "key": "text003",
+        "label": "Texte — Interventions",
+        "section": "page-intro",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Titre — Les objectifs à explorer",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Titre — À aborder en consultation",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Texte — Un échange médical permet d’évaluer les possibilités, les alternatives et les limites",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Titre — Vos questions au chirurgien",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Texte — Ces informations sont générales. Elles ne constituent ni un avis médical ni une indic",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Surtitre — Un premier échange",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text010",
+        "label": "Titre — Votre projet de",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Texte — Nous vous aidons à préparer vos démarches et à poser vos premières questions.",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Texte — En parler sur WhatsApp",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text013",
+        "label": "Texte — Écrire à l’agence",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Titre — Continuer votre découverte",
+        "section": "container",
+        "kind": "text"
+      }
+    ]
+  },
+  "chirurgien": {
+    "label": "Le chirurgien",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — Le chirurgien",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Dr Anıl",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte mis en valeur — Pehlivan.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Chirurgie plastique, reconstructrice et esthétique.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Libellé — Dr Anıl Pehlivan, portrait extrait du document fourni par LEA",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Texte — Dr Anıl PEHLIVAN",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Surtitre — Formation et parcours",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Titre — Connaître le professionnel.",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Texte mis en valeur — Préparer la rencontre.",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text010",
+        "label": "Texte — Le Dr Anıl Pehlivan est diplômé de la faculté de médecine de l’Université d’Istanbul.",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Texte — 2017",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Titre — Diplôme de médecine",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text013",
+        "label": "Texte — Université d’Istanbul",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Texte — Faculté de médecine — 25 juin 2017",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text015",
+        "label": "Texte — 2023",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text016",
+        "label": "Titre — Formation de spécialiste",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text017",
+        "label": "Texte — Université Adnan Menderes",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text018",
+        "label": "Texte — Chirurgie plastique, reconstructrice et esthétique",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text019",
+        "label": "Texte — Formation achevée le 2 mai 2023",
+        "section": "section",
+        "kind": "text"
+      },
+      {
+        "key": "text020",
+        "label": "Titre — La consultation, un temps essentiel",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text021",
+        "label": "Texte — Ce rendez-vous permet d’exposer vos attentes, de recevoir des explications sur les op",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text022",
+        "label": "Texte — LEA peut faciliter l’organisation de cet échange. Les décisions médicales et les cons",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text023",
+        "label": "Lien — /contact",
+        "section": "container",
+        "kind": "url"
+      },
+      {
+        "key": "text024",
+        "label": "Texte — Préparer un premier échange",
+        "section": "container",
+        "kind": "text"
+      }
+    ]
+  },
+  "parcours": {
+    "label": "Votre parcours",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — Votre parcours",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Chaque étape compte.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte mis en valeur — Vous gardez le temps de décider.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Voici les grandes étapes d’une demande auprès de LEA. L’organisation concrète se préc",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Texte — 0",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Texte — Cette présentation décrit un parcours général. Elle ne vaut pas engagement sur un for",
+        "section": "container",
+        "kind": "text"
+      }
+    ]
+  },
+  "faq": {
+    "label": "Page FAQ",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — Questions fréquentes",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Vos questions.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte mis en valeur — Des réponses claires.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Quelques repères avant de commencer. Pour une question liée à votre situation, nous p",
+        "section": "Introduction",
+        "kind": "text"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Page Contact",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — Faisons connaissance",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Votre projet commence",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte mis en valeur — par un échange.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Une question, une idée, une démarche à préparer ? Nous sommes à votre écoute pour vou",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Titre — Contactez-nous",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Titre — en toute simplicité.",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Texte — Choisissez le moyen de contact qui vous convient. Nous échangerons sur votre demande ",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Texte — Un échange direct",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Texte — Écrire sur WhatsApp",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text010",
+        "label": "Texte — Par téléphone",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Texte — Retrouvez LEA",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Texte — @lea__aesthetics",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text013",
+        "label": "Texte — Notre destination",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Texte — Istanbul, Turquie",
+        "section": "container",
+        "kind": "text"
+      }
+    ]
+  },
+  "legal": {
+    "label": "Informations légales",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — Informations du site",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Informations légales",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte mis en valeur — et confidentialité.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Comprendre le rôle du site, les moyens de contact et l’utilisation des informations q",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Texte — Version de prépublication · Notice du 10 septembre 2026",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Texte — Identification juridique à compléter avant publication.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Texte — LEA Aesthetic est le nom commercial présenté sur ce site. La dénomination légale de l",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Titre — Objet du site et rôle de LEA",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Texte — Le site présente l’activité de coordination de demandes et de séjours autour de proje",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text010",
+        "label": "Texte — Les informations relatives aux interventions sont générales et ne constituent pas un ",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Titre — Nous contacter",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Texte — Vous pouvez contacter l’agence au",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text013",
+        "label": "Texte — ou par les moyens proposés sur la",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Lien — /contact",
+        "section": "Introduction",
+        "kind": "url"
+      },
+      {
+        "key": "text015",
+        "label": "Texte — page Contact",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text016",
+        "label": "Texte — . La localisation communiquée est Istanbul, Turquie ; elle ne constitue pas une adres",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text017",
+        "label": "Titre — Les informations du formulaire",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text018",
+        "label": "Texte — Le formulaire recueille votre nom, un e-mail ou un numéro de téléphone, l’interventio",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text019",
+        "label": "Titre — Comment la demande est transmise",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text020",
+        "label": "Texte — Lorsque l’envoi est configuré, le navigateur transmet le formulaire au serveur du sit",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text021",
+        "label": "Texte — Si le service n’est pas configuré, le formulaire indique son indisponibilité et ne pe",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text022",
+        "label": "Titre — Protection contre les envois abusifs",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text023",
+        "label": "Texte — Le serveur vérifie les champs, l’origine de la requête, sa taille, un champ anti-robo",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text024",
+        "label": "Texte — En développement local, ce comptage est conservé temporairement dans la mémoire du se",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text025",
+        "label": "Titre — Hébergement, destinataires et conservation",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text026",
+        "label": "Texte — Cette version est destinée à un hébergement sur Vercel ; l’identité de l’hébergeur ef",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text027",
+        "label": "Texte — Les personnes habilitées à consulter la boîte de réception LEA ainsi que les prestata",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text028",
+        "label": "Titre — Votre choix et vos demandes",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text029",
+        "label": "Texte — Votre accord est demandé avant transmission. Pour demander des informations sur l’uti",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text030",
+        "label": "Titre — WhatsApp et Instagram",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text031",
+        "label": "Texte — Les boutons WhatsApp et Instagram ouvrent des services externes de Meta. Leurs propre",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text032",
+        "label": "Titre — Cookies et ressources externes",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text033",
+        "label": "Texte — Le code de ce site ne met en place ni outil publicitaire, ni mesure d’audience, ni co",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text034",
+        "label": "Titre — Images et documents",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text035",
+        "label": "Texte — Le logo et le portrait du chirurgien proviennent des documents transmis par LEA. Les ",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text036",
+        "label": "Texte — Photographie d’Istanbul :",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text037",
+        "label": "Lien — https://unsplash.com/photos/buyuk-mecidiye-mosque-and-bosphorus-bridge-xmZ7nuqK7kg",
+        "section": "Introduction",
+        "kind": "url"
+      },
+      {
+        "key": "text038",
+        "label": "Texte — Meriç Dağlı / Unsplash",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text039",
+        "label": "Texte — , utilisée sous licence Unsplash. Elle illustre la ville et ne représente pas un étab",
+        "section": "Introduction",
+        "kind": "text"
+      }
+    ]
+  },
+  "notFound": {
+    "label": "Page introuvable",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Surtitre — Page introuvable · 404",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Titre — Reprenons",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte mis en valeur — le bon chemin.",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Cette page n’existe pas ou son adresse a changé. Retrouvez les informations LEA depui",
+        "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Texte — Retour à l’accueil",
+        "section": "container",
+        "kind": "text"
+      }
+    ]
+  },
+  "header": {
+    "label": "En-tête",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — LEA Aesthetic",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Lien — /contact",
+        "section": "Introduction",
+        "kind": "url"
+      },
+      {
+        "key": "text003",
+        "label": "Texte — Nous contacter",
+        "section": "Introduction",
+        "kind": "text"
+      }
+    ]
+  },
+  "footer": {
+    "label": "Pied de page",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Libellé — LEA Aesthetic",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Votre projet esthétique.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte — Un accompagnement à chaque étape.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — Istanbul, Turquie",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Texte — Découvrir LEA",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Texte — Restons en contact",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Texte — WhatsApp",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Texte — Instagram",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Lien — /contact",
+        "section": "Introduction",
+        "kind": "url"
+      },
+      {
+        "key": "text010",
+        "label": "Texte — Écrire à l’agence",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Texte — LEA Aesthetic",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Lien — /informations-legales",
+        "section": "Introduction",
+        "kind": "url"
+      },
+      {
+        "key": "text013",
+        "label": "Texte — Informations légales et confidentialité",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Texte — La coordination par LEA. Les soins par les professionnels de santé.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text015",
+        "label": "Texte — Parlons-en",
+        "section": "Introduction",
+        "kind": "text"
+      }
+    ]
+  },
+  "invitation": {
+    "label": "Invitation au contact",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Texte — 0",
+        "section": "page-intro",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Surtitre — Le premier pas, simplement",
+        "section": "contact-invitation",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Titre — Un projet, des questions.",
+        "section": "contact-invitation",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte mis en valeur — Parlons-en.",
+        "section": "contact-invitation",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Texte — Un échange pour vous écouter et vous aider à y voir plus clair.",
+        "section": "contact-invitation",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Lien — /contact",
+        "section": "contact-invitation",
+        "kind": "url"
+      },
+      {
+        "key": "text007",
+        "label": "Texte — Parlons de votre projet",
+        "section": "contact-invitation",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Texte — Échanger sur WhatsApp",
+        "section": "contact-invitation",
+        "kind": "text"
+      }
+    ]
+  },
+  "form": {
+    "label": "Formulaire de contact",
+    "fields": [
+      {
+        "key": "text001",
+        "label": "Titre — Parlez-nous de votre projet",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text002",
+        "label": "Texte — Tous les champs sont nécessaires. Quelques mots suffisent.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text003",
+        "label": "Texte — L’envoi par formulaire est actuellement indisponible. Contactez-nous directement sur",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text004",
+        "label": "Texte — WhatsApp ↗",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text005",
+        "label": "Texte — ou par téléphone.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text006",
+        "label": "Texte — Aperçu de développement : les envois sont simulés. Aucun e-mail réel n’est envoyé.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Texte — Échanger sur WhatsApp",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Texte — Activez JavaScript pour utiliser le formulaire, ou contactez-nous sur WhatsApp ou par",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Texte — Votre demande initiale",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text010",
+        "label": "Texte — Votre nom",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Libellé — Prénom et nom",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Texte — Votre e-mail ou téléphone",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text013",
+        "label": "Libellé — vous@exemple.fr ou +33…",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Texte — Un seul moyen de contact suffit pour vous répondre.",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text015",
+        "label": "Texte — L’intervention qui vous intéresse",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text016",
+        "label": "Texte — Choisir une intervention",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text017",
+        "label": "Texte — À définir ensemble",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text018",
+        "label": "Texte — Votre message",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text019",
+        "label": "Libellé — Ce que vous aimeriez savoir, les questions que vous vous posez…",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text020",
+        "label": "Texte — 10 à 1 200 caractères. N’indiquez pas d’informations médicales sensibles. N’envoyez p",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text021",
+        "label": "Texte — Ne pas remplir ce champ",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text022",
+        "label": "Texte — J’accepte que LEA Aesthetic utilise mes coordonnées et mon message pour traiter ma de",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text023",
+        "label": "Lien — /informations-legales",
+        "section": "Introduction",
+        "kind": "url"
+      },
+      {
+        "key": "text024",
+        "label": "Texte — informations relatives à la confidentialité",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text025",
+        "label": "Texte — Envoi en cours…",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text026",
+        "label": "Texte — Envoyer ma demande",
+        "section": "Introduction",
+        "kind": "text"
+      },
+      {
+        "key": "text027",
+        "label": "Texte — Cette demande initiale ne constitue ni une consultation médicale ni une réservation.",
+        "section": "Introduction",
+        "kind": "text"
+      }
+    ]
+  }
+}

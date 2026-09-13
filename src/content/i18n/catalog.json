@@ -1,0 +1,2801 @@
+[
+  {
+    "source": "LEA Aesthetic",
+    "contexts": [
+      "settings.name",
+      "copy.header.text001",
+      "copy.footer.text001",
+      "copy.footer.text011"
+    ]
+  },
+  {
+    "source": "Istanbul, Turquie",
+    "contexts": [
+      "settings.location",
+      "copy.home.text013",
+      "copy.contact.text014",
+      "copy.footer.text004"
+    ]
+  },
+  {
+    "source": "LEA Aesthetic vous accompagne dans vos démarches de chirurgie esthétique à Istanbul. Découvrez les interventions, le chirurgien et les étapes de votre projet.",
+    "contexts": [
+      "settings.description",
+      "seo.home.description"
+    ]
+  },
+  {
+    "source": "Bonjour LEA Aesthetic, je souhaite échanger avec vous au sujet de mon projet esthétique à Istanbul.",
+    "contexts": [
+      "settings.whatsappGeneral"
+    ]
+  },
+  {
+    "source": "Bonjour LEA Aesthetic, je souhaite me renseigner sur l’intervention « {intervention} » à Istanbul. Pourrions-nous en discuter ?",
+    "contexts": [
+      "settings.whatsappTreatment"
+    ]
+  },
+  {
+    "source": "LEA Aesthetic | Votre projet esthétique à Istanbul",
+    "contexts": [
+      "settings.seoTitle",
+      "seo.home.title"
+    ]
+  },
+  {
+    "source": "Votre projet esthétique. Un accompagnement à chaque étape.",
+    "contexts": [
+      "settings.socialTitle"
+    ]
+  },
+  {
+    "source": "Des parcours, en images",
+    "contexts": [
+      "gallery.eyebrow"
+    ]
+  },
+  {
+    "source": "Avant / après",
+    "contexts": [
+      "gallery.title"
+    ]
+  },
+  {
+    "source": "Prendre le temps de regarder, de comprendre et de poser vos questions. Découvrez les publications de LEA et échangez avec nous sur votre projet.",
+    "contexts": [
+      "gallery.introduction"
+    ]
+  },
+  {
+    "source": "Découvrir notre Instagram",
+    "contexts": [
+      "gallery.instagramLabel"
+    ]
+  },
+  {
+    "source": "Retrouvez LEA sur Instagram",
+    "contexts": [
+      "gallery.emptyTitle"
+    ]
+  },
+  {
+    "source": "Consultez les publications de notre compte officiel et contactez-nous pour échanger sur les interventions qui vous intéressent.",
+    "contexts": [
+      "gallery.emptyText"
+    ]
+  },
+  {
+    "source": "Liposuccion 360° et abdominoplastie",
+    "contexts": [
+      "gallery.items.0.title"
+    ]
+  },
+  {
+    "source": "Publication du compte LEA consacrée à la liposuccion 360° et à l’abdominoplastie. Consultez la publication dans son contexte sur Instagram.",
+    "contexts": [
+      "gallery.items.0.caption"
+    ]
+  },
+  {
+    "source": "LEA — @lea__aesthetics",
+    "contexts": [
+      "gallery.items.0.sourceLabel",
+      "gallery.items.1.sourceLabel",
+      "gallery.items.2.sourceLabel"
+    ]
+  },
+  {
+    "source": "Augmentation mammaire",
+    "contexts": [
+      "gallery.items.1.title",
+      "treatments.3.name"
+    ]
+  },
+  {
+    "source": "Publication repérée sur le compte Instagram de LEA sous l’intitulé « Breast Augmentation ». Ouvrez la publication pour consulter les images et leur contexte.",
+    "contexts": [
+      "gallery.items.1.caption"
+    ]
+  },
+  {
+    "source": "Liposuccion Vaser",
+    "contexts": [
+      "gallery.items.2.title",
+      "treatments.1.name"
+    ]
+  },
+  {
+    "source": "Publication repérée sur le compte Instagram de LEA sous l’intitulé « Vaser Liposuction ». Ouvrez la publication pour consulter les images et leur contexte.",
+    "contexts": [
+      "gallery.items.2.caption"
+    ]
+  },
+  {
+    "source": "L’agence",
+    "contexts": [
+      "navigation.0.label",
+      "seo.agence.title"
+    ]
+  },
+  {
+    "source": "Les interventions",
+    "contexts": [
+      "navigation.1.label",
+      "copy.home.text029",
+      "copy.interventions.text001",
+      "seo.interventions.title"
+    ]
+  },
+  {
+    "source": "Le chirurgien",
+    "contexts": [
+      "navigation.2.label",
+      "copy.chirurgien.text001"
+    ]
+  },
+  {
+    "source": "Votre parcours",
+    "contexts": [
+      "navigation.3.label",
+      "copy.home.text053",
+      "copy.parcours.text001",
+      "seo.parcours.title"
+    ]
+  },
+  {
+    "source": "FAQ",
+    "contexts": [
+      "navigation.4.label"
+    ]
+  },
+  {
+    "source": "Rhinoplastie",
+    "contexts": [
+      "treatments.0.name"
+    ]
+  },
+  {
+    "source": "Le visage",
+    "contexts": [
+      "treatments.0.category",
+      "treatments.5.category"
+    ]
+  },
+  {
+    "source": "Aborder la forme du nez dans l’équilibre du visage.",
+    "contexts": [
+      "treatments.0.short"
+    ]
+  },
+  {
+    "source": "La rhinoplastie est une intervention qui modifie la forme du nez. Une éventuelle gêne respiratoire nécessite une évaluation spécifique. La consultation permet de mettre vos souhaits en perspective avec votre anatomie.",
+    "contexts": [
+      "treatments.0.intro"
+    ]
+  },
+  {
+    "source": "Discuter des proportions et de la forme du nez.",
+    "contexts": [
+      "treatments.0.aims.0"
+    ]
+  },
+  {
+    "source": "Étudier l’équilibre du nez avec les autres traits du visage.",
+    "contexts": [
+      "treatments.0.aims.1"
+    ]
+  },
+  {
+    "source": "Distinguer les attentes esthétiques d’une éventuelle demande fonctionnelle.",
+    "contexts": [
+      "treatments.0.aims.2"
+    ]
+  },
+  {
+    "source": "Votre projet, vos antécédents et une éventuelle intervention antérieure.",
+    "contexts": [
+      "treatments.0.discussion.0"
+    ]
+  },
+  {
+    "source": "Les techniques envisageables, leurs limites et les risques, notamment respiratoires, infectieux ou liés à la cicatrisation.",
+    "contexts": [
+      "treatments.0.discussion.1"
+    ]
+  },
+  {
+    "source": "L’anesthésie, les suites, les contrôles et la possibilité d’une nouvelle intervention.",
+    "contexts": [
+      "treatments.0.discussion.2"
+    ]
+  },
+  {
+    "source": "Quels changements sont envisageables dans mon cas ?",
+    "contexts": [
+      "treatments.0.questions.0"
+    ]
+  },
+  {
+    "source": "Comment une gêne respiratoire sera-t-elle évaluée ?",
+    "contexts": [
+      "treatments.0.questions.1"
+    ]
+  },
+  {
+    "source": "Comment se dérouleront les contrôles après l’intervention ?",
+    "contexts": [
+      "treatments.0.questions.2"
+    ]
+  },
+  {
+    "source": "La silhouette",
+    "contexts": [
+      "treatments.1.category",
+      "treatments.2.category"
+    ]
+  },
+  {
+    "source": "Échanger sur les contours de votre silhouette.",
+    "contexts": [
+      "treatments.1.short"
+    ]
+  },
+  {
+    "source": "La liposuccion vise à retirer des amas graisseux localisés. La technique Vaser utilise une assistance par ultrasons. Le choix d’une technique appartient au chirurgien, après examen et discussion des bénéfices et des risques.",
+    "contexts": [
+      "treatments.1.intro"
+    ]
+  },
+  {
+    "source": "Évaluer les zones dont vous souhaitez modifier les contours.",
+    "contexts": [
+      "treatments.1.aims.0"
+    ]
+  },
+  {
+    "source": "Aborder la répartition des volumes et la qualité de la peau.",
+    "contexts": [
+      "treatments.1.aims.1"
+    ]
+  },
+  {
+    "source": "Comprendre que la liposuccion ne constitue pas un traitement de l’obésité.",
+    "contexts": [
+      "treatments.1.aims.2"
+    ]
+  },
+  {
+    "source": "Les zones concernées et les possibilités propres à votre anatomie.",
+    "contexts": [
+      "treatments.1.discussion.0"
+    ]
+  },
+  {
+    "source": "Les limites liées à la peau et les risques, dont les irrégularités, les brûlures, l’infection et la thrombose.",
+    "contexts": [
+      "treatments.1.discussion.1"
+    ]
+  },
+  {
+    "source": "Les modalités de l’intervention, la surveillance et les consignes individualisées.",
+    "contexts": [
+      "treatments.1.discussion.2"
+    ]
+  },
+  {
+    "source": "Pourquoi cette technique serait-elle envisagée pour moi ?",
+    "contexts": [
+      "treatments.1.questions.0"
+    ]
+  },
+  {
+    "source": "Quelles sont ses limites sur l’aspect de ma peau ?",
+    "contexts": [
+      "treatments.1.questions.1"
+    ]
+  },
+  {
+    "source": "Quelles dispositions prévoir après l’intervention ?",
+    "contexts": [
+      "treatments.1.questions.2"
+    ]
+  },
+  {
+    "source": "Abdominoplastie",
+    "contexts": [
+      "treatments.2.name"
+    ]
+  },
+  {
+    "source": "Comprendre les possibilités de la chirurgie abdominale.",
+    "contexts": [
+      "treatments.2.short"
+    ]
+  },
+  {
+    "source": "L’abdominoplastie concerne l’excès de peau et, selon la situation, de graisse au niveau de l’abdomen. Un geste sur la paroi musculaire peut être discuté. L’indication et l’étendue de l’intervention sont évaluées individuellement.",
+    "contexts": [
+      "treatments.2.intro"
+    ]
+  },
+  {
+    "source": "Évaluer l’excès cutané de l’abdomen.",
+    "contexts": [
+      "treatments.2.aims.0"
+    ]
+  },
+  {
+    "source": "Discuter des contours de la paroi abdominale.",
+    "contexts": [
+      "treatments.2.aims.1"
+    ]
+  },
+  {
+    "source": "Comprendre l’emplacement et les limites des cicatrices prévues.",
+    "contexts": [
+      "treatments.2.aims.2"
+    ]
+  },
+  {
+    "source": "Vos antécédents, vos attentes et vos éventuels projets de grossesse.",
+    "contexts": [
+      "treatments.2.discussion.0"
+    ]
+  },
+  {
+    "source": "L’étendue du geste, les cicatrices, les risques de cicatrisation, d’infection et de thrombose.",
+    "contexts": [
+      "treatments.2.discussion.1"
+    ]
+  },
+  {
+    "source": "La préparation, l’organisation des contrôles et les consignes de reprise des activités.",
+    "contexts": [
+      "treatments.2.discussion.2"
+    ]
+  },
+  {
+    "source": "Quelle intervention correspondrait à ma situation ?",
+    "contexts": [
+      "treatments.2.questions.0"
+    ]
+  },
+  {
+    "source": "Où seront situées les cicatrices ?",
+    "contexts": [
+      "treatments.2.questions.1"
+    ]
+  },
+  {
+    "source": "Quelle aide dois-je prévoir pour les suites ?",
+    "contexts": [
+      "treatments.2.questions.2"
+    ]
+  },
+  {
+    "source": "La poitrine",
+    "contexts": [
+      "treatments.3.category",
+      "treatments.4.category"
+    ]
+  },
+  {
+    "source": "Réfléchir au volume et aux proportions de la poitrine.",
+    "contexts": [
+      "treatments.3.short"
+    ]
+  },
+  {
+    "source": "L’augmentation mammaire a pour objectif de modifier le volume des seins. Les différentes options, dont les implants ou un transfert de graisse dans certaines situations, doivent être étudiées avec le chirurgien.",
+    "contexts": [
+      "treatments.3.intro"
+    ]
+  },
+  {
+    "source": "Préciser vos souhaits de volume et de proportions.",
+    "contexts": [
+      "treatments.3.aims.0"
+    ]
+  },
+  {
+    "source": "Discuter des options adaptées à votre anatomie.",
+    "contexts": [
+      "treatments.3.aims.1"
+    ]
+  },
+  {
+    "source": "Comprendre les contraintes et les limites de chaque option.",
+    "contexts": [
+      "treatments.3.aims.2"
+    ]
+  },
+  {
+    "source": "Le type de geste, l’emplacement des cicatrices et les examens préalables.",
+    "contexts": [
+      "treatments.3.discussion.0"
+    ]
+  },
+  {
+    "source": "Les risques généraux et spécifiques, notamment les complications des implants et la possibilité d’une nouvelle opération.",
+    "contexts": [
+      "treatments.3.discussion.1"
+    ]
+  },
+  {
+    "source": "La surveillance à long terme et les conséquences éventuelles sur la sensibilité et l’allaitement.",
+    "contexts": [
+      "treatments.3.discussion.2"
+    ]
+  },
+  {
+    "source": "Quelles options peuvent être discutées dans mon cas ?",
+    "contexts": [
+      "treatments.3.questions.0"
+    ]
+  },
+  {
+    "source": "Quels sont les risques propres aux implants ?",
+    "contexts": [
+      "treatments.3.questions.1"
+    ]
+  },
+  {
+    "source": "Quelle surveillance sera nécessaire à long terme ?",
+    "contexts": [
+      "treatments.3.questions.2"
+    ]
+  },
+  {
+    "source": "Lifting mammaire",
+    "contexts": [
+      "treatments.4.name"
+    ]
+  },
+  {
+    "source": "Explorer les possibilités de remodelage des seins.",
+    "contexts": [
+      "treatments.4.short"
+    ]
+  },
+  {
+    "source": "Le lifting mammaire, ou mastopexie, vise à remonter et à remodeler les seins lorsque leur position a changé. Il peut être discuté avec ou sans modification de volume, selon les attentes et l’examen clinique.",
+    "contexts": [
+      "treatments.4.intro"
+    ]
+  },
+  {
+    "source": "Aborder la position et la forme des seins.",
+    "contexts": [
+      "treatments.4.aims.0"
+    ]
+  },
+  {
+    "source": "Discuter de l’équilibre entre les deux seins.",
+    "contexts": [
+      "treatments.4.aims.1"
+    ]
+  },
+  {
+    "source": "Distinguer le remodelage d’une demande de volume supplémentaire.",
+    "contexts": [
+      "treatments.4.aims.2"
+    ]
+  },
+  {
+    "source": "Vos attentes, l’asymétrie éventuelle et les options techniques.",
+    "contexts": [
+      "treatments.4.discussion.0"
+    ]
+  },
+  {
+    "source": "Les cicatrices, les risques de cicatrisation, les changements de sensibilité et les effets possibles sur l’allaitement.",
+    "contexts": [
+      "treatments.4.discussion.1"
+    ]
+  },
+  {
+    "source": "L’évolution possible de la poitrine et les modalités de surveillance.",
+    "contexts": [
+      "treatments.4.discussion.2"
+    ]
+  },
+  {
+    "source": "Un lifting seul répondrait-il à ma demande ?",
+    "contexts": [
+      "treatments.4.questions.0"
+    ]
+  },
+  {
+    "source": "Quelles cicatrices faut-il envisager ?",
+    "contexts": [
+      "treatments.4.questions.1"
+    ]
+  },
+  {
+    "source": "Comment la poitrine peut-elle évoluer par la suite ?",
+    "contexts": [
+      "treatments.4.questions.2"
+    ]
+  },
+  {
+    "source": "Lifting du visage",
+    "contexts": [
+      "treatments.5.name"
+    ]
+  },
+  {
+    "source": "Aborder le relâchement du visage et du cou.",
+    "contexts": [
+      "treatments.5.short"
+    ]
+  },
+  {
+    "source": "Le lifting du visage vise à repositionner certains tissus du visage et, selon le projet, du cou. Il ne traite pas tous les effets du vieillissement. Un examen permet de définir les zones concernées et les limites du geste.",
+    "contexts": [
+      "treatments.5.intro"
+    ]
+  },
+  {
+    "source": "Préciser les zones de relâchement qui vous préoccupent.",
+    "contexts": [
+      "treatments.5.aims.0"
+    ]
+  },
+  {
+    "source": "Discuter des contours du visage et du cou.",
+    "contexts": [
+      "treatments.5.aims.1"
+    ]
+  },
+  {
+    "source": "Comprendre les changements possibles et ceux qui ne relèvent pas du lifting.",
+    "contexts": [
+      "treatments.5.aims.2"
+    ]
+  },
+  {
+    "source": "La technique envisagée, les cicatrices et les alternatives.",
+    "contexts": [
+      "treatments.5.discussion.0"
+    ]
+  },
+  {
+    "source": "Les risques, dont l’hématome, l’infection, les troubles de cicatrisation et les atteintes nerveuses.",
+    "contexts": [
+      "treatments.5.discussion.1"
+    ]
+  },
+  {
+    "source": "L’anesthésie, les suites et les rendez-vous de contrôle.",
+    "contexts": [
+      "treatments.5.discussion.2"
+    ]
+  },
+  {
+    "source": "Quelles zones pourraient être prises en charge ?",
+    "contexts": [
+      "treatments.5.questions.0"
+    ]
+  },
+  {
+    "source": "Quelles sont les limites de l’intervention ?",
+    "contexts": [
+      "treatments.5.questions.1"
+    ]
+  },
+  {
+    "source": "Quels signes nécessitent de contacter l’équipe soignante ?",
+    "contexts": [
+      "treatments.5.questions.2"
+    ]
+  },
+  {
+    "source": "Liposuccion VASER HD",
+    "contexts": [
+      "treatments.6.name"
+    ]
+  },
+  {
+    "source": "Opérations pour homme",
+    "contexts": [
+      "treatments.6.category",
+      "treatments.7.category",
+      "treatments.8.category"
+    ]
+  },
+  {
+    "source": "Illustration abstraite évoquant le remodelage masculin assisté par ultrasons.",
+    "contexts": [
+      "treatments.6.imageAlt"
+    ]
+  },
+  {
+    "source": "Cibler des amas graisseux localisés et mettre en valeur les reliefs musculaires avec une assistance par ultrasons.",
+    "contexts": [
+      "treatments.6.short"
+    ]
+  },
+  {
+    "source": "La liposuccion VASER HD est une technique de remodelage de la silhouette qui associe une assistance par ultrasons à une liposuccion ciblée. Elle vise à mieux faire ressortir certains reliefs musculaires chez l’homme. L’indication, les zones traitées et les limites sont déterminées par le chirurgien après examen.",
+    "contexts": [
+      "treatments.6.intro"
+    ]
+  },
+  {
+    "source": "Réduire certains amas graisseux localisés dans des zones définies avec le chirurgien.",
+    "contexts": [
+      "treatments.6.aims.0"
+    ]
+  },
+  {
+    "source": "Travailler les transitions entre les zones anatomiques pour souligner les contours naturels.",
+    "contexts": [
+      "treatments.6.aims.1"
+    ]
+  },
+  {
+    "source": "Conserver des attentes réalistes : cette intervention ne crée pas de muscle et ne remplace pas une hygiène de vie adaptée.",
+    "contexts": [
+      "treatments.6.aims.2"
+    ]
+  },
+  {
+    "source": "Votre état de santé, vos traitements, vos antécédents, le tabac et toute intervention antérieure.",
+    "contexts": [
+      "treatments.6.discussion.0"
+    ]
+  },
+  {
+    "source": "La répartition des volumes, la qualité de la peau et la faisabilité d’un travail de définition dans votre cas.",
+    "contexts": [
+      "treatments.6.discussion.1"
+    ]
+  },
+  {
+    "source": "Les cicatrices, l’anesthésie, la compression éventuelle, les risques d’irrégularités, de brûlure, d’infection ou de thrombose, ainsi que les consignes de récupération individualisées.",
+    "contexts": [
+      "treatments.6.discussion.2"
+    ]
+  },
+  {
+    "source": "Cette technique est-elle adaptée à mon anatomie et à mes attentes ?",
+    "contexts": [
+      "treatments.6.questions.0"
+    ]
+  },
+  {
+    "source": "Quels bénéfices, limites et risques présente-t-elle par rapport à une liposuccion classique ?",
+    "contexts": [
+      "treatments.6.questions.1"
+    ]
+  },
+  {
+    "source": "Comment seront organisés les contrôles et la reprise progressive de mes activités ?",
+    "contexts": [
+      "treatments.6.questions.2"
+    ]
+  },
+  {
+    "source": "J-Plasma",
+    "contexts": [
+      "treatments.7.name"
+    ]
+  },
+  {
+    "source": "Illustration abstraite d’une énergie contrôlée suivant une surface aux courbes douces.",
+    "contexts": [
+      "treatments.7.imageAlt"
+    ]
+  },
+  {
+    "source": "Discuter de l’aspect et de la fermeté de la peau avec une technologie de plasma froid, parfois associée à une liposuccion.",
+    "contexts": [
+      "treatments.7.short"
+    ]
+  },
+  {
+    "source": "Le J-Plasma est un traitement de remodelage qui utilise une technologie dite de plasma froid. Il peut être envisagé, notamment en complément d’une liposuccion, pour agir sur l’aspect et la fermeté de la peau. Sa pertinence dépend de la zone, de la qualité cutanée et de l’évaluation médicale.",
+    "contexts": [
+      "treatments.7.intro"
+    ]
+  },
+  {
+    "source": "Aborder l’aspect et la fermeté de la peau dans une zone précise.",
+    "contexts": [
+      "treatments.7.aims.0"
+    ]
+  },
+  {
+    "source": "Évaluer l’intérêt éventuel d’associer cette technologie à une liposuccion.",
+    "contexts": [
+      "treatments.7.aims.1"
+    ]
+  },
+  {
+    "source": "Comprendre l’amélioration envisageable et les limites liées à la qualité cutanée.",
+    "contexts": [
+      "treatments.7.aims.2"
+    ]
+  },
+  {
+    "source": "Les zones concernées, la qualité de la peau, vos antécédents et les alternatives possibles.",
+    "contexts": [
+      "treatments.7.discussion.0"
+    ]
+  },
+  {
+    "source": "L’utilisation seule ou combinée du J-Plasma et le déroulement prévu par le chirurgien.",
+    "contexts": [
+      "treatments.7.discussion.1"
+    ]
+  },
+  {
+    "source": "L’anesthésie, les suites, la compression éventuelle et les risques, notamment de brûlure, d’irrégularité, d’accumulation de liquide, d’infection ou de cicatrisation.",
+    "contexts": [
+      "treatments.7.discussion.2"
+    ]
+  },
+  {
+    "source": "Quel changement peut raisonnablement être envisagé pour ma peau ?",
+    "contexts": [
+      "treatments.7.questions.0"
+    ]
+  },
+  {
+    "source": "Pourquoi proposer le J-Plasma seul ou avec une liposuccion dans mon cas ?",
+    "contexts": [
+      "treatments.7.questions.1"
+    ]
+  },
+  {
+    "source": "Quels contrôles et quelles précautions seront nécessaires après le traitement ?",
+    "contexts": [
+      "treatments.7.questions.2"
+    ]
+  },
+  {
+    "source": "Six Pack",
+    "contexts": [
+      "treatments.8.name"
+    ]
+  },
+  {
+    "source": "Illustration sculpturale d’un abdomen masculin aux reliefs naturels et modérés.",
+    "contexts": [
+      "treatments.8.imageAlt"
+    ]
+  },
+  {
+    "source": "Souligner les contours naturels des muscles abdominaux par une liposculpture ciblée.",
+    "contexts": [
+      "treatments.8.short"
+    ]
+  },
+  {
+    "source": "Le Six Pack, aussi appelé abdominal etching, est une technique de liposculpture ciblée. Elle cherche à mieux faire apparaître les contours naturels des muscles abdominaux en retirant de petites zones graisseuses sélectionnées. Elle ne crée pas de muscle et le résultat possible varie selon l’anatomie.",
+    "contexts": [
+      "treatments.8.intro"
+    ]
+  },
+  {
+    "source": "Mettre en valeur les lignes naturelles de la musculature abdominale.",
+    "contexts": [
+      "treatments.8.aims.0"
+    ]
+  },
+  {
+    "source": "Adapter le dessin des contours à l’anatomie et aux proportions de chaque personne.",
+    "contexts": [
+      "treatments.8.aims.1"
+    ]
+  },
+  {
+    "source": "Établir des attentes réalistes quant au degré de définition qui peut être obtenu.",
+    "contexts": [
+      "treatments.8.aims.2"
+    ]
+  },
+  {
+    "source": "Votre anatomie, la répartition de la graisse, la qualité de la peau, votre état de santé et vos habitudes de vie.",
+    "contexts": [
+      "treatments.8.discussion.0"
+    ]
+  },
+  {
+    "source": "Le dessin proposé, les zones traitées, les petites cicatrices et la possibilité d’une asymétrie ou d’irrégularités de contour.",
+    "contexts": [
+      "treatments.8.discussion.1"
+    ]
+  },
+  {
+    "source": "L’anesthésie, les risques généraux de la liposuccion, la compression éventuelle, les contrôles et la reprise progressive des activités selon les consignes médicales.",
+    "contexts": [
+      "treatments.8.discussion.2"
+    ]
+  },
+  {
+    "source": "Ma musculature et la qualité de ma peau permettent-elles d’envisager cette technique ?",
+    "contexts": [
+      "treatments.8.questions.0"
+    ]
+  },
+  {
+    "source": "Comment le dessin abdominal sera-t-il adapté à mes contours naturels ?",
+    "contexts": [
+      "treatments.8.questions.1"
+    ]
+  },
+  {
+    "source": "Quelles limites et quelles évolutions du résultat dois-je comprendre avant de décider ?",
+    "contexts": [
+      "treatments.8.questions.2"
+    ]
+  },
+  {
+    "source": "Un premier échange",
+    "contexts": [
+      "steps.0.title",
+      "copy.treatment.text009"
+    ]
+  },
+  {
+    "source": "Vous nous contactez pour présenter votre projet et poser vos premières questions.",
+    "contexts": [
+      "steps.0.text"
+    ]
+  },
+  {
+    "source": "Pour ce premier contact, votre nom, un moyen de vous joindre et quelques mots suffisent. Le formulaire n’est pas destiné à recevoir des documents médicaux ou des photographies.",
+    "contexts": [
+      "steps.0.detail"
+    ]
+  },
+  {
+    "source": "Vos attentes, à votre rythme",
+    "contexts": [
+      "steps.1.title"
+    ]
+  },
+  {
+    "source": "Nous échangeons sur votre demande et vous aidons à préparer les questions à adresser au professionnel de santé.",
+    "contexts": [
+      "steps.1.text"
+    ]
+  },
+  {
+    "source": "Prenez le temps d’exprimer ce qui vous préoccupe, ce que vous espérez et vos interrogations. Ce premier échange n’engage pas à réserver une intervention.",
+    "contexts": [
+      "steps.1.detail"
+    ]
+  },
+  {
+    "source": "L’évaluation médicale",
+    "contexts": [
+      "steps.2.title"
+    ]
+  },
+  {
+    "source": "Le professionnel qui vous prend en charge évalue votre situation. Lui seul détermine les options et l’éventuelle indication opératoire.",
+    "contexts": [
+      "steps.2.text"
+    ]
+  },
+  {
+    "source": "La consultation aborde notamment les alternatives, les risques, l’anesthésie, les suites et le suivi. Les informations médicales éventuellement nécessaires sont à transmettre selon les modalités indiquées par le professionnel.",
+    "contexts": [
+      "steps.2.detail"
+    ]
+  },
+  {
+    "source": "Une proposition claire",
+    "contexts": [
+      "steps.3.title"
+    ]
+  },
+  {
+    "source": "Le contenu de la proposition, les coûts, les conditions et l’organisation envisagée sont précisés avant tout engagement.",
+    "contexts": [
+      "steps.3.text"
+    ]
+  },
+  {
+    "source": "Avant de décider, vérifiez le détail de la proposition : professionnels et établissement concernés, coûts, prestations éventuelles, conditions de modification et d’annulation.",
+    "contexts": [
+      "steps.3.detail"
+    ]
+  },
+  {
+    "source": "Des modalités convenues ensemble",
+    "contexts": [
+      "steps.4.title"
+    ]
+  },
+  {
+    "source": "Les rendez-vous et les dispositions du séjour sont coordonnés selon ce qui a été convenu. L’équipe soignante définit les consignes et le suivi médical.",
+    "contexts": [
+      "steps.4.text"
+    ]
+  },
+  {
+    "source": "Avant le départ, clarifiez les rendez-vous, les contacts utiles, les contrôles après l’intervention et les modalités de suivi après votre retour. Les recommandations de voyage sont à valider avec l’équipe soignante.",
+    "contexts": [
+      "steps.4.detail"
+    ]
+  },
+  {
+    "source": "Comment commencer mon projet avec LEA ?",
+    "contexts": [
+      "faqs.0.question"
+    ]
+  },
+  {
+    "source": "Contactez-nous sur WhatsApp, par téléphone ou avec le formulaire. Quelques mots sur votre projet et un moyen de vous joindre suffisent pour ce premier échange. N’envoyez pas de dossier médical ni de photographies via le formulaire.",
+    "contexts": [
+      "faqs.0.answer"
+    ]
+  },
+  {
+    "source": "Qui évalue ma demande sur le plan médical ?",
+    "contexts": [
+      "faqs.1.question"
+    ]
+  },
+  {
+    "source": "L’évaluation est réalisée par le professionnel de santé qui vous prend en charge. LEA coordonne les échanges et l’organisation ; l’agence ne pose pas de diagnostic et ne décide pas de l’indication d’une intervention.",
+    "contexts": [
+      "faqs.1.answer"
+    ]
+  },
+  {
+    "source": "Comment obtenir une estimation ?",
+    "contexts": [
+      "faqs.2.question"
+    ]
+  },
+  {
+    "source": "Après clarification de votre demande et évaluation médicale lorsque nécessaire, une proposition peut être établie. Demandez le détail des actes, des frais et des services éventuellement prévus, ainsi que les conditions applicables. Aucun tarif standard n’est annoncé sur ce site.",
+    "contexts": [
+      "faqs.2.answer"
+    ]
+  },
+  {
+    "source": "L’hébergement et les transferts sont-ils inclus ?",
+    "contexts": [
+      "faqs.3.question"
+    ]
+  },
+  {
+    "source": "Leur éventuelle organisation et leur coût doivent être confirmés dans votre proposition. L’hébergement, les transferts et l’interprétariat sont prévus uniquement lorsqu’ils figurent dans cette proposition.",
+    "contexts": [
+      "faqs.3.answer"
+    ]
+  },
+  {
+    "source": "Comment préparer un séjour à Istanbul ?",
+    "contexts": [
+      "faqs.4.question"
+    ]
+  },
+  {
+    "source": "Attendez les recommandations de l’équipe soignante et la confirmation de l’organisation avant de réserver. Clarifiez notamment les rendez-vous, les documents nécessaires, l’accompagnement sur place et les conditions de modification du séjour.",
+    "contexts": [
+      "faqs.4.answer"
+    ]
+  },
+  {
+    "source": "Comment est organisé le suivi après l’intervention ?",
+    "contexts": [
+      "faqs.5.question"
+    ]
+  },
+  {
+    "source": "Les consignes, les contrôles et les interlocuteurs médicaux doivent être précisés par l’équipe soignante avant votre prise en charge, y compris après votre retour. LEA peut faciliter les échanges dans le cadre des modalités convenues.",
+    "contexts": [
+      "faqs.5.answer"
+    ]
+  },
+  {
+    "source": "Puis-je simplement me renseigner ?",
+    "contexts": [
+      "faqs.6.question"
+    ]
+  },
+  {
+    "source": "Oui. Un premier échange permet de poser vos questions sans réserver une intervention. Vous restez libre de prendre le temps nécessaire à votre réflexion.",
+    "contexts": [
+      "faqs.6.answer"
+    ]
+  },
+  {
+    "source": "Dans quel établissement se déroule l’intervention ?",
+    "contexts": [
+      "faqs.7.question"
+    ]
+  },
+  {
+    "source": "L’établissement de soins doit être précisé et confirmé dans votre proposition. Vous connaîtrez le nom de l’établissement et les modalités de prise en charge avant toute décision.",
+    "contexts": [
+      "faqs.7.answer"
+    ]
+  },
+  {
+    "source": "L’esthétique, avec attention",
+    "contexts": [
+      "copy.home.text001"
+    ]
+  },
+  {
+    "source": "Votre projet",
+    "contexts": [
+      "copy.home.text002"
+    ]
+  },
+  {
+    "source": "esthétique,",
+    "contexts": [
+      "copy.home.text003"
+    ]
+  },
+  {
+    "source": "un accompagnement",
+    "contexts": [
+      "copy.home.text004"
+    ]
+  },
+  {
+    "source": "à chaque étape.",
+    "contexts": [
+      "copy.home.text005"
+    ]
+  },
+  {
+    "source": "À Istanbul, LEA Aesthetic vous aide à préparer votre projet et coordonne vos échanges avec les professionnels de santé.",
+    "contexts": [
+      "copy.home.text006"
+    ]
+  },
+  {
+    "source": "Parlons de votre projet",
+    "contexts": [
+      "copy.home.text008",
+      "copy.invitation.text007"
+    ]
+  },
+  {
+    "source": "Découvrir les interventions",
+    "contexts": [
+      "copy.home.text010"
+    ]
+  },
+  {
+    "source": "Prendre le temps de vous découvrir",
+    "contexts": [
+      "copy.home.text011"
+    ]
+  },
+  {
+    "source": "Vue d’Istanbul et du Bosphore",
+    "contexts": [
+      "copy.home.text012"
+    ]
+  },
+  {
+    "source": "Votre projet commence par une rencontre.",
+    "contexts": [
+      "copy.home.text014"
+    ]
+  },
+  {
+    "source": "À votre écoute.",
+    "contexts": [
+      "copy.home.text015"
+    ]
+  },
+  {
+    "source": "À votre rythme.",
+    "contexts": [
+      "copy.home.text016"
+    ]
+  },
+  {
+    "source": "LEA AESTHETIC · ISTANBUL",
+    "contexts": [
+      "copy.home.text017"
+    ]
+  },
+  {
+    "source": "Un accompagnement humain",
+    "contexts": [
+      "copy.home.text018"
+    ]
+  },
+  {
+    "source": "Une évaluation par le chirurgien",
+    "contexts": [
+      "copy.home.text019"
+    ]
+  },
+  {
+    "source": "Des échanges en toute clarté",
+    "contexts": [
+      "copy.home.text020"
+    ]
+  },
+  {
+    "source": "Bienvenue chez LEA",
+    "contexts": [
+      "copy.home.text021"
+    ]
+  },
+  {
+    "source": "Avant toute démarche,",
+    "contexts": [
+      "copy.home.text022"
+    ]
+  },
+  {
+    "source": "une relation de confiance.",
+    "contexts": [
+      "copy.home.text023"
+    ]
+  },
+  {
+    "source": "Un projet esthétique est une décision personnelle. Il mérite de l’écoute, du temps et des informations claires.",
+    "contexts": [
+      "copy.home.text024"
+    ]
+  },
+  {
+    "source": "LEA Aesthetic est une agence de coordination à Istanbul. Nous vous aidons à formuler vos attentes, à préparer vos échanges et à comprendre les étapes de votre démarche.",
+    "contexts": [
+      "copy.home.text025"
+    ]
+  },
+  {
+    "source": "L’évaluation médicale et les soins relèvent exclusivement des professionnels de santé qui vous prennent en charge.",
+    "contexts": [
+      "copy.home.text026"
+    ]
+  },
+  {
+    "source": "Découvrir notre approche",
+    "contexts": [
+      "copy.home.text028"
+    ]
+  },
+  {
+    "source": "Votre réflexion.",
+    "contexts": [
+      "copy.home.text030"
+    ]
+  },
+  {
+    "source": "Vos possibilités.",
+    "contexts": [
+      "copy.home.text031"
+    ]
+  },
+  {
+    "source": "Des repères pour découvrir les interventions",
+    "contexts": [
+      "copy.home.text032"
+    ]
+  },
+  {
+    "source": "et préparer votre consultation.",
+    "contexts": [
+      "copy.home.text033"
+    ]
+  },
+  {
+    "source": "Explorer les interventions",
+    "contexts": [
+      "copy.home.text035"
+    ]
+  },
+  {
+    "source": "Découvrir",
+    "contexts": [
+      "copy.home.text036"
+    ]
+  },
+  {
+    "source": "Portrait du Dr Anıl Pehlivan",
+    "contexts": [
+      "copy.home.text037"
+    ]
+  },
+  {
+    "source": "Dr Anıl PEHLIVAN",
+    "contexts": [
+      "copy.home.text038",
+      "copy.chirurgien.text006"
+    ]
+  },
+  {
+    "source": "Rencontrer le chirurgien",
+    "contexts": [
+      "copy.home.text039"
+    ]
+  },
+  {
+    "source": "Le Dr Anıl",
+    "contexts": [
+      "copy.home.text040"
+    ]
+  },
+  {
+    "source": "Pehlivan.",
+    "contexts": [
+      "copy.home.text041",
+      "copy.chirurgien.text003"
+    ]
+  },
+  {
+    "source": "Chirurgie plastique, reconstructrice et esthétique",
+    "contexts": [
+      "copy.home.text042",
+      "copy.chirurgien.text018"
+    ]
+  },
+  {
+    "source": "Comprendre votre démarche commence aussi par connaître le professionnel à qui vous adresserez vos questions médicales.",
+    "contexts": [
+      "copy.home.text043"
+    ]
+  },
+  {
+    "source": "Diplômé en médecine de l’Université d’Istanbul en 2017, le Dr Anıl Pehlivan a achevé sa formation de spécialiste à l’Université Adnan Menderes en 2023.",
+    "contexts": [
+      "copy.home.text044"
+    ]
+  },
+  {
+    "source": "Université d’Istanbul",
+    "contexts": [
+      "copy.home.text046",
+      "copy.chirurgien.text013"
+    ]
+  },
+  {
+    "source": "Diplôme de médecine",
+    "contexts": [
+      "copy.home.text047",
+      "copy.chirurgien.text012"
+    ]
+  },
+  {
+    "source": "Université Adnan Menderes",
+    "contexts": [
+      "copy.home.text049",
+      "copy.chirurgien.text017"
+    ]
+  },
+  {
+    "source": "Spécialisation",
+    "contexts": [
+      "copy.home.text050"
+    ]
+  },
+  {
+    "source": "Découvrir son parcours",
+    "contexts": [
+      "copy.home.text052"
+    ]
+  },
+  {
+    "source": "Un premier échange.",
+    "contexts": [
+      "copy.home.text054"
+    ]
+  },
+  {
+    "source": "Un projet qui se précise.",
+    "contexts": [
+      "copy.home.text055"
+    ]
+  },
+  {
+    "source": "Comprendre les étapes",
+    "contexts": [
+      "copy.home.text057"
+    ]
+  },
+  {
+    "source": "Chaque organisation est précisée individuellement, avant tout engagement.",
+    "contexts": [
+      "copy.home.text059"
+    ]
+  },
+  {
+    "source": "Quelques réponses",
+    "contexts": [
+      "copy.home.text060"
+    ]
+  },
+  {
+    "source": "Faire le premier pas,",
+    "contexts": [
+      "copy.home.text061"
+    ]
+  },
+  {
+    "source": "en toute clarté.",
+    "contexts": [
+      "copy.home.text062"
+    ]
+  },
+  {
+    "source": "Toutes vos questions",
+    "contexts": [
+      "copy.home.text064"
+    ]
+  },
+  {
+    "source": "L’agence LEA Aesthetic",
+    "contexts": [
+      "copy.agence.text001"
+    ]
+  },
+  {
+    "source": "Une présence attentive.",
+    "contexts": [
+      "copy.agence.text002"
+    ]
+  },
+  {
+    "source": "Un projet qui vous ressemble.",
+    "contexts": [
+      "copy.agence.text003"
+    ]
+  },
+  {
+    "source": "Une démarche esthétique mérite d’être comprise, préparée et accompagnée. À Istanbul, nous sommes votre point de contact pour en organiser les étapes.",
+    "contexts": [
+      "copy.agence.text004"
+    ]
+  },
+  {
+    "source": "Notre rôle",
+    "contexts": [
+      "copy.agence.text005"
+    ]
+  },
+  {
+    "source": "Vous écouter.",
+    "contexts": [
+      "copy.agence.text006"
+    ]
+  },
+  {
+    "source": "Vous informer.",
+    "contexts": [
+      "copy.agence.text007"
+    ]
+  },
+  {
+    "source": "Faciliter vos démarches.",
+    "contexts": [
+      "copy.agence.text008"
+    ]
+  },
+  {
+    "source": "LEA Aesthetic coordonne les demandes d’information et l’organisation envisagée autour d’un projet de chirurgie esthétique à Istanbul. Nous vous aidons à formuler votre demande et à préparer les échanges avec les professionnels de santé.",
+    "contexts": [
+      "copy.agence.text009"
+    ]
+  },
+  {
+    "source": "Notre approche repose sur une distinction claire : nous assurons un rôle de coordination. La consultation, le diagnostic, le choix d’une intervention, les soins et les consignes médicales relèvent du professionnel qui vous prend en charge.",
+    "contexts": [
+      "copy.agence.text010"
+    ]
+  },
+  {
+    "source": "Chaque projet commence par une discussion. Vous pouvez poser vos questions, préciser vos attentes et prendre le temps de réfléchir avant toute décision.",
+    "contexts": [
+      "copy.agence.text011"
+    ]
+  },
+  {
+    "source": "Comprendre votre parcours",
+    "contexts": [
+      "copy.agence.text013"
+    ]
+  },
+  {
+    "source": "Une écoute personnelle",
+    "contexts": [
+      "copy.agence.text014"
+    ]
+  },
+  {
+    "source": "Comprendre ce qui vous amène à nous contacter, sans présumer de la décision que vous prendrez.",
+    "contexts": [
+      "copy.agence.text015"
+    ]
+  },
+  {
+    "source": "Des informations claires",
+    "contexts": [
+      "copy.agence.text016"
+    ]
+  },
+  {
+    "source": "Distinguer les informations générales, les recommandations médicales et les modalités qui restent à confirmer.",
+    "contexts": [
+      "copy.agence.text017"
+    ]
+  },
+  {
+    "source": "Une organisation précisée",
+    "contexts": [
+      "copy.agence.text018"
+    ]
+  },
+  {
+    "source": "Clarifier les étapes et les interlocuteurs, en fonction de la proposition que vous aurez acceptée.",
+    "contexts": [
+      "copy.agence.text019"
+    ]
+  },
+  {
+    "source": "Les modalités du séjour se confirment individuellement.",
+    "contexts": [
+      "copy.agence.text020"
+    ]
+  },
+  {
+    "source": "L’hébergement, les transferts, l’interprétariat et les éventuelles prestations d’accompagnement doivent être décrits et chiffrés dans votre proposition s’ils sont prévus. Ils ne sont pas présentés ici comme automatiquement inclus.",
+    "contexts": [
+      "copy.agence.text021"
+    ]
+  },
+  {
+    "source": "Des repères pour",
+    "contexts": [
+      "copy.interventions.text002"
+    ]
+  },
+  {
+    "source": "votre réflexion.",
+    "contexts": [
+      "copy.interventions.text003"
+    ]
+  },
+  {
+    "source": "Découvrez les objectifs généraux de chaque intervention et les questions à aborder en consultation. Une information pour préparer vos échanges, à compléter par une évaluation médicale individuelle.",
+    "contexts": [
+      "copy.interventions.text004"
+    ]
+  },
+  {
+    "source": "Le visage · La silhouette · La poitrine · Opérations pour homme",
+    "contexts": [
+      "copy.interventions.text005"
+    ]
+  },
+  {
+    "source": "Toute intervention comporte des risques et des limites. Seul le professionnel de santé peut apprécier votre situation, discuter des alternatives et vous conseiller sur les suites et le suivi.",
+    "contexts": [
+      "copy.interventions.text006"
+    ]
+  },
+  {
+    "source": "Accueil",
+    "contexts": [
+      "copy.treatment.text001"
+    ]
+  },
+  {
+    "source": "Interventions",
+    "contexts": [
+      "copy.treatment.text003"
+    ]
+  },
+  {
+    "source": "Les objectifs à explorer",
+    "contexts": [
+      "copy.treatment.text004"
+    ]
+  },
+  {
+    "source": "À aborder en consultation",
+    "contexts": [
+      "copy.treatment.text005"
+    ]
+  },
+  {
+    "source": "Un échange médical permet d’évaluer les possibilités, les alternatives et les limites de l’intervention.",
+    "contexts": [
+      "copy.treatment.text006"
+    ]
+  },
+  {
+    "source": "Vos questions au chirurgien",
+    "contexts": [
+      "copy.treatment.text007"
+    ]
+  },
+  {
+    "source": "Ces informations sont générales. Elles ne constituent ni un avis médical ni une indication opératoire. Les résultats et les suites varient d’une personne à l’autre. Toute décision nécessite une consultation avec le professionnel de santé.",
+    "contexts": [
+      "copy.treatment.text008"
+    ]
+  },
+  {
+    "source": "Votre projet de",
+    "contexts": [
+      "copy.treatment.text010"
+    ]
+  },
+  {
+    "source": "Nous vous aidons à préparer vos démarches et à poser vos premières questions.",
+    "contexts": [
+      "copy.treatment.text011"
+    ]
+  },
+  {
+    "source": "En parler sur WhatsApp",
+    "contexts": [
+      "copy.treatment.text012"
+    ]
+  },
+  {
+    "source": "Écrire à l’agence",
+    "contexts": [
+      "copy.treatment.text013",
+      "copy.footer.text010"
+    ]
+  },
+  {
+    "source": "Continuer votre découverte",
+    "contexts": [
+      "copy.treatment.text014"
+    ]
+  },
+  {
+    "source": "Dr Anıl",
+    "contexts": [
+      "copy.chirurgien.text002"
+    ]
+  },
+  {
+    "source": "Chirurgie plastique, reconstructrice et esthétique.",
+    "contexts": [
+      "copy.chirurgien.text004"
+    ]
+  },
+  {
+    "source": "Dr Anıl Pehlivan, portrait extrait du document fourni par LEA",
+    "contexts": [
+      "copy.chirurgien.text005"
+    ]
+  },
+  {
+    "source": "Formation et parcours",
+    "contexts": [
+      "copy.chirurgien.text007"
+    ]
+  },
+  {
+    "source": "Connaître le professionnel.",
+    "contexts": [
+      "copy.chirurgien.text008"
+    ]
+  },
+  {
+    "source": "Préparer la rencontre.",
+    "contexts": [
+      "copy.chirurgien.text009"
+    ]
+  },
+  {
+    "source": "Le Dr Anıl Pehlivan est diplômé de la faculté de médecine de l’Université d’Istanbul. Il a poursuivi sa formation en chirurgie plastique, reconstructrice et esthétique à l’Université Adnan Menderes.",
+    "contexts": [
+      "copy.chirurgien.text010"
+    ]
+  },
+  {
+    "source": "Faculté de médecine — 25 juin 2017",
+    "contexts": [
+      "copy.chirurgien.text014"
+    ]
+  },
+  {
+    "source": "Formation de spécialiste",
+    "contexts": [
+      "copy.chirurgien.text016"
+    ]
+  },
+  {
+    "source": "Formation achevée le 2 mai 2023",
+    "contexts": [
+      "copy.chirurgien.text019"
+    ]
+  },
+  {
+    "source": "La consultation, un temps essentiel",
+    "contexts": [
+      "copy.chirurgien.text020"
+    ]
+  },
+  {
+    "source": "Ce rendez-vous permet d’exposer vos attentes, de recevoir des explications sur les options et de comprendre les risques et les limites d’une intervention. Le chirurgien apprécie votre situation et détermine si une prise en charge est envisageable.",
+    "contexts": [
+      "copy.chirurgien.text021"
+    ]
+  },
+  {
+    "source": "LEA peut faciliter l’organisation de cet échange. Les décisions médicales et les consignes de soins appartiennent au professionnel qui vous prend en charge.",
+    "contexts": [
+      "copy.chirurgien.text022"
+    ]
+  },
+  {
+    "source": "Préparer un premier échange",
+    "contexts": [
+      "copy.chirurgien.text024"
+    ]
+  },
+  {
+    "source": "Chaque étape compte.",
+    "contexts": [
+      "copy.parcours.text002"
+    ]
+  },
+  {
+    "source": "Vous gardez le temps de décider.",
+    "contexts": [
+      "copy.parcours.text003"
+    ]
+  },
+  {
+    "source": "Voici les grandes étapes d’une demande auprès de LEA. L’organisation concrète se précise selon votre situation, l’évaluation médicale et les modalités convenues.",
+    "contexts": [
+      "copy.parcours.text004"
+    ]
+  },
+  {
+    "source": "Cette présentation décrit un parcours général. Elle ne vaut pas engagement sur un forfait, une durée de séjour, un établissement ou une prestation incluse.",
+    "contexts": [
+      "copy.parcours.text006"
+    ]
+  },
+  {
+    "source": "Questions fréquentes",
+    "contexts": [
+      "copy.faq.text001",
+      "seo.faq.title"
+    ]
+  },
+  {
+    "source": "Vos questions.",
+    "contexts": [
+      "copy.faq.text002"
+    ]
+  },
+  {
+    "source": "Des réponses claires.",
+    "contexts": [
+      "copy.faq.text003"
+    ]
+  },
+  {
+    "source": "Quelques repères avant de commencer. Pour une question liée à votre situation, nous pouvons vous aider à identifier le bon interlocuteur.",
+    "contexts": [
+      "copy.faq.text004"
+    ]
+  },
+  {
+    "source": "Faisons connaissance",
+    "contexts": [
+      "copy.contact.text001"
+    ]
+  },
+  {
+    "source": "Votre projet commence",
+    "contexts": [
+      "copy.contact.text002"
+    ]
+  },
+  {
+    "source": "par un échange.",
+    "contexts": [
+      "copy.contact.text003"
+    ]
+  },
+  {
+    "source": "Une question, une idée, une démarche à préparer ? Nous sommes à votre écoute pour vous aider à faire le premier pas.",
+    "contexts": [
+      "copy.contact.text004"
+    ]
+  },
+  {
+    "source": "Contactez-nous",
+    "contexts": [
+      "copy.contact.text005"
+    ]
+  },
+  {
+    "source": "en toute simplicité.",
+    "contexts": [
+      "copy.contact.text006"
+    ]
+  },
+  {
+    "source": "Choisissez le moyen de contact qui vous convient. Nous échangerons sur votre demande et les prochaines étapes possibles.",
+    "contexts": [
+      "copy.contact.text007"
+    ]
+  },
+  {
+    "source": "Un échange direct",
+    "contexts": [
+      "copy.contact.text008"
+    ]
+  },
+  {
+    "source": "Écrire sur WhatsApp",
+    "contexts": [
+      "copy.contact.text009"
+    ]
+  },
+  {
+    "source": "Par téléphone",
+    "contexts": [
+      "copy.contact.text010"
+    ]
+  },
+  {
+    "source": "Retrouvez LEA",
+    "contexts": [
+      "copy.contact.text011"
+    ]
+  },
+  {
+    "source": "@lea__aesthetics",
+    "contexts": [
+      "copy.contact.text012"
+    ]
+  },
+  {
+    "source": "Notre destination",
+    "contexts": [
+      "copy.contact.text013"
+    ]
+  },
+  {
+    "source": "Informations du site",
+    "contexts": [
+      "copy.legal.text001"
+    ]
+  },
+  {
+    "source": "Informations légales",
+    "contexts": [
+      "copy.legal.text002"
+    ]
+  },
+  {
+    "source": "et confidentialité.",
+    "contexts": [
+      "copy.legal.text003"
+    ]
+  },
+  {
+    "source": "Comprendre le rôle du site, les moyens de contact et l’utilisation des informations que vous choisissez de transmettre.",
+    "contexts": [
+      "copy.legal.text004"
+    ]
+  },
+  {
+    "source": "Version de prépublication · Notice du 10 septembre 2026",
+    "contexts": [
+      "copy.legal.text005"
+    ]
+  },
+  {
+    "source": "Identification juridique à compléter avant publication.",
+    "contexts": [
+      "copy.legal.text006"
+    ]
+  },
+  {
+    "source": "LEA Aesthetic est le nom commercial présenté sur ce site. La dénomination légale de l’exploitant, son adresse, ses informations d’enregistrement, le responsable de publication et un contact dédié à la confidentialité restent à confirmer. Aucune immatriculation ni autorisation propre à LEA n’est affirmée ici.",
+    "contexts": [
+      "copy.legal.text007"
+    ]
+  },
+  {
+    "source": "Objet du site et rôle de LEA",
+    "contexts": [
+      "copy.legal.text008"
+    ]
+  },
+  {
+    "source": "Le site présente l’activité de coordination de demandes et de séjours autour de projets de chirurgie esthétique à Istanbul, Turquie. LEA ne se substitue pas aux professionnels de santé : l’évaluation médicale, le diagnostic, les traitements et le suivi médical relèvent des professionnels qui vous prennent en charge.",
+    "contexts": [
+      "copy.legal.text009"
+    ]
+  },
+  {
+    "source": "Les informations relatives aux interventions sont générales et ne constituent pas un conseil médical individualisé. Le site n’annonce aucune garantie de résultat ni forfait de soins.",
+    "contexts": [
+      "copy.legal.text010"
+    ]
+  },
+  {
+    "source": "Nous contacter",
+    "contexts": [
+      "copy.legal.text011",
+      "copy.header.text003"
+    ]
+  },
+  {
+    "source": "Vous pouvez contacter l’agence au",
+    "contexts": [
+      "copy.legal.text012"
+    ]
+  },
+  {
+    "source": "ou par les moyens proposés sur la",
+    "contexts": [
+      "copy.legal.text013"
+    ]
+  },
+  {
+    "source": "page Contact",
+    "contexts": [
+      "copy.legal.text015"
+    ]
+  },
+  {
+    "source": ". La localisation communiquée est Istanbul, Turquie ; elle ne constitue pas une adresse postale d’établissement.",
+    "contexts": [
+      "copy.legal.text016"
+    ]
+  },
+  {
+    "source": "Les informations du formulaire",
+    "contexts": [
+      "copy.legal.text017"
+    ]
+  },
+  {
+    "source": "Le formulaire recueille votre nom, un e-mail ou un numéro de téléphone, l’intervention qui vous intéresse, un court message et votre accord au traitement de cette demande. Ces informations servent uniquement à comprendre votre demande initiale et à vous recontacter. Ne transmettez pas de dossier médical, de photographie ou de détail médical sensible.",
+    "contexts": [
+      "copy.legal.text018"
+    ]
+  },
+  {
+    "source": "Comment la demande est transmise",
+    "contexts": [
+      "copy.legal.text019"
+    ]
+  },
+  {
+    "source": "Lorsque l’envoi est configuré, le navigateur transmet le formulaire au serveur du site. Après validation et contrôle anti-spam, le serveur adresse la demande à Resend, le prestataire d’envoi d’e-mails, pour transmission à la boîte de réception configurée pour LEA. Une confirmation apparaît uniquement après acceptation par ce service ; elle ne signifie pas que l’équipe a déjà lu la demande.",
+    "contexts": [
+      "copy.legal.text020"
+    ]
+  },
+  {
+    "source": "Si le service n’est pas configuré, le formulaire indique son indisponibilité et ne permet pas l’envoi. Les coordonnées saisies restent alors dans la page de votre navigateur. Dans les aperçus utilisant le mode de test, le serveur simule une acceptation sans envoyer d’e-mail, et le site le signale explicitement.",
+    "contexts": [
+      "copy.legal.text021"
+    ]
+  },
+  {
+    "source": "Protection contre les envois abusifs",
+    "contexts": [
+      "copy.legal.text022"
+    ]
+  },
+  {
+    "source": "Le serveur vérifie les champs, l’origine de la requête, sa taille, un champ anti-robot et un délai minimal de saisie. Il limite le nombre de demandes sur une fenêtre de dix minutes. En production, un identifiant technique calculé à partir de l’adresse IP, à l’aide d’une clé secrète, sert au comptage dans un stockage Redis configuré. L’adresse IP brute n’est pas enregistrée dans ce stockage. Les compteurs expirent après dix minutes.",
+    "contexts": [
+      "copy.legal.text023"
+    ]
+  },
+  {
+    "source": "En développement local, ce comptage est conservé temporairement dans la mémoire du serveur. Le code de l’application n’enregistre ni le contenu du formulaire ni vos coordonnées dans ses journaux et ne crée pas de base de données de demandes.",
+    "contexts": [
+      "copy.legal.text024"
+    ]
+  },
+  {
+    "source": "Hébergement, destinataires et conservation",
+    "contexts": [
+      "copy.legal.text025"
+    ]
+  },
+  {
+    "source": "Cette version est destinée à un hébergement sur Vercel ; l’identité de l’hébergeur effectif et les coordonnées de l’exploitant doivent être complétées avant mise en ligne publique. L’hébergeur peut traiter des données techniques, dont les adresses IP, dans ses propres journaux.",
+    "contexts": [
+      "copy.legal.text026"
+    ]
+  },
+  {
+    "source": "Les personnes habilitées à consulter la boîte de réception LEA ainsi que les prestataires configurés peuvent traiter les informations nécessaires à leurs fonctions. La durée de conservation des e-mails, les habilitations d’accès, les régions d’hébergement et les conditions d’éventuels transferts internationaux restent à définir avec l’exploitant avant activation publique du formulaire.",
+    "contexts": [
+      "copy.legal.text027"
+    ]
+  },
+  {
+    "source": "Votre choix et vos demandes",
+    "contexts": [
+      "copy.legal.text028"
+    ]
+  },
+  {
+    "source": "Votre accord est demandé avant transmission. Pour demander des informations sur l’utilisation de vos données, leur rectification ou leur suppression, ou pour retirer votre accord pour les échanges futurs, contactez LEA via les moyens indiqués ci-dessus. Un contact de confidentialité dédié doit être confirmé avant publication. Les modalités applicables à votre demande devront être précisées par l’exploitant.",
+    "contexts": [
+      "copy.legal.text029"
+    ]
+  },
+  {
+    "source": "WhatsApp et Instagram",
+    "contexts": [
+      "copy.legal.text030"
+    ]
+  },
+  {
+    "source": "Les boutons WhatsApp et Instagram ouvrent des services externes de Meta. Leurs propres règles de confidentialité s’appliquent à leur utilisation. Les messages WhatsApp préremplis indiquent uniquement une demande générale ou l’intervention choisie ; les champs du formulaire ne sont pas ajoutés à ces liens.",
+    "contexts": [
+      "copy.legal.text031"
+    ]
+  },
+  {
+    "source": "Cookies et ressources externes",
+    "contexts": [
+      "copy.legal.text032"
+    ]
+  },
+  {
+    "source": "Le site n’intègre pas d’outil publicitaire ni de mesure d’audience. Aucun contenu Instagram ni cookie tiers n’est chargé par défaut. Les images et les polices sont servies depuis le site. Dans la galerie avant / après, le bouton « Afficher la publication » charge un lecteur Instagram de Meta. Ce service peut alors recevoir votre adresse IP et utiliser ses propres cookies. Le choix reste limité à cette publication et à cette visite ; vous pouvez fermer le lecteur. Un lien permet aussi de consulter directement la publication sur Instagram. L’espace administrateur utilise deux cookies techniques réservés à sa session : lea_admin pour l’authentification et lea_preview pour l’aperçu privé, pendant huit heures au maximum. La base de gestion conserve les contenus, les images, les 30 versions précédentes, l’adresse e-mail du compte propriétaire, son mot de passe sous forme dérivée non lisible, les sessions et les compteurs de sécurité. Les formulaires de contact ne sont pas enregistrés dans cette base. Les modalités de conservation de ces données de gestion restent à préciser par l’exploitant.",
+    "contexts": [
+      "copy.legal.text033"
+    ]
+  },
+  {
+    "source": "Images et documents",
+    "contexts": [
+      "copy.legal.text034"
+    ]
+  },
+  {
+    "source": "Le logo et le portrait du chirurgien proviennent des documents transmis par LEA. Les diplômes et certificats originaux servent de références et ne sont pas publiés. L’autorisation de tourisme de santé fournie nomme ÖZEL RAMİ HASTANESİ : elle n’est attribuée ni à LEA ni présentée comme preuve d’un partenariat hospitalier confirmé.",
+    "contexts": [
+      "copy.legal.text035"
+    ]
+  },
+  {
+    "source": "Photographie d’Istanbul :",
+    "contexts": [
+      "copy.legal.text036"
+    ]
+  },
+  {
+    "source": "Meriç Dağlı / Unsplash",
+    "contexts": [
+      "copy.legal.text038"
+    ]
+  },
+  {
+    "source": ", utilisée sous licence Unsplash. Elle illustre la ville et ne représente pas un établissement de soins.",
+    "contexts": [
+      "copy.legal.text039"
+    ]
+  },
+  {
+    "source": "Page introuvable · 404",
+    "contexts": [
+      "copy.notFound.text001"
+    ]
+  },
+  {
+    "source": "Reprenons",
+    "contexts": [
+      "copy.notFound.text002"
+    ]
+  },
+  {
+    "source": "le bon chemin.",
+    "contexts": [
+      "copy.notFound.text003"
+    ]
+  },
+  {
+    "source": "Cette page n’existe pas ou son adresse a changé. Retrouvez les informations LEA depuis l’accueil.",
+    "contexts": [
+      "copy.notFound.text004"
+    ]
+  },
+  {
+    "source": "Retour à l’accueil",
+    "contexts": [
+      "copy.notFound.text005"
+    ]
+  },
+  {
+    "source": "Votre projet esthétique.",
+    "contexts": [
+      "copy.footer.text002"
+    ]
+  },
+  {
+    "source": "Un accompagnement à chaque étape.",
+    "contexts": [
+      "copy.footer.text003"
+    ]
+  },
+  {
+    "source": "Découvrir LEA",
+    "contexts": [
+      "copy.footer.text005"
+    ]
+  },
+  {
+    "source": "Restons en contact",
+    "contexts": [
+      "copy.footer.text006"
+    ]
+  },
+  {
+    "source": "WhatsApp",
+    "contexts": [
+      "copy.footer.text007"
+    ]
+  },
+  {
+    "source": "Instagram",
+    "contexts": [
+      "copy.footer.text008"
+    ]
+  },
+  {
+    "source": "Informations légales et confidentialité",
+    "contexts": [
+      "copy.footer.text013",
+      "seo.legal.title"
+    ]
+  },
+  {
+    "source": "La coordination par LEA. Les soins par les professionnels de santé.",
+    "contexts": [
+      "copy.footer.text014"
+    ]
+  },
+  {
+    "source": "Parlons-en",
+    "contexts": [
+      "copy.footer.text015"
+    ]
+  },
+  {
+    "source": "Le premier pas, simplement",
+    "contexts": [
+      "copy.invitation.text002"
+    ]
+  },
+  {
+    "source": "Un projet, des questions.",
+    "contexts": [
+      "copy.invitation.text003"
+    ]
+  },
+  {
+    "source": "Parlons-en.",
+    "contexts": [
+      "copy.invitation.text004"
+    ]
+  },
+  {
+    "source": "Un échange pour vous écouter et vous aider à y voir plus clair.",
+    "contexts": [
+      "copy.invitation.text005"
+    ]
+  },
+  {
+    "source": "Échanger sur WhatsApp",
+    "contexts": [
+      "copy.invitation.text008",
+      "copy.form.text007"
+    ]
+  },
+  {
+    "source": "Parlez-nous de votre projet",
+    "contexts": [
+      "copy.form.text001"
+    ]
+  },
+  {
+    "source": "Tous les champs sont nécessaires. Quelques mots suffisent.",
+    "contexts": [
+      "copy.form.text002"
+    ]
+  },
+  {
+    "source": "L’envoi par formulaire est actuellement indisponible. Contactez-nous directement sur",
+    "contexts": [
+      "copy.form.text003"
+    ]
+  },
+  {
+    "source": "WhatsApp ↗",
+    "contexts": [
+      "copy.form.text004"
+    ]
+  },
+  {
+    "source": "ou par téléphone.",
+    "contexts": [
+      "copy.form.text005"
+    ]
+  },
+  {
+    "source": "Aperçu de développement : les envois sont simulés. Aucun e-mail réel n’est envoyé.",
+    "contexts": [
+      "copy.form.text006"
+    ]
+  },
+  {
+    "source": "Activez JavaScript pour utiliser le formulaire, ou contactez-nous sur WhatsApp ou par téléphone.",
+    "contexts": [
+      "copy.form.text008"
+    ]
+  },
+  {
+    "source": "Votre demande initiale",
+    "contexts": [
+      "copy.form.text009"
+    ]
+  },
+  {
+    "source": "Votre nom",
+    "contexts": [
+      "copy.form.text010"
+    ]
+  },
+  {
+    "source": "Prénom et nom",
+    "contexts": [
+      "copy.form.text011"
+    ]
+  },
+  {
+    "source": "Votre e-mail ou téléphone",
+    "contexts": [
+      "copy.form.text012"
+    ]
+  },
+  {
+    "source": "vous@exemple.fr ou +33…",
+    "contexts": [
+      "copy.form.text013"
+    ]
+  },
+  {
+    "source": "Un seul moyen de contact suffit pour vous répondre.",
+    "contexts": [
+      "copy.form.text014"
+    ]
+  },
+  {
+    "source": "L’intervention qui vous intéresse",
+    "contexts": [
+      "copy.form.text015"
+    ]
+  },
+  {
+    "source": "Choisir une intervention",
+    "contexts": [
+      "copy.form.text016"
+    ]
+  },
+  {
+    "source": "À définir ensemble",
+    "contexts": [
+      "copy.form.text017",
+      "interface"
+    ]
+  },
+  {
+    "source": "Votre message",
+    "contexts": [
+      "copy.form.text018"
+    ]
+  },
+  {
+    "source": "Ce que vous aimeriez savoir, les questions que vous vous posez…",
+    "contexts": [
+      "copy.form.text019"
+    ]
+  },
+  {
+    "source": "10 à 1 200 caractères. N’indiquez pas d’informations médicales sensibles. N’envoyez pas de dossier médical ni de photographies.",
+    "contexts": [
+      "copy.form.text020"
+    ]
+  },
+  {
+    "source": "Ne pas remplir ce champ",
+    "contexts": [
+      "copy.form.text021"
+    ]
+  },
+  {
+    "source": "J’accepte que LEA Aesthetic utilise mes coordonnées et mon message pour traiter ma demande et me recontacter. J’ai lu les",
+    "contexts": [
+      "copy.form.text022"
+    ]
+  },
+  {
+    "source": "informations relatives à la confidentialité",
+    "contexts": [
+      "copy.form.text024"
+    ]
+  },
+  {
+    "source": "Envoi en cours…",
+    "contexts": [
+      "copy.form.text025"
+    ]
+  },
+  {
+    "source": "Envoyer ma demande",
+    "contexts": [
+      "copy.form.text026"
+    ]
+  },
+  {
+    "source": "Cette demande initiale ne constitue ni une consultation médicale ni une réservation.",
+    "contexts": [
+      "copy.form.text027"
+    ]
+  },
+  {
+    "source": "Découvrez le rôle de LEA Aesthetic, agence de coordination de projets de chirurgie esthétique à Istanbul.",
+    "contexts": [
+      "seo.agence.description"
+    ]
+  },
+  {
+    "source": "Rhinoplastie, liposuccion Vaser, abdominoplastie, chirurgie mammaire et lifting du visage : des repères pour votre consultation.",
+    "contexts": [
+      "seo.interventions.description"
+    ]
+  },
+  {
+    "source": "Dr Anıl Pehlivan, le chirurgien",
+    "contexts": [
+      "seo.chirurgien.title"
+    ]
+  },
+  {
+    "source": "Découvrez la formation du Dr Anıl Pehlivan en chirurgie plastique, reconstructrice et esthétique : Université d’Istanbul et Université Adnan Menderes.",
+    "contexts": [
+      "seo.chirurgien.description"
+    ]
+  },
+  {
+    "source": "Du premier contact à l’organisation convenue : les étapes d’un projet esthétique avec LEA Aesthetic à Istanbul.",
+    "contexts": [
+      "seo.parcours.description"
+    ]
+  },
+  {
+    "source": "Premier contact, évaluation médicale, estimation, séjour et suivi : les réponses à vos questions sur LEA Aesthetic.",
+    "contexts": [
+      "seo.faq.description"
+    ]
+  },
+  {
+    "source": "Contactez LEA",
+    "contexts": [
+      "seo.contact.title"
+    ]
+  },
+  {
+    "source": "Contactez LEA Aesthetic à Istanbul : téléphone, WhatsApp, Instagram et formulaire de premier contact.",
+    "contexts": [
+      "seo.contact.description"
+    ]
+  },
+  {
+    "source": "Le rôle de LEA Aesthetic et le traitement des informations transmises via le site et le formulaire de contact.",
+    "contexts": [
+      "seo.legal.description"
+    ]
+  },
+  {
+    "source": "La confiance, en toute clarté",
+    "contexts": [
+      "certificates.eyebrow"
+    ]
+  },
+  {
+    "source": "Certificats et autorisations",
+    "contexts": [
+      "certificates.title"
+    ]
+  },
+  {
+    "source": "Chaque document concerne le titulaire qui y est nommé. Consultez sa portée et sa source pour comprendre ce qu’il atteste.",
+    "contexts": [
+      "certificates.introduction"
+    ]
+  },
+  {
+    "source": "Des informations à vérifier ensemble.",
+    "contexts": [
+      "certificates.emptyTitle"
+    ]
+  },
+  {
+    "source": "Contactez LEA pour connaître les documents applicables à votre projet et l’identité des professionnels et établissements concernés.",
+    "contexts": [
+      "certificates.emptyText"
+    ]
+  },
+  {
+    "source": "Poser une question",
+    "contexts": [
+      "certificates.contactLabel"
+    ]
+  },
+  {
+    "source": "Titulaire",
+    "contexts": [
+      "certificates.holderLabel"
+    ]
+  },
+  {
+    "source": "Organisme émetteur",
+    "contexts": [
+      "certificates.issuerLabel"
+    ]
+  },
+  {
+    "source": "Portée du document",
+    "contexts": [
+      "certificates.scopeLabel"
+    ]
+  },
+  {
+    "source": "Référence",
+    "contexts": [
+      "certificates.referenceLabel"
+    ]
+  },
+  {
+    "source": "Date de délivrance",
+    "contexts": [
+      "certificates.issuedLabel"
+    ]
+  },
+  {
+    "source": "Valable jusqu’au",
+    "contexts": [
+      "certificates.expiresLabel"
+    ]
+  },
+  {
+    "source": "Consulter la source officielle",
+    "contexts": [
+      "certificates.sourceLabel"
+    ]
+  },
+  {
+    "source": "Voir le document",
+    "contexts": [
+      "certificates.viewLabel"
+    ]
+  },
+  {
+    "source": "Fermer le document",
+    "contexts": [
+      "certificates.closeLabel"
+    ]
+  },
+  {
+    "source": "Choisir la langue",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Langue",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Agrandir :",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Publication Instagram :",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Source :",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Photo après :",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "LEA Aesthetic, accueil",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "LEA Aesthetic sur Instagram (nouvel onglet)",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Contacter LEA Aesthetic sur WhatsApp (nouvel onglet)",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Fermer le contenu Instagram",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Afficher la publication",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Ouvrir sur Instagram",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Toutes les interventions",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Voir plus de dossiers",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Le compte officiel de LEA",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Une interruption",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Le format de la demande est invalide.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Votre demande est trop volumineuse.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "La demande est vide.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Réponses aux questions fréquentes",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Fil d’Ariane",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Fermer le menu",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Ouvrir le menu",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Navigation principale",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Health Türkiye — Heart of Health",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Aperçu du brouillon — visible uniquement dans votre session.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Revenir au panneau pour publier ou quitter l’aperçu",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Aller au contenu",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "L’envoi n’a pas pu être confirmé. Contactez-nous sur WhatsApp.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "La connexion a été interrompue ou l’envoi n’a pas pu être confirmé. Vous pouvez réessayer ou nous joindre sur WhatsApp.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Formulaire de premier contact",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Envoi temporairement indisponible",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Avant",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Après",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Publication Instagram",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "En l’affichant, vous chargez un contenu de Meta. Instagram pourra recevoir votre adresse IP et utiliser ses propres cookies.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Filtrer les avant / après par intervention",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "dossiers présentés",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "dossier présenté",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Voir en grand",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Chaque situation est individuelle. Ces images ne constituent pas une promesse de résultat. Seule une consultation médicale permet d’évaluer votre projet.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Fermer l’agrandissement",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Résultat individuel, sans garantie d’un résultat similaire.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "momentanée.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "La page n’a pas pu être chargée. Vous pouvez réessayer ou nous contacter sur WhatsApp depuis le bouton en bas de l’écran.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Réessayer",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Cette demande n’est pas autorisée. Actualisez la page et réessayez.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Plusieurs demandes ont été reçues. Patientez dix minutes ou contactez-nous sur WhatsApp.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Le formulaire est momentanément indisponible. Contactez-nous sur WhatsApp.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "La demande n’a pas pu être lue. Veuillez réessayer.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Vérifiez les champs indiqués avant de réessayer.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "L’envoi par formulaire n’est pas encore disponible. Votre demande n’a pas été transmise. Vous pouvez nous joindre sur WhatsApp.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Test réussi : le transport de développement a accepté la demande. Aucun e-mail réel n’a été envoyé.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Votre demande a été acceptée par notre service d’envoi. Merci, l’équipe LEA pourra vous recontacter.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "L’envoi n’a pas pu être confirmé. Réessayez ou contactez-nous sur WhatsApp.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Indiquez un nom entre 2 et 80 caractères.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Indiquez une adresse e-mail ou un numéro de téléphone valide.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Choisissez une intervention ou « À définir ensemble ».",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Votre message doit contenir entre 10 et 1 200 caractères.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Votre accord est nécessaire pour traiter votre demande.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "La demande n’a pas pu être validée.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Veuillez patienter quelques secondes ou actualiser la page avant de réessayer.",
+    "contexts": [
+      "interface"
+    ]
+  },
+  {
+    "source": "Veuillez actualiser la page et réessayer.",
+    "contexts": [
+      "interface"
+    ]
+  }
+]

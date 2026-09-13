@@ -1,0 +1,159 @@
+.translation-editor {
+  display: grid;
+  gap: 20px;
+}
+.translation-editor .admin-card {
+  padding: 24px;
+}
+.translation-intro {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.translation-intro > svg {
+  flex-shrink: 0;
+  color: var(--burgundy);
+  margin-top: 5px;
+}
+.translation-intro h2 {
+  font-size: 1.65rem;
+  margin-bottom: 10px;
+}
+.translation-intro p,
+.translation-controls p {
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+.translation-language-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.translation-language-tabs button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 17px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.translation-language-tabs button span:first-child {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--burgundy);
+}
+.translation-language-tabs button[aria-pressed="true"] {
+  background: var(--blush);
+  border-color: var(--burgundy);
+}
+.translation-controls {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+}
+.translation-toggle {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.88rem;
+}
+.translation-toggle input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--burgundy);
+  flex-shrink: 0;
+}
+.translation-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 24px;
+  width: 100%;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  margin-top: 8px;
+}
+.translation-filter-row > label:first-child {
+  display: grid;
+  gap: 5px;
+  font-size: 0.8rem;
+}
+.translation-filter-row select {
+  padding: 10px 30px 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  max-width: 100%;
+}
+.translation-hint {
+  max-width: 740px;
+}
+.translation-results {
+  font-size: 0.85rem;
+}
+.translation-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.translation-row > div {
+  min-width: 0;
+}
+.translation-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--burgundy);
+  margin-bottom: 10px;
+}
+.translation-source {
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.translation-row small {
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+.translation-row textarea {
+  width: 100%;
+  resize: vertical;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 12px;
+  color: var(--ink);
+  background: var(--paper);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+.translation-row-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.translation-row-footer button {
+  border: 0;
+  background: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.75rem;
+  color: var(--burgundy);
+  padding: 8px 0;
+}
+@media (max-width: 800px) {
+  .translation-row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .translation-editor .admin-card {
+    padding: 18px;
+  }
+  .translation-language-tabs button {
+    flex: 1 1 135px;
+  }
+}

@@ -1,0 +1,134 @@
+.language-switcher {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  height: 44px;
+  padding: 0 11px;
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  color: var(--burgundy);
+  background: var(--paper);
+  cursor: pointer;
+}
+.language-switcher:focus-within {
+  outline: 3px solid var(--rose);
+  outline-offset: 4px;
+}
+.language-switcher:hover {
+  background: var(--blush);
+}
+.language-switcher select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.language-code {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.header-inner {
+  gap: 22px;
+}
+.navigation {
+  margin-left: auto;
+  gap: 16px;
+}
+.hero-copy,
+.hero-visual,
+.section-heading > *,
+.treatment-card,
+.page-intro {
+  min-width: 0;
+}
+html:not([lang="fr"]) h1,
+html:not([lang="fr"]) h2,
+html:not([lang="fr"]) h3 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+html:not([lang="fr"]) .hero h1 {
+  font-size: clamp(2.9rem, 4.9vw, 4.55rem);
+}
+html[lang="ru"] .navigation {
+  font-size: 12px;
+  gap: 12px;
+}
+@media (max-width: 1240px) {
+  .site-header .navigation {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
+    background: var(--ivory);
+    padding: 18px 36px 32px;
+    border-bottom: 1px solid var(--line);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    max-height: calc(100dvh - var(--header-height));
+    overflow: auto;
+    font-size: 16px;
+    margin: 0;
+  }
+  .site-header .navigation.is-open {
+    display: flex;
+  }
+  .navigation > a:not(.nav-contact) {
+    padding: 12px 0;
+  }
+  .navigation .nav-contact {
+    margin-top: 10px;
+    padding: 14px 20px;
+    justify-content: center;
+  }
+  .navigation > a[aria-current="page"]:after {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+    order: 4;
+  }
+  .language-switcher {
+    margin-left: auto;
+    order: 3;
+  }
+  .header-inner {
+    gap: 16px;
+  }
+}
+@media (max-width: 760px) {
+  html:not([lang="fr"]) .hero h1 {
+    font-size: clamp(2.6rem, 8.9vw, 3.5rem);
+  }
+  .header-inner {
+    gap: 10px;
+  }
+  .language-switcher {
+    gap: 5px;
+    padding-inline: 9px;
+  }
+  .header-inner .brand-caption small {
+    max-width: 100px;
+    white-space: normal;
+    line-height: 1.4;
+  }
+}
+@media (max-width: 380px) {
+  .header-inner .brand-caption strong {
+    font-size: 22px;
+  }
+  .header-inner .brand-signature {
+    gap: 8px;
+  }
+  .language-switcher > svg:first-child {
+    display: none;
+  }
+}
