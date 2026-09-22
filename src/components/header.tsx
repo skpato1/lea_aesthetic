@@ -58,6 +58,7 @@ export function Header({
       <div className="header-inner container">
         <Link
           href="/"
+          prefetch
           className="brand"
           aria-label={t("LEA Aesthetic, accueil")}
           onClick={() => setOpen(false)}
@@ -90,6 +91,7 @@ export function Header({
             <Link
               key={item.href}
               href={item.href}
+              prefetch
               aria-current={
                 stripLocale(pathname) === item.href ? "page" : undefined
               }
@@ -109,6 +111,7 @@ export function Header({
           </a>
           <Link
             href={copy.text002}
+            prefetch
             className="nav-contact"
             onClick={() => setOpen(false)}
           >

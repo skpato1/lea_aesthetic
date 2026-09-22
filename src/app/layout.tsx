@@ -6,6 +6,7 @@ import { publicContent } from "@/lib/cms/public";
 import "./globals.css";
 import "./i18n.css";
 import { LocaleProvider } from "@/components/locale-provider";
+import { SiteLoader } from "@/components/site-loader";
 import { localizePath, ogLocales } from "@/lib/i18n/config";
 export const dynamic = "force-dynamic";
 export async function generateMetadata(): Promise<Metadata> {
@@ -51,6 +52,7 @@ export default async function RootLayout({
       <body>
         <LocaleProvider locale={locale} languages={languages} messages={ui}>
           <SiteFrame
+            loader={<SiteLoader logo={site.assets.logo} />}
             header={
               <Header
                 site={site}

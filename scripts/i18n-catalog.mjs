@@ -30,6 +30,7 @@ const sources = new Set([
   "Le format de la demande est invalide.",
   "Votre demande est trop volumineuse.",
   "La demande est vide.",
+  "Chargement des visuels",
 ]);
 sources.add("Réponses aux questions fréquentes");
 sources.add("Fil d’Ariane");

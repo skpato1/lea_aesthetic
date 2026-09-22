@@ -5,11 +5,13 @@ export function SiteFrame({
   children,
   header,
   footer,
+  loader,
   preview,
 }: {
   children: React.ReactNode;
   header: React.ReactNode;
   footer: React.ReactNode;
+  loader: React.ReactNode;
   preview: boolean;
 }) {
   const path = usePathname();
@@ -17,6 +19,7 @@ export function SiteFrame({
   if (path.startsWith("/admin")) return <>{children}</>;
   return (
     <>
+      {loader}
       {preview && (
         <div className="preview-banner">
           {t("Aperçu du brouillon — visible uniquement dans votre session.")}{" "}
