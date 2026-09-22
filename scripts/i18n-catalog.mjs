@@ -66,9 +66,12 @@ fs.writeFileSync(
 );
 const { contentCatalog } = await import("../src/lib/i18n/catalog.ts");
 const seed = JSON.parse(fs.readFileSync("src/content/cms-seed.json", "utf8"));
-seed.gallery.items = JSON.parse(
-  fs.readFileSync("src/content/instagram-candidates.json", "utf8"),
-);
+seed.gallery.items = [
+  ...seed.gallery.items,
+  ...JSON.parse(
+    fs.readFileSync("src/content/instagram-candidates.json", "utf8"),
+  ),
+];
 const entries = contentCatalog(seed);
 fs.writeFileSync(
   "src/content/i18n/catalog.json",

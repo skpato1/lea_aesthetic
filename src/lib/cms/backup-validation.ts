@@ -2,8 +2,10 @@ import { validateContent } from "./validation.ts";
 import { restoreContent } from "./migrations.ts";
 import { contentAssets } from "./gallery.ts";
 import type { ContentState, SiteContent } from "./types";
+import transformationMedia from "../../content/transformation-media.json" with { type: "json" };
 
 type Row = { key: string; value: string };
+const suppliedMedia = new Set(transformationMedia.map((item) => item.url));
 export function prepareBackupRows(rows: Row[]): Row[] {
   const ids = new Set(rows.map((row) => row.key));
   if (ids.size !== rows.length)
@@ -58,7 +60,11 @@ export function prepareBackupRows(rows: Row[]): Row[] {
           : [];
     for (const content of snapshots)
       for (const asset of contentAssets(content))
-        if (asset.startsWith("/media/") && !ids.has(`media:${asset.slice(7)}`))
+        if (
+          asset.startsWith("/media/") &&
+          !suppliedMedia.has(asset) &&
+          !ids.has(`media:${asset.slice(7)}`)
+        )
           throw new Error("Une image référencée est absente de la sauvegarde.");
   }
   return normalized;

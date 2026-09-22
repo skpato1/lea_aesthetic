@@ -166,7 +166,9 @@ export function ResultsGallery({ copy, items, instagram, handle }: Props) {
             <p className="result-count" role="status">
               {filtered.length}{" "}
               {t(
-                filtered.length > 1 ? "dossiers présentés" : "dossier présenté",
+                filtered.length > 1
+                  ? "comparaisons présentées"
+                  : "comparaison présentée",
               )}
             </p>
             <div className="results-grid">
@@ -176,6 +178,7 @@ export function ResultsGallery({ copy, items, instagram, handle }: Props) {
                     <div className="result-visual">
                       <PhotoPair item={item} />
                       <button
+                        type="button"
                         className="result-expand"
                         disabled={!ready}
                         onClick={() => setSelected(item)}
@@ -213,6 +216,7 @@ export function ResultsGallery({ copy, items, instagram, handle }: Props) {
             </div>
             {filtered.length > limit && (
               <button
+                type="button"
                 className="button button-secondary result-more"
                 onClick={() => setLimit(limit + 6)}
               >
@@ -268,6 +272,7 @@ export function ResultsGallery({ copy, items, instagram, handle }: Props) {
             <div className="result-dialog-heading">
               <h2 id="result-dialog-title">{selected.title}</h2>
               <button
+                type="button"
                 autoFocus
                 onClick={() => dialog.current?.close()}
                 aria-label={t("Fermer l’agrandissement")}

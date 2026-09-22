@@ -3,7 +3,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve, join } from "node:path";
 import { randomBytes } from "node:crypto";
 import seed from "@/content/cms-seed.json";
-import type { ContentState } from "./types";
+import transformationMedia from "@/content/transformation-media.json";
+import type { ContentState, MediaItem } from "./types";
 import { upgradeContent } from "./migrations";
 
 type Row = { key: string; value: string };
@@ -139,57 +140,84 @@ async function connect(): Promise<Connection> {
     "CREATE TABLE IF NOT EXISTS lea_cms (key TEXT PRIMARY KEY,value TEXT NOT NULL)",
   );
   await connection.transaction(async (store) => {
-    const state = await store.get<ContentState>("content");
-    if (!state) await store.set("content", initialState());
-    else if (
-      !Object.hasOwn(state.draft, "gallery") ||
-      !Object.hasOwn(state.published, "gallery") ||
-      !Object.hasOwn(state.draft, "translations") ||
-      !Object.hasOwn(state.published, "translations") ||
-      !Object.hasOwn(state.draft, "certificates") ||
-      !Object.hasOwn(state.published, "certificates") ||
-      !Object.hasOwn(state.draft, "visualGuides") ||
-      !Object.hasOwn(state.published, "visualGuides") ||
+    let state = await store.get<ContentState>("content");
+    if (!state) {
+      state = initialState();
+      await store.set("content", state);
+    }
+    const currentState = state;
+    if (
+      !Object.hasOwn(currentState.draft, "gallery") ||
+      !Object.hasOwn(currentState.published, "gallery") ||
+      currentState.draft.gallery.seedVersion !== seed.gallery.seedVersion ||
+      currentState.published.gallery.seedVersion !== seed.gallery.seedVersion ||
+      !Object.hasOwn(currentState.draft, "translations") ||
+      !Object.hasOwn(currentState.published, "translations") ||
+      !Object.hasOwn(currentState.draft, "certificates") ||
+      !Object.hasOwn(currentState.published, "certificates") ||
+      !Object.hasOwn(currentState.draft, "visualGuides") ||
+      !Object.hasOwn(currentState.published, "visualGuides") ||
       seed.visualGuides.some(
         (template) =>
-          !state.draft.visualGuides?.some(
+          !currentState.draft.visualGuides?.some(
             (item) => item.id === template.id,
           ) ||
-          !state.published.visualGuides?.some(
+          !currentState.published.visualGuides?.some(
             (item) => item.id === template.id,
           ),
       ) ||
-      !Object.hasOwn(state.draft.copy.interventions, "text017") ||
-      !Object.hasOwn(state.published.copy.interventions, "text017") ||
+      !Object.hasOwn(currentState.draft.copy.interventions, "text017") ||
+      !Object.hasOwn(currentState.published.copy.interventions, "text017") ||
       seed.treatments.some(
         (template) =>
-          !state.draft.treatments.some((item) => item.slug === template.slug) ||
-          !state.published.treatments.some(
+          !currentState.draft.treatments.some(
+            (item) => item.slug === template.slug,
+          ) ||
+          !currentState.published.treatments.some(
             (item) => item.slug === template.slug,
           ),
       ) ||
-      state.draft.treatments.some((item) => !Object.hasOwn(item, "image")) ||
-      state.draft.treatments.some(
-        (item) => !Object.hasOwn(item, "imageAlt"),
-      ) ||
-      state.published.treatments.some(
+      currentState.draft.treatments.some(
         (item) => !Object.hasOwn(item, "image"),
       ) ||
-      state.published.treatments.some(
+      currentState.draft.treatments.some(
         (item) => !Object.hasOwn(item, "imageAlt"),
       ) ||
-      !Object.hasOwn(state.draft.settings.assets, "healthTurkiye") ||
-      !Object.hasOwn(state.published.settings.assets, "healthTurkiye") ||
-      !Object.hasOwn(state.draft.settings.assets, "teomanPortrait") ||
-      !Object.hasOwn(state.published.settings.assets, "teomanPortrait") ||
-      !Object.hasOwn(state.draft.copy.chirurgien, "text025") ||
-      !Object.hasOwn(state.published.copy.chirurgien, "text025")
+      currentState.published.treatments.some(
+        (item) => !Object.hasOwn(item, "image"),
+      ) ||
+      currentState.published.treatments.some(
+        (item) => !Object.hasOwn(item, "imageAlt"),
+      ) ||
+      !Object.hasOwn(currentState.draft.settings.assets, "healthTurkiye") ||
+      !Object.hasOwn(currentState.published.settings.assets, "healthTurkiye") ||
+      !Object.hasOwn(currentState.draft.settings.assets, "teomanPortrait") ||
+      !Object.hasOwn(
+        currentState.published.settings.assets,
+        "teomanPortrait",
+      ) ||
+      !Object.hasOwn(currentState.draft.copy.chirurgien, "text025") ||
+      !Object.hasOwn(currentState.published.copy.chirurgien, "text025")
     ) {
-      state.draft = upgradeContent(state.draft);
-      state.published = upgradeContent(state.published);
-      state.revision++;
-      state.updatedAt = Date.now();
-      await store.set("content", state);
+      currentState.draft = upgradeContent(currentState.draft);
+      currentState.published = upgradeContent(currentState.published);
+      currentState.revision++;
+      currentState.updatedAt = Date.now();
+      await store.set("content", currentState);
+    }
+    const referencedContent = JSON.stringify([
+      currentState.draft,
+      currentState.published,
+    ]);
+    for (const media of transformationMedia) {
+      if (!referencedContent.includes(media.url)) continue;
+      if (!(await store.get(`media:${media.id}`)))
+        await store.set(`media:${media.id}`, media);
+      if (!(await store.get(`media-info:${media.id}`))) {
+        const { body: _body, ...publicMedia } = media;
+        void _body;
+        await store.set(`media-info:${media.id}`, publicMedia as MediaItem);
+      }
     }
   });
   return connection;

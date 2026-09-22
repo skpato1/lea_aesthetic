@@ -75,32 +75,35 @@ test("avant / après : édition, consentements, publication, filtre, agrandissem
   await page
     .getByRole("button", { name: "Ajouter un dossier", exact: true })
     .click();
-  await page
+  const caseEditor = page.locator(".admin-gallery-editor details[open]").last();
+  await caseEditor
     .getByLabel("Titre du dossier", { exact: true })
     .fill("Dossier technique — aucun patient");
-  await page.getByLabel("Intervention du dossier").selectOption("rhinoplastie");
-  await page
+  await caseEditor
+    .getByLabel("Intervention du dossier")
+    .selectOption("rhinoplastie");
+  await caseEditor
     .getByRole("combobox", { name: "Photo avant", exact: true })
     .selectOption(media[0].url);
-  await page
+  await caseEditor
     .getByRole("combobox", { name: "Photo après", exact: true })
     .selectOption(media[1].url);
-  await page
+  await caseEditor
     .getByLabel("Description de la photo avant")
     .fill("Rectangle rose de test");
-  await page
+  await caseEditor
     .getByLabel("Description de la photo après")
     .fill("Rectangle gris de test");
-  await page
+  await caseEditor
     .getByLabel("Légende factuelle du dossier")
     .fill(
       "Fixture réservée à la vérification de la galerie. Aucun résultat médical.",
     );
-  await page
+  await caseEditor
     .getByLabel("Source ou crédit affiché")
     .fill("Images de test non médicales");
   await expect(
-    page.getByLabel("Présenter ce dossier sur le site", { exact: true }),
+    caseEditor.getByLabel("Présenter ce dossier sur le site", { exact: true }),
   ).toBeDisabled();
   await page.getByRole("button", { name: "Enregistrer", exact: true }).click();
   await expect(page.getByRole("status")).toContainText("Brouillon enregistré");
@@ -108,7 +111,9 @@ test("avant / après : édition, consentements, publication, filtre, agrandissem
     await page.request.get("/api/admin/content")
   ).json();
   const bad = structuredClone(state.draft);
-  bad.gallery.items[0].visible = true;
+  bad.gallery.items.find(
+    (item) => item.title === "Dossier technique — aucun patient",
+  )!.visible = true;
   expect(
     (
       await page.request.post("/api/admin/save", {
@@ -118,13 +123,13 @@ test("avant / après : édition, consentements, publication, filtre, agrandissem
     ).status(),
   ).toBe(400);
   expect((await publicPage.request.get(media[0].url)).status()).toBe(404);
-  await page
+  await caseEditor
     .getByLabel("Je confirme qu’il s’agit d’un cas réel", { exact: false })
     .check();
-  await page
+  await caseEditor
     .getByLabel("Je confirme disposer des droits", { exact: false })
     .check();
-  await page
+  await caseEditor
     .getByLabel("Présenter ce dossier sur le site", { exact: true })
     .check();
   await page.getByRole("button", { name: "Enregistrer", exact: true }).click();

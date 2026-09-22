@@ -11,10 +11,7 @@ export function upgradeContent(input: SiteContent): SiteContent {
     for (const guide of seed.visualGuides)
       if (!content.visualGuides.some((item) => item.id === guide.id))
         content.visualGuides.push(structuredClone(guide));
-  const interventionCopy = content.copy.interventions as Record<
-    string,
-    string
-  >;
+  const interventionCopy = content.copy.interventions as Record<string, string>;
   for (const [key, value] of Object.entries(seed.copy.interventions))
     if (!Object.hasOwn(interventionCopy, key)) interventionCopy[key] = value;
   const surgeonCopy = content.copy.chirurgien as Record<string, string>;
@@ -56,8 +53,7 @@ export function upgradeContent(input: SiteContent): SiteContent {
   if (!content.copy.interventions.text005.includes("Opérations pour homme"))
     content.copy.interventions.text005 += " · Opérations pour homme";
   if (!Object.hasOwn(content.settings.assets, "healthTurkiye"))
-    content.settings.assets.healthTurkiye =
-      seed.settings.assets.healthTurkiye;
+    content.settings.assets.healthTurkiye = seed.settings.assets.healthTurkiye;
   if (!Object.hasOwn(content, "certificates")) {
     content.certificates = structuredClone(seed.certificates);
     const index = content.homeSections.findIndex(
@@ -93,6 +89,15 @@ export function upgradeContent(input: SiteContent): SiteContent {
         "Aucun flux Instagram ni lecteur externe n’est intégré.",
         "Dans la galerie avant / après, le bouton « Afficher la publication » charge un lecteur Instagram de Meta. Ce service peut alors recevoir votre adresse IP et utiliser ses propres cookies. Le choix reste limité à cette publication et à cette visite ; vous pouvez fermer le lecteur. Un lien permet aussi de consulter directement la publication sur Instagram.",
       );
+  } else if (content.gallery.seedVersion !== seed.gallery.seedVersion) {
+    for (const item of seed.gallery.items)
+      if (!content.gallery.items.some((current) => current.id === item.id))
+        content.gallery.items.push(structuredClone(item));
+    content.gallery.seedVersion = seed.gallery.seedVersion;
+    const gallerySection = content.homeSections.find(
+      (section) => section.id === "gallery",
+    );
+    if (gallerySection) gallerySection.visible = true;
   }
   return content;
 }

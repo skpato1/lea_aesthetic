@@ -8,6 +8,7 @@ const technical = new Set([
   "path",
   "number",
   "mode",
+  "seedVersion",
   "treatmentSlug",
   "beforeImage",
   "afterImage",

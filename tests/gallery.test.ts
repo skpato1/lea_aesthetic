@@ -48,11 +48,32 @@ test("Migration v1 : ajout de la galerie, idempotence et préservation des texte
     oldOrder,
   );
   assert.deepEqual(upgradeContent(upgraded), upgraded);
-  assert.deepEqual(upgraded.gallery.items, []);
+  assert.deepEqual(upgraded.gallery.items, seed.gallery.items);
   assert.doesNotThrow(() => validateContent(upgraded));
+});
+test("Migration des transformations : ajout unique et conservation des dossiers administrateur", () => {
+  const old = content();
+  const custom = fixture();
+  old.gallery.items = [custom];
+  old.gallery.seedVersion = "legacy";
+  old.homeSections.find((section) => section.id === "gallery")!.visible = false;
+  const upgraded = upgradeContent(old);
+  assert.equal(upgraded.gallery.seedVersion, seed.gallery.seedVersion);
+  assert.equal(
+    upgraded.homeSections.find((section) => section.id === "gallery")!.visible,
+    true,
+  );
+  assert.equal(upgraded.gallery.items[0].id, custom.id);
+  for (const supplied of seed.gallery.items)
+    assert.equal(
+      upgraded.gallery.items.filter((item) => item.id === supplied.id).length,
+      1,
+    );
+  assert.deepEqual(upgradeContent(upgraded), upgraded);
 });
 test("Brouillon incomplet permis ; case actif incomplet, fausses confirmations et URL piégée refusés", () => {
   const draft = content();
+  draft.gallery.items = [];
   draft.gallery.items.push({ ...resultTemplate, id: randomUUID() });
   assert.doesNotThrow(() => validateContent(draft));
   draft.gallery.items[0].visible = true;
@@ -140,7 +161,7 @@ test("Import : v1 accepté, références manquantes et contenu malformé refusé
   const rows = [{ key: "content", value: JSON.stringify(state) }];
   assert.equal(
     JSON.parse(prepareBackupRows(rows)[0].value).draft.gallery.items.length,
-    0,
+    seed.gallery.items.length,
   );
   state.draft = content();
   state.draft.gallery.items = [fixture()];

@@ -86,19 +86,31 @@
     ]
   },
   {
-    "source": "Liposuccion 360° et abdominoplastie",
+    "source": "Greffe capillaire — ligne frontale",
     "contexts": [
       "gallery.items.0.title"
     ]
   },
   {
-    "source": "Publication du compte LEA consacrée à la liposuccion 360° et à l’abdominoplastie. Consultez la publication dans son contexte sur Instagram.",
+    "source": "Comparaison avant/après fournie par LEA Aesthetic. Le résultat observé est propre à cette personne.",
     "contexts": [
       "gallery.items.0.caption"
     ]
   },
   {
-    "source": "LEA — @lea__aesthetics",
+    "source": "Portrait de face avant une greffe capillaire, avec préparation de la ligne frontale.",
+    "contexts": [
+      "gallery.items.0.beforeAlt"
+    ]
+  },
+  {
+    "source": "Portrait de face après une greffe capillaire, avec la nouvelle ligne frontale visible.",
+    "contexts": [
+      "gallery.items.0.afterAlt"
+    ]
+  },
+  {
+    "source": "LEA Aesthetic — images fournies",
     "contexts": [
       "gallery.items.0.sourceLabel",
       "gallery.items.1.sourceLabel",
@@ -106,9 +118,72 @@
     ]
   },
   {
+    "source": "Lifting du tiers moyen — vue de trois quarts",
+    "contexts": [
+      "gallery.items.1.title"
+    ]
+  },
+  {
+    "source": "Comparaison avant/après d’un lifting du tiers moyen du visage, selon les images fournies par LEA Aesthetic. Le résultat varie selon chaque personne.",
+    "contexts": [
+      "gallery.items.1.caption",
+      "gallery.items.2.caption"
+    ]
+  },
+  {
+    "source": "Vue de trois quarts avant un lifting du tiers moyen du visage.",
+    "contexts": [
+      "gallery.items.1.beforeAlt"
+    ]
+  },
+  {
+    "source": "Vue de trois quarts après un lifting du tiers moyen du visage.",
+    "contexts": [
+      "gallery.items.1.afterAlt"
+    ]
+  },
+  {
+    "source": "Lifting du tiers moyen — vue de profil",
+    "contexts": [
+      "gallery.items.2.title"
+    ]
+  },
+  {
+    "source": "Vue de profil avant un lifting du tiers moyen du visage.",
+    "contexts": [
+      "gallery.items.2.beforeAlt"
+    ]
+  },
+  {
+    "source": "Vue de profil après un lifting du tiers moyen du visage.",
+    "contexts": [
+      "gallery.items.2.afterAlt"
+    ]
+  },
+  {
+    "source": "Liposuccion 360° et abdominoplastie",
+    "contexts": [
+      "gallery.items.3.title"
+    ]
+  },
+  {
+    "source": "Publication du compte LEA consacrée à la liposuccion 360° et à l’abdominoplastie. Consultez la publication dans son contexte sur Instagram.",
+    "contexts": [
+      "gallery.items.3.caption"
+    ]
+  },
+  {
+    "source": "LEA — @lea__aesthetics",
+    "contexts": [
+      "gallery.items.3.sourceLabel",
+      "gallery.items.4.sourceLabel",
+      "gallery.items.5.sourceLabel"
+    ]
+  },
+  {
     "source": "Augmentation mammaire",
     "contexts": [
-      "gallery.items.1.title",
+      "gallery.items.4.title",
       "treatments.3.name",
       "visualGuides.13.title"
     ]
@@ -116,20 +191,20 @@
   {
     "source": "Publication repérée sur le compte Instagram de LEA sous l’intitulé « Breast Augmentation ». Ouvrez la publication pour consulter les images et leur contexte.",
     "contexts": [
-      "gallery.items.1.caption"
+      "gallery.items.4.caption"
     ]
   },
   {
     "source": "Liposuccion Vaser",
     "contexts": [
-      "gallery.items.2.title",
+      "gallery.items.5.title",
       "treatments.1.name"
     ]
   },
   {
     "source": "Publication repérée sur le compte Instagram de LEA sous l’intitulé « Vaser Liposuction ». Ouvrez la publication pour consulter les images et leur contexte.",
     "contexts": [
-      "gallery.items.2.caption"
+      "gallery.items.5.caption"
     ]
   },
   {
@@ -625,7 +700,8 @@
     "contexts": [
       "treatments.6.category",
       "treatments.7.category",
-      "treatments.8.category"
+      "treatments.8.category",
+      "treatments.9.category"
     ]
   },
   {
@@ -854,6 +930,12 @@
     "source": "Quelles limites et quelles évolutions du résultat dois-je comprendre avant de décider ?",
     "contexts": [
       "treatments.8.questions.2"
+    ]
+  },
+  {
+    "source": "Greffe capillaire",
+    "contexts": [
+      "treatments.9.name"
     ]
   },
   {
@@ -3170,13 +3252,13 @@
     ]
   },
   {
-    "source": "dossiers présentés",
+    "source": "comparaisons présentées",
     "contexts": [
       "interface"
     ]
   },
   {
-    "source": "dossier présenté",
+    "source": "comparaison présentée",
     "contexts": [
       "interface"
     ]

@@ -21,13 +21,69 @@
     "indexable": false
   },
   "gallery": {
+    "seedVersion": "transformations-2026-09-22-v2",
     "eyebrow": "Des parcours, en images",
     "title": "Avant / après",
     "introduction": "Prendre le temps de regarder, de comprendre et de poser vos questions. Découvrez les publications de LEA et échangez avec nous sur votre projet.",
     "instagramLabel": "Découvrir notre Instagram",
     "emptyTitle": "Retrouvez LEA sur Instagram",
     "emptyText": "Consultez les publications de notre compte officiel et contactez-nous pour échanger sur les interventions qui vous intéressent.",
-    "items": []
+    "items": [
+      {
+        "id": "715a4e62-d7d3-4ee4-9dd7-1f236e96d101",
+        "title": "Greffe capillaire — ligne frontale",
+        "treatmentSlug": "greffe-capillaire",
+        "caption": "Comparaison avant/après fournie par LEA Aesthetic. Le résultat observé est propre à cette personne.",
+        "interval": "",
+        "mode": "photos",
+        "beforeImage": "/media/61a944f0-6d7a-4e24-9c0b-3bfe799ec101",
+        "afterImage": "/media/61a944f0-6d7a-4e24-9c0b-3bfe799ec102",
+        "beforeAlt": "Portrait de face avant une greffe capillaire, avec préparation de la ligne frontale.",
+        "afterAlt": "Portrait de face après une greffe capillaire, avec la nouvelle ligne frontale visible.",
+        "instagramUrl": "",
+        "sourceLabel": "LEA Aesthetic — images fournies",
+        "sourceUrl": "",
+        "verified": true,
+        "consentConfirmed": true,
+        "visible": true
+      },
+      {
+        "id": "715a4e62-d7d3-4ee4-9dd7-1f236e96d201",
+        "title": "Lifting du tiers moyen — vue de trois quarts",
+        "treatmentSlug": "lifting-du-visage",
+        "caption": "Comparaison avant/après d’un lifting du tiers moyen du visage, selon les images fournies par LEA Aesthetic. Le résultat varie selon chaque personne.",
+        "interval": "",
+        "mode": "photos",
+        "beforeImage": "/media/61a944f0-6d7a-4e24-9c0b-3bfe799ec201",
+        "afterImage": "/media/61a944f0-6d7a-4e24-9c0b-3bfe799ec202",
+        "beforeAlt": "Vue de trois quarts avant un lifting du tiers moyen du visage.",
+        "afterAlt": "Vue de trois quarts après un lifting du tiers moyen du visage.",
+        "instagramUrl": "",
+        "sourceLabel": "LEA Aesthetic — images fournies",
+        "sourceUrl": "",
+        "verified": true,
+        "consentConfirmed": true,
+        "visible": true
+      },
+      {
+        "id": "715a4e62-d7d3-4ee4-9dd7-1f236e96d301",
+        "title": "Lifting du tiers moyen — vue de profil",
+        "treatmentSlug": "lifting-du-visage",
+        "caption": "Comparaison avant/après d’un lifting du tiers moyen du visage, selon les images fournies par LEA Aesthetic. Le résultat varie selon chaque personne.",
+        "interval": "",
+        "mode": "photos",
+        "beforeImage": "/media/61a944f0-6d7a-4e24-9c0b-3bfe799ec301",
+        "afterImage": "/media/61a944f0-6d7a-4e24-9c0b-3bfe799ec302",
+        "beforeAlt": "Vue de profil avant un lifting du tiers moyen du visage.",
+        "afterAlt": "Vue de profil après un lifting du tiers moyen du visage.",
+        "instagramUrl": "",
+        "sourceLabel": "LEA Aesthetic — images fournies",
+        "sourceUrl": "",
+        "verified": true,
+        "consentConfirmed": true,
+        "visible": true
+      }
+    ]
   },
   "navigation": [
     {
@@ -285,6 +341,20 @@
         "Quelles limites et quelles évolutions du résultat dois-je comprendre avant de décider ?"
       ],
       "visible": true
+    },
+    {
+      "slug": "greffe-capillaire",
+      "name": "Greffe capillaire",
+      "category": "Opérations pour homme",
+      "number": "10",
+      "image": "",
+      "imageAlt": "",
+      "short": "",
+      "intro": "",
+      "aims": [],
+      "discussion": [],
+      "questions": [],
+      "visible": false
     }
   ],
   "steps": [
