@@ -10,7 +10,7 @@
       "portrait": "/images/dr-anil-pehlivan.webp",
       "istanbul": "/images/istanbul.webp",
       "healthTurkiye": "/images/health-turkiye-footer.webp",
-      "teomanPortrait": "/images/dr-teoman-eraslan-cv.jpg"
+      "teomanPortrait": "/images/dr-teoman-eraslan-cv.webp"
     },
     "whatsappNumber": "905392996231",
     "whatsappGeneral": "Bonjour LEA Aesthetic, je souhaite échanger avec vous au sujet de mon projet esthétique à Istanbul.",
@@ -906,7 +906,7 @@
       "title": "Gynécomastie",
       "category": "Homme",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/gynecomastie.jpeg",
+      "image": "/images/guides/gynecomastie.webp",
       "imageAlt": "Schéma pédagogique de la gynécomastie et des principes généraux de sa prise en charge chirurgicale",
       "treatmentSlug": "",
       "visible": true
@@ -916,27 +916,17 @@
       "title": "Liposuccion VASER 360° — homme",
       "category": "Homme",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/vaser-360-homme.jpeg",
+      "image": "/images/guides/vaser-360-homme.webp",
       "imageAlt": "Schéma pédagogique de la liposuccion VASER 360 degrés chez l’homme",
       "treatmentSlug": "liposuccion-vaser-hd",
       "visible": true
-    },
-    {
-      "id": "e85c6d31-738f-4076-b70b-f6c73f66b4e6",
-      "title": "Liposuccion VASER 360° — copie fournie",
-      "category": "Homme",
-      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/vaser-360-homme-doublon.jpeg",
-      "imageAlt": "Copie du schéma pédagogique de la liposuccion VASER 360 degrés chez l’homme",
-      "treatmentSlug": "liposuccion-vaser-hd",
-      "visible": false
     },
     {
       "id": "cd4c0ea1-7bb2-4be6-a589-98a3b6d0d09d",
       "title": "G/J-Plasma — homme",
       "category": "Homme",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/g-plasma-homme.jpeg",
+      "image": "/images/guides/g-plasma-homme.webp",
       "imageAlt": "Schéma pédagogique du traitement G/J-Plasma appliqué à la silhouette masculine",
       "treatmentSlug": "j-plasma",
       "visible": true
@@ -946,7 +936,7 @@
       "title": "Sleeve gastrique",
       "category": "Chirurgie bariatrique",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/sleeve-gastrique.jpeg",
+      "image": "/images/guides/sleeve-gastrique.webp",
       "imageAlt": "Schéma pédagogique présentant le principe général d’une sleeve gastrique",
       "treatmentSlug": "",
       "visible": true
@@ -956,7 +946,7 @@
       "title": "Lifting du visage et du cou",
       "category": "Visage",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/lifting-visage-cou.jpeg",
+      "image": "/images/guides/lifting-visage-cou.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’un lifting du visage et du cou",
       "treatmentSlug": "lifting-du-visage",
       "visible": true
@@ -966,7 +956,7 @@
       "title": "Lifting endoscopique du visage",
       "category": "Visage",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/lifting-endoscopique.jpeg",
+      "image": "/images/guides/lifting-endoscopique.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’un lifting endoscopique du visage",
       "treatmentSlug": "lifting-du-visage",
       "visible": true
@@ -976,7 +966,7 @@
       "title": "Lifting du visage",
       "category": "Visage",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/lifting-visage.jpeg",
+      "image": "/images/guides/lifting-visage.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’un lifting du visage",
       "treatmentSlug": "lifting-du-visage",
       "visible": true
@@ -986,7 +976,7 @@
       "title": "Blépharoplastie",
       "category": "Visage",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/blepharoplastie.jpeg",
+      "image": "/images/guides/blepharoplastie.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’une chirurgie des paupières",
       "treatmentSlug": "",
       "visible": true
@@ -996,7 +986,7 @@
       "title": "Rhinoplastie",
       "category": "Visage",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/rhinoplastie.jpeg",
+      "image": "/images/guides/rhinoplastie.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’une rhinoplastie",
       "treatmentSlug": "rhinoplastie",
       "visible": true
@@ -1006,7 +996,7 @@
       "title": "Abdominoplastie",
       "category": "Silhouette",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/abdominoplastie.jpeg",
+      "image": "/images/guides/abdominoplastie.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’une abdominoplastie",
       "treatmentSlug": "abdominoplastie",
       "visible": true
@@ -1016,7 +1006,7 @@
       "title": "Liposuccion du double menton",
       "category": "Visage",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/liposuccion-double-menton.jpeg",
+      "image": "/images/guides/liposuccion-double-menton.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’une liposuccion du double menton",
       "treatmentSlug": "",
       "visible": true
@@ -1026,7 +1016,7 @@
       "title": "G/J-Plasma — femme",
       "category": "Silhouette",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/g-plasma-femme.jpeg",
+      "image": "/images/guides/g-plasma-femme.webp",
       "imageAlt": "Schéma pédagogique du traitement G/J-Plasma appliqué à la silhouette féminine",
       "treatmentSlug": "j-plasma",
       "visible": true
@@ -1036,7 +1026,7 @@
       "title": "Augmentation mammaire",
       "category": "Poitrine",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/augmentation-mammaire.jpeg",
+      "image": "/images/guides/augmentation-mammaire.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’une augmentation mammaire",
       "treatmentSlug": "augmentation-mammaire",
       "visible": true
@@ -1046,7 +1036,7 @@
       "title": "Diastasis des muscles abdominaux",
       "category": "Silhouette",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/diastasis-abdominal.jpeg",
+      "image": "/images/guides/diastasis-abdominal.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’un diastasis des muscles abdominaux",
       "treatmentSlug": "",
       "visible": true
@@ -1056,7 +1046,7 @@
       "title": "Réduction mammaire",
       "category": "Poitrine",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/reduction-mammaire.jpeg",
+      "image": "/images/guides/reduction-mammaire.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’une réduction mammaire",
       "treatmentSlug": "",
       "visible": true
@@ -1066,7 +1056,7 @@
       "title": "BBL — Brazilian Butt Lift",
       "category": "Silhouette",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/bbl.jpeg",
+      "image": "/images/guides/bbl.webp",
       "imageAlt": "Schéma pédagogique présentant les principes généraux d’un transfert de graisse vers les fesses",
       "treatmentSlug": "",
       "visible": true
@@ -1076,7 +1066,7 @@
       "title": "Liposuccion VASER 360° — femme",
       "category": "Silhouette",
       "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
-      "image": "/images/guides/vaser-360-femme.jpeg",
+      "image": "/images/guides/vaser-360-femme.webp",
       "imageAlt": "Schéma pédagogique de la liposuccion VASER 360 degrés chez la femme",
       "treatmentSlug": "liposuccion-vaser",
       "visible": true

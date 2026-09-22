@@ -5,7 +5,7 @@ import { randomBytes } from "node:crypto";
 import seed from "@/content/cms-seed.json";
 import transformationMedia from "@/content/transformation-media.json";
 import type { ContentState, MediaItem } from "./types";
-import { upgradeContent } from "./migrations";
+import { contentNeedsImageMigration, upgradeContent } from "./migrations";
 
 type Row = { key: string; value: string };
 type Query = (sql: string, params?: unknown[]) => Promise<Row[]>;
@@ -157,6 +157,8 @@ async function connect(): Promise<Connection> {
       !Object.hasOwn(currentState.published, "certificates") ||
       !Object.hasOwn(currentState.draft, "visualGuides") ||
       !Object.hasOwn(currentState.published, "visualGuides") ||
+      contentNeedsImageMigration(currentState.draft) ||
+      contentNeedsImageMigration(currentState.published) ||
       seed.visualGuides.some(
         (template) =>
           !currentState.draft.visualGuides?.some(

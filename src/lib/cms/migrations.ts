@@ -2,6 +2,39 @@ import seed from "../../content/cms-seed.json" with { type: "json" };
 import type { SiteContent } from "./types";
 import { initialTranslations } from "../i18n/config.ts";
 
+const suppliedDuplicateGuideId = "e85c6d31-738f-4076-b70b-f6c73f66b4e6";
+const suppliedDuplicateGuideImages = new Set([
+  "/images/guides/vaser-360-homme-doublon.jpeg",
+  "/images/guides/vaser-360-homme-doublon.webp",
+]);
+
+function optimizedImagePath(value: string) {
+  if (value === "/images/dr-teoman-eraslan-cv.jpg")
+    return "/images/dr-teoman-eraslan-cv.webp";
+  if (/^\/images\/guides\/.+\.jpe?g$/i.test(value))
+    return value.replace(/\.jpe?g$/i, ".webp");
+  return value;
+}
+
+function isSuppliedDuplicateGuide(guide: SiteContent["visualGuides"][number]) {
+  return (
+    guide.id === suppliedDuplicateGuideId &&
+    suppliedDuplicateGuideImages.has(guide.image)
+  );
+}
+
+export function contentNeedsImageMigration(content: SiteContent) {
+  return (
+    optimizedImagePath(content.settings.assets.teomanPortrait || "") !==
+      (content.settings.assets.teomanPortrait || "") ||
+    (content.visualGuides || []).some(
+      (guide) =>
+        isSuppliedDuplicateGuide(guide) ||
+        optimizedImagePath(guide.image) !== guide.image,
+    )
+  );
+}
+
 /** Add only the new feature; preserve all existing copy, ordering, media and drafts. */
 export function upgradeContent(input: SiteContent): SiteContent {
   const content = structuredClone(input);
@@ -11,6 +44,12 @@ export function upgradeContent(input: SiteContent): SiteContent {
     for (const guide of seed.visualGuides)
       if (!content.visualGuides.some((item) => item.id === guide.id))
         content.visualGuides.push(structuredClone(guide));
+  content.visualGuides = content.visualGuides
+    .filter((guide) => !isSuppliedDuplicateGuide(guide))
+    .map((guide) => ({
+      ...guide,
+      image: optimizedImagePath(guide.image),
+    }));
   const interventionCopy = content.copy.interventions as Record<string, string>;
   for (const [key, value] of Object.entries(seed.copy.interventions))
     if (!Object.hasOwn(interventionCopy, key)) interventionCopy[key] = value;
@@ -34,6 +73,9 @@ export function upgradeContent(input: SiteContent): SiteContent {
   if (!Object.hasOwn(content.settings.assets, "teomanPortrait"))
     content.settings.assets.teomanPortrait =
       seed.settings.assets.teomanPortrait;
+  content.settings.assets.teomanPortrait = optimizedImagePath(
+    content.settings.assets.teomanPortrait,
+  );
   if (content.seo.chirurgien.title === "Dr Anıl Pehlivan, le chirurgien") {
     content.seo.chirurgien.title = seed.seo.chirurgien.title;
     content.seo.chirurgien.description = seed.seo.chirurgien.description;

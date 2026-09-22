@@ -184,7 +184,7 @@ export function validateContent(value: unknown): SiteContent {
         "/images/lea-logo.png",
         "/images/lea-logo-rose.png",
         "/images/dr-anil-pehlivan.webp",
-        "/images/dr-teoman-eraslan-cv.jpg",
+        "/images/dr-teoman-eraslan-cv.webp",
         "/images/istanbul.webp",
         "/images/health-turkiye-footer.webp",
       ].includes(asset) &&
@@ -232,7 +232,10 @@ export function validateContent(value: unknown): SiteContent {
       !suppliedGuideImages.has(guide.image) &&
       !/^\/media\/[a-f0-9-]{36}$/.test(guide.image)
     )
-      fail(label, "choisissez un visuel fourni ou une image de la médiathèque.");
+      fail(
+        label,
+        "choisissez un visuel fourni ou une image de la médiathèque.",
+      );
     if (guide.treatmentSlug && !slugs.has(guide.treatmentSlug))
       fail(label, "intervention associée inconnue.");
     if (

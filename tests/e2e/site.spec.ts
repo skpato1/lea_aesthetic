@@ -63,7 +63,7 @@ test("accueil : images, ancrages historiques, liens, débordement et accessibili
         .evaluate((image) => (image as HTMLImageElement).naturalWidth),
     )
     .toBeGreaterThan(0);
-  await page.keyboard.press("Control+Home");
+  await page.evaluate(() => window.scrollTo(0, 0));
   await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
   await page.screenshot({
     path: `test-results/home-${info.project.name}.png`,

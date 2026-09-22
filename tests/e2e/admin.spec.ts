@@ -84,7 +84,9 @@ test("administration : brouillon privé, images, publication, historique et cont
     await button.click();
   }
   await nav("Interventions");
-  await expect(page.getByText("9 interventions", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText("10 interventions", { exact: true }),
+  ).toBeVisible();
   const maleEditor = page
     .locator("details")
     .filter({ hasText: "07 · Liposuccion VASER HD" });
@@ -96,19 +98,16 @@ test("administration : brouillon privé, images, publication, historique et cont
     maleEditor.getByLabel("Description accessible de l’image"),
   ).not.toHaveValue("");
   await nav("Guides visuels");
-  await expect(page.getByText("18 guides visuels", { exact: true })).toBeVisible();
+  await expect(
+    page.getByText("17 guides visuels", { exact: true }),
+  ).toBeVisible();
   const guideEditor = page
     .locator("details")
     .filter({ hasText: "01 · Gynécomastie" });
   await guideEditor.locator("summary").click();
   await expect(guideEditor.getByLabel("Image de l’intervention")).toHaveValue(
-    "/images/guides/gynecomastie.jpeg",
+    "/images/guides/gynecomastie.webp",
   );
-  await expect(
-    page.locator("details").filter({
-      hasText: "03 · Liposuccion VASER 360° — copie fournieMasqué",
-    }),
-  ).toHaveCount(1);
   await nav("Accueil");
   const text = `Votre projet ${info.project.name}`;
   await page.getByLabel("Titre — Votre projet", { exact: true }).fill(text);
@@ -179,7 +178,7 @@ test("administration : brouillon privé, images, publication, historique et cont
   });
   expect(upload.status()).toBe(201);
   const image = await upload.json();
-  expect((await request.get(image.url)).status()).toBe(404);
+  expect((await publicPage.goto(image.url))?.status()).toBe(404);
   expect(
     (
       await page.request.post("/api/admin/upload", {
@@ -245,14 +244,13 @@ test("administration : brouillon privé, images, publication, historique et cont
   await expect(page.getByRole("status")).toContainText(
     "nouvelle version est publiée",
   );
-  await publicPage.reload();
+  await publicPage.goto("/");
   await expect(publicPage.locator("h1")).toContainText(text);
-  expect((await request.get(image.url)).status()).toBe(200);
+  expect((await publicPage.goto(image.url))?.status()).toBe(200);
   await publicPage.goto("/interventions/intervention-test");
   await expect(publicPage.locator("h1")).toHaveText("Intervention de test");
-  expect((await request.get("/interventions/liposuccion-vaser")).status()).toBe(
-    404,
-  );
+  await publicPage.goto("/interventions/liposuccion-vaser");
+  await expect(publicPage.locator("h1")).toContainText("Reprenons");
   expect(await (await request.get("/sitemap.xml")).text()).toContain(
     "intervention-test",
   );

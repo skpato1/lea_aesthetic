@@ -11,7 +11,10 @@ import {
   enabledLocales,
 } from "../src/lib/i18n/config.ts";
 import { contentCatalog, visitTexts } from "../src/lib/i18n/catalog.ts";
-import { upgradeContent } from "../src/lib/cms/migrations.ts";
+import {
+  contentNeedsImageMigration,
+  upgradeContent,
+} from "../src/lib/cms/migrations.ts";
 import { validateContent } from "../src/lib/cms/validation.ts";
 import type { SiteContent } from "../src/lib/cms/types.ts";
 
@@ -42,10 +45,12 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
   old.copy.home.text002 = "Une phrase personnalisée";
   old.copy.interventions.text005 = "Le visage · La silhouette · La poitrine";
   old.treatments = old.treatments.filter(
-    (item) => !["liposuccion-vaser-hd", "j-plasma", "six-pack"].includes(item.slug),
+    (item) =>
+      !["liposuccion-vaser-hd", "j-plasma", "six-pack"].includes(item.slug),
   );
   delete (old.treatments[0] as Partial<(typeof old.treatments)[number]>).image;
-  delete (old.treatments[0] as Partial<(typeof old.treatments)[number]>).imageAlt;
+  delete (old.treatments[0] as Partial<(typeof old.treatments)[number]>)
+    .imageAlt;
   delete (old.settings.assets as Partial<typeof old.settings.assets>)
     .teomanPortrait;
   for (let index = 25; index <= 58; index++)
@@ -76,18 +81,21 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
   assert.equal(migrated.navigation[2].label, "Les chirurgiens");
   assert.equal(
     migrated.settings.assets.teomanPortrait,
-    "/images/dr-teoman-eraslan-cv.jpg",
+    "/images/dr-teoman-eraslan-cv.webp",
   );
   assert.equal(migrated.copy.chirurgien.text029, "Dr Teoman Eraslan");
   assert.match(migrated.seo.chirurgien.title, /Teoman Eraslan/);
   assert.deepEqual(migrated.gallery, old.gallery);
   assert.deepEqual(migrated.translations, initialTranslations());
-  assert.equal(migrated.visualGuides.length, 18);
+  assert.equal(migrated.visualGuides.length, 17);
   assert.equal(
     migrated.visualGuides.filter((guide) => guide.visible).length,
     17,
   );
-  assert.equal(migrated.copy.interventions.text017, "Visuel fourni en français");
+  assert.equal(
+    migrated.copy.interventions.text017,
+    "Visuel fourni en français",
+  );
   assert.deepEqual(upgradeContent(migrated), migrated);
   migrated.translations.ru.enabled = false;
   assert.deepEqual(enabledLocales(migrated.translations), [
@@ -98,6 +106,34 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
     "pt",
     "tr",
   ]);
+});
+test("Image migration replaces legacy JPEG paths and removes the supplied duplicate only", () => {
+  const old = structuredClone(seed) as SiteContent;
+  old.settings.assets.teomanPortrait = "/images/dr-teoman-eraslan-cv.jpg";
+  old.visualGuides[0].image = "/images/guides/gynecomastie.jpeg";
+  old.visualGuides.splice(2, 0, {
+    id: "e85c6d31-738f-4076-b70b-f6c73f66b4e6",
+    title: "Liposuccion VASER 360° — copie fournie",
+    category: "Homme",
+    summary:
+      "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+    image: "/images/guides/vaser-360-homme-doublon.jpeg",
+    imageAlt:
+      "Copie du schéma pédagogique de la liposuccion VASER 360 degrés chez l’homme",
+    treatmentSlug: "liposuccion-vaser-hd",
+    visible: false,
+  });
+  assert.equal(contentNeedsImageMigration(old), true);
+  const migrated = upgradeContent(old);
+  assert.equal(migrated.settings.assets.teomanPortrait.endsWith(".webp"), true);
+  assert.equal(migrated.visualGuides[0].image.endsWith(".webp"), true);
+  assert.equal(
+    migrated.visualGuides.some(
+      (guide) => guide.id === "e85c6d31-738f-4076-b70b-f6c73f66b4e6",
+    ),
+    false,
+  );
+  assert.equal(contentNeedsImageMigration(migrated), false);
 });
 test("Content traversal translates text only and discovers new CMS copy without exposing override storage", () => {
   const result = visitTexts(
