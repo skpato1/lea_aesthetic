@@ -95,6 +95,20 @@ test("administration : brouillon privé, images, publication, historique et cont
   await expect(
     maleEditor.getByLabel("Description accessible de l’image"),
   ).not.toHaveValue("");
+  await nav("Guides visuels");
+  await expect(page.getByText("18 guides visuels", { exact: true })).toBeVisible();
+  const guideEditor = page
+    .locator("details")
+    .filter({ hasText: "01 · Gynécomastie" });
+  await guideEditor.locator("summary").click();
+  await expect(guideEditor.getByLabel("Image de l’intervention")).toHaveValue(
+    "/images/guides/gynecomastie.jpeg",
+  );
+  await expect(
+    page.locator("details").filter({
+      hasText: "03 · Liposuccion VASER 360° — copie fournieMasqué",
+    }),
+  ).toHaveCount(1);
   await nav("Accueil");
   const text = `Votre projet ${info.project.name}`;
   await page.getByLabel("Titre — Votre projet", { exact: true }).fill(text);

@@ -9,7 +9,8 @@
       "logo": "/images/lea-logo-rose.png",
       "portrait": "/images/dr-anil-pehlivan.webp",
       "istanbul": "/images/istanbul.webp",
-      "healthTurkiye": "/images/health-turkiye-footer.webp"
+      "healthTurkiye": "/images/health-turkiye-footer.webp",
+      "teomanPortrait": "/images/dr-teoman-eraslan-cv.jpg"
     },
     "whatsappNumber": "905392996231",
     "whatsappGeneral": "Bonjour LEA Aesthetic, je souhaite échanger avec vous au sujet de mon projet esthétique à Istanbul.",
@@ -39,7 +40,7 @@
     },
     {
       "href": "/chirurgien",
-      "label": "Le chirurgien"
+      "label": "Les chirurgiens"
     },
     {
       "href": "/parcours",
@@ -514,7 +515,18 @@
       "text003": "votre réflexion.",
       "text004": "Découvrez les objectifs généraux de chaque intervention et les questions à aborder en consultation. Une information pour préparer vos échanges, à compléter par une évaluation médicale individuelle.",
       "text005": "Le visage · La silhouette · La poitrine · Opérations pour homme",
-      "text006": "Toute intervention comporte des risques et des limites. Seul le professionnel de santé peut apprécier votre situation, discuter des alternatives et vous conseiller sur les suites et le suivi."
+      "text006": "Toute intervention comporte des risques et des limites. Seul le professionnel de santé peut apprécier votre situation, discuter des alternatives et vous conseiller sur les suites et le suivi.",
+      "text007": "Comprendre en images",
+      "text008": "Des guides visuels pour préparer vos questions.",
+      "text009": "Explorez des schémas simples des zones concernées et des principes généraux de certaines interventions.",
+      "text010": "Illustration pédagogique",
+      "text011": "Ces images sont des schémas généraux, pas des photographies de patients ni une promesse de résultat. La technique, les indications, les risques et les suites varient selon chaque personne et doivent être expliqués par le professionnel de santé.",
+      "text012": "Tous les guides",
+      "text013": "Voir le guide",
+      "text014": "Fermer le guide",
+      "text015": "Voir la fiche de l’intervention",
+      "text016": "La présence d’un guide ne confirme pas que l’intervention est proposée. Contactez LEA pour vérifier les possibilités et organiser une évaluation médicale.",
+      "text017": "Visuel fourni en français"
     },
     "treatment": {
       "text001": "Accueil",
@@ -533,10 +545,10 @@
       "text014": "Continuer votre découverte"
     },
     "chirurgien": {
-      "text001": "Le chirurgien",
-      "text002": "Dr Anıl",
-      "text003": "Pehlivan.",
-      "text004": "Chirurgie plastique, reconstructrice et esthétique.",
+      "text001": "Les chirurgiens",
+      "text002": "Des parcours exigeants.",
+      "text003": "Une écoute attentive.",
+      "text004": "Découvrez les chirurgiens présentés par LEA et préparez votre consultation avec des informations claires sur leur formation et leur pratique.",
       "text005": "Dr Anıl Pehlivan, portrait extrait du document fourni par LEA",
       "text006": "Dr Anıl PEHLIVAN",
       "text007": "Formation et parcours",
@@ -556,7 +568,41 @@
       "text021": "Ce rendez-vous permet d’exposer vos attentes, de recevoir des explications sur les options et de comprendre les risques et les limites d’une intervention. Le chirurgien apprécie votre situation et détermine si une prise en charge est envisageable.",
       "text022": "LEA peut faciliter l’organisation de cet échange. Les décisions médicales et les consignes de soins appartiennent au professionnel qui vous prend en charge.",
       "text023": "/contact",
-      "text024": "Préparer un premier échange"
+      "text024": "Préparer un premier échange",
+      "text025": "Les profils",
+      "text026": "Dr Anıl Pehlivan",
+      "text027": "Chirurgie plastique, reconstructrice et esthétique",
+      "text028": "Voir son parcours",
+      "text029": "Dr Teoman Eraslan",
+      "text030": "Chirurgie plastique, reconstructrice et esthétique · main et membre supérieur",
+      "text031": "Voir son parcours",
+      "text032": "Dr Teoman Eraslan, portrait issu du CV fourni par LEA",
+      "text033": "Dr Teoman ERASLAN",
+      "text034": "Formation, pratique et expertise",
+      "text035": "Dr Teoman",
+      "text036": "Eraslan.",
+      "text037": "Le Dr Teoman Eraslan est chirurgien plasticien, reconstructeur et esthétique. Son CV fait état d’un parcours associant pratique clinique, chirurgie de la main et des membres supérieurs, reconstruction et chirurgie esthétique.",
+      "text038": "Formation médicale",
+      "text039": "Faculté de médecine de l’Université de Trakya",
+      "text040": "Formation de spécialiste en chirurgie plastique et reconstructrice à l’Hôpital de formation et de recherche Haydarpaşa Numune",
+      "text041": "Parcours professionnel",
+      "text042": "Son CV mentionne des fonctions de médecin résident, de médecin généraliste, puis de chirurgien au Burdur State Hospital et au Sancaktepe Training and Research Hospital, avant une activité en pratique privée comme fondateur et chirurgien principal.",
+      "text043": "Domaines d’expertise",
+      "text044": "Esthétique du visage",
+      "text045": "Chirurgie mammaire",
+      "text046": "Remodelage de la silhouette",
+      "text047": "Chirurgie reconstructrice",
+      "text048": "Chirurgie de la main et du membre supérieur",
+      "text049": "Reconstruction cutanée et des tissus mous",
+      "text050": "Microchirurgie esthétique et reconstructrice",
+      "text051": "Langues",
+      "text052": "Turc — langue maternelle",
+      "text053": "Anglais — courant",
+      "text054": "Français — niveau intermédiaire",
+      "text055": "Italien — niveau intermédiaire",
+      "text056": "Activité scientifique",
+      "text057": "Le CV fourni mentionne des publications et des présentations consacrées notamment à la chirurgie de la main, à la reconstruction et à la chirurgie plastique, ainsi que des formations suivies entre 2008 et 2014.",
+      "text058": "Informations issues du CV transmis par LEA. La consultation permet de confirmer l’expérience pertinente pour votre projet et d’échanger directement avec le professionnel."
     },
     "parcours": {
       "text001": "Votre parcours",
@@ -710,8 +756,8 @@
       "path": "/interventions"
     },
     "chirurgien": {
-      "title": "Dr Anıl Pehlivan, le chirurgien",
-      "description": "Découvrez la formation du Dr Anıl Pehlivan en chirurgie plastique, reconstructrice et esthétique : Université d’Istanbul et Université Adnan Menderes.",
+      "title": "Dr Anıl Pehlivan et Dr Teoman Eraslan, chirurgiens",
+      "description": "Découvrez les parcours des Dr Anıl Pehlivan et Dr Teoman Eraslan en chirurgie plastique, reconstructrice et esthétique à Istanbul.",
       "path": "/chirurgien"
     },
     "parcours": {
@@ -783,5 +829,187 @@
     "viewLabel": "Voir le document",
     "closeLabel": "Fermer le document",
     "items": []
-  }
+  },
+  "visualGuides": [
+    {
+      "id": "8da4bfbe-f6a4-4c6e-a86b-d0319d4531a1",
+      "title": "Gynécomastie",
+      "category": "Homme",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/gynecomastie.jpeg",
+      "imageAlt": "Schéma pédagogique de la gynécomastie et des principes généraux de sa prise en charge chirurgicale",
+      "treatmentSlug": "",
+      "visible": true
+    },
+    {
+      "id": "e5b2a610-1749-472b-987f-c70955236c1f",
+      "title": "Liposuccion VASER 360° — homme",
+      "category": "Homme",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/vaser-360-homme.jpeg",
+      "imageAlt": "Schéma pédagogique de la liposuccion VASER 360 degrés chez l’homme",
+      "treatmentSlug": "liposuccion-vaser-hd",
+      "visible": true
+    },
+    {
+      "id": "e85c6d31-738f-4076-b70b-f6c73f66b4e6",
+      "title": "Liposuccion VASER 360° — copie fournie",
+      "category": "Homme",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/vaser-360-homme-doublon.jpeg",
+      "imageAlt": "Copie du schéma pédagogique de la liposuccion VASER 360 degrés chez l’homme",
+      "treatmentSlug": "liposuccion-vaser-hd",
+      "visible": false
+    },
+    {
+      "id": "cd4c0ea1-7bb2-4be6-a589-98a3b6d0d09d",
+      "title": "G/J-Plasma — homme",
+      "category": "Homme",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/g-plasma-homme.jpeg",
+      "imageAlt": "Schéma pédagogique du traitement G/J-Plasma appliqué à la silhouette masculine",
+      "treatmentSlug": "j-plasma",
+      "visible": true
+    },
+    {
+      "id": "7af71183-98f5-498f-a11e-7893ac2c6923",
+      "title": "Sleeve gastrique",
+      "category": "Chirurgie bariatrique",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/sleeve-gastrique.jpeg",
+      "imageAlt": "Schéma pédagogique présentant le principe général d’une sleeve gastrique",
+      "treatmentSlug": "",
+      "visible": true
+    },
+    {
+      "id": "f6b78c65-c427-4cc3-bc59-95fb0fcf3b82",
+      "title": "Lifting du visage et du cou",
+      "category": "Visage",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/lifting-visage-cou.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’un lifting du visage et du cou",
+      "treatmentSlug": "lifting-du-visage",
+      "visible": true
+    },
+    {
+      "id": "b6ab6e20-2ff3-4ec0-a36a-6d11596a3b58",
+      "title": "Lifting endoscopique du visage",
+      "category": "Visage",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/lifting-endoscopique.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’un lifting endoscopique du visage",
+      "treatmentSlug": "lifting-du-visage",
+      "visible": true
+    },
+    {
+      "id": "bf66e1c1-5573-4898-83c1-f1cfe5b6c3bc",
+      "title": "Lifting du visage",
+      "category": "Visage",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/lifting-visage.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’un lifting du visage",
+      "treatmentSlug": "lifting-du-visage",
+      "visible": true
+    },
+    {
+      "id": "fd4e8e2a-37a7-48f6-81ad-3cd4f1016734",
+      "title": "Blépharoplastie",
+      "category": "Visage",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/blepharoplastie.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’une chirurgie des paupières",
+      "treatmentSlug": "",
+      "visible": true
+    },
+    {
+      "id": "1af18261-e723-424d-b196-e86cb7927de9",
+      "title": "Rhinoplastie",
+      "category": "Visage",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/rhinoplastie.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’une rhinoplastie",
+      "treatmentSlug": "rhinoplastie",
+      "visible": true
+    },
+    {
+      "id": "f59892b7-d144-435f-8b5c-d36ff775b022",
+      "title": "Abdominoplastie",
+      "category": "Silhouette",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/abdominoplastie.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’une abdominoplastie",
+      "treatmentSlug": "abdominoplastie",
+      "visible": true
+    },
+    {
+      "id": "98ba3f50-b0b1-4ff0-8d22-dd90c2b73786",
+      "title": "Liposuccion du double menton",
+      "category": "Visage",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/liposuccion-double-menton.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’une liposuccion du double menton",
+      "treatmentSlug": "",
+      "visible": true
+    },
+    {
+      "id": "1ea36460-98b9-4181-924c-693d6f917302",
+      "title": "G/J-Plasma — femme",
+      "category": "Silhouette",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/g-plasma-femme.jpeg",
+      "imageAlt": "Schéma pédagogique du traitement G/J-Plasma appliqué à la silhouette féminine",
+      "treatmentSlug": "j-plasma",
+      "visible": true
+    },
+    {
+      "id": "f499481a-d701-4b4c-87d5-1227782584af",
+      "title": "Augmentation mammaire",
+      "category": "Poitrine",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/augmentation-mammaire.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’une augmentation mammaire",
+      "treatmentSlug": "augmentation-mammaire",
+      "visible": true
+    },
+    {
+      "id": "81d6e49a-63eb-4db8-82b4-f1904c221359",
+      "title": "Diastasis des muscles abdominaux",
+      "category": "Silhouette",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/diastasis-abdominal.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’un diastasis des muscles abdominaux",
+      "treatmentSlug": "",
+      "visible": true
+    },
+    {
+      "id": "3bd3a449-1e2d-4ea5-926c-bf313cc57602",
+      "title": "Réduction mammaire",
+      "category": "Poitrine",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/reduction-mammaire.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’une réduction mammaire",
+      "treatmentSlug": "",
+      "visible": true
+    },
+    {
+      "id": "17aa63eb-f68a-46aa-9565-54bc051e0f8e",
+      "title": "BBL — Brazilian Butt Lift",
+      "category": "Silhouette",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/bbl.jpeg",
+      "imageAlt": "Schéma pédagogique présentant les principes généraux d’un transfert de graisse vers les fesses",
+      "treatmentSlug": "",
+      "visible": true
+    },
+    {
+      "id": "ca2bc4b9-ef57-4bd9-ae41-9bd7734bf20f",
+      "title": "Liposuccion VASER 360° — femme",
+      "category": "Silhouette",
+      "summary": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+      "image": "/images/guides/vaser-360-femme.jpeg",
+      "imageAlt": "Schéma pédagogique de la liposuccion VASER 360 degrés chez la femme",
+      "treatmentSlug": "liposuccion-vaser",
+      "visible": true
+    }
+  ]
 }

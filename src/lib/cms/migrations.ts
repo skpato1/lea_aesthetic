@@ -5,6 +5,42 @@ import { initialTranslations } from "../i18n/config.ts";
 /** Add only the new feature; preserve all existing copy, ordering, media and drafts. */
 export function upgradeContent(input: SiteContent): SiteContent {
   const content = structuredClone(input);
+  if (!Object.hasOwn(content, "visualGuides"))
+    content.visualGuides = structuredClone(seed.visualGuides);
+  else
+    for (const guide of seed.visualGuides)
+      if (!content.visualGuides.some((item) => item.id === guide.id))
+        content.visualGuides.push(structuredClone(guide));
+  const interventionCopy = content.copy.interventions as Record<
+    string,
+    string
+  >;
+  for (const [key, value] of Object.entries(seed.copy.interventions))
+    if (!Object.hasOwn(interventionCopy, key)) interventionCopy[key] = value;
+  const surgeonCopy = content.copy.chirurgien as Record<string, string>;
+  const seededSurgeonCopy = seed.copy.chirurgien as Record<string, string>;
+  const hasOriginalSurgeonIntroduction =
+    surgeonCopy.text001 === "Le chirurgien" &&
+    surgeonCopy.text002 === "Dr Anıl" &&
+    surgeonCopy.text003 === "Pehlivan.";
+  if (hasOriginalSurgeonIntroduction) {
+    for (const key of ["text001", "text002", "text003", "text004"])
+      surgeonCopy[key] = seededSurgeonCopy[key];
+  }
+  for (const [key, value] of Object.entries(seededSurgeonCopy))
+    if (!Object.hasOwn(surgeonCopy, key)) surgeonCopy[key] = value;
+  const surgeonNavigation = content.navigation.find(
+    (item) => item.href === "/chirurgien",
+  );
+  if (surgeonNavigation?.label === "Le chirurgien")
+    surgeonNavigation.label = "Les chirurgiens";
+  if (!Object.hasOwn(content.settings.assets, "teomanPortrait"))
+    content.settings.assets.teomanPortrait =
+      seed.settings.assets.teomanPortrait;
+  if (content.seo.chirurgien.title === "Dr Anıl Pehlivan, le chirurgien") {
+    content.seo.chirurgien.title = seed.seo.chirurgien.title;
+    content.seo.chirurgien.description = seed.seo.chirurgien.description;
+  }
   for (const template of seed.treatments) {
     const treatment = content.treatments.find(
       (item) => item.slug === template.slug,

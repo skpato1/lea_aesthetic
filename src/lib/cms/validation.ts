@@ -184,6 +184,7 @@ export function validateContent(value: unknown): SiteContent {
         "/images/lea-logo.png",
         "/images/lea-logo-rose.png",
         "/images/dr-anil-pehlivan.webp",
+        "/images/dr-teoman-eraslan-cv.jpg",
         "/images/istanbul.webp",
         "/images/health-turkiye-footer.webp",
       ].includes(asset) &&
@@ -216,6 +217,38 @@ export function validateContent(value: unknown): SiteContent {
         "décrivez chaque image d’intervention pour les lecteurs d’écran.",
       );
     slugs.add(treatment.slug);
+  }
+  const suppliedGuideImages = new Set(
+    seed.visualGuides.map((guide) => guide.image),
+  );
+  const guideIds = new Set<string>();
+  for (const guide of content.visualGuides) {
+    const label = `Guide visuel — ${guide.title || "nouveau guide"}`;
+    if (!/^[a-f0-9-]{36}$/.test(guide.id) || guideIds.has(guide.id))
+      fail(label, "identifiant unique requis.");
+    guideIds.add(guide.id);
+    if (
+      guide.image &&
+      !suppliedGuideImages.has(guide.image) &&
+      !/^\/media\/[a-f0-9-]{36}$/.test(guide.image)
+    )
+      fail(label, "choisissez un visuel fourni ou une image de la médiathèque.");
+    if (guide.treatmentSlug && !slugs.has(guide.treatmentSlug))
+      fail(label, "intervention associée inconnue.");
+    if (
+      guide.visible &&
+      ![
+        guide.title,
+        guide.category,
+        guide.summary,
+        guide.image,
+        guide.imageAlt,
+      ].every((entry) => entry.trim())
+    )
+      fail(
+        label,
+        "titre, catégorie, résumé, image et description accessible sont requis avant publication.",
+      );
   }
   const caseIds = new Set<string>();
   for (const item of content.gallery.items) {

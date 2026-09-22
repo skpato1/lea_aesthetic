@@ -24,6 +24,7 @@ const names: Record<string, string> = {
   instagramHandle: "Nom affiché sur Instagram",
   seoTitle: "Titre général",
   socialTitle: "Texte de l’image de partage",
+  teomanPortrait: "Portrait du Dr Teoman Eraslan",
   indexable: "Autoriser l’indexation par les moteurs de recherche",
   label: "Libellé",
   href: "Lien",
@@ -49,6 +50,8 @@ const names: Record<string, string> = {
   healthTurkiye: "Signature Health Türkiye du pied de page",
   image: "Image de l’intervention",
   imageAlt: "Description accessible de l’image",
+  summary: "Résumé pédagogique",
+  treatmentSlug: "Identifiant de l’intervention associée (facultatif)",
 };
 export const sectionNames: Record<string, string> = {
   hero: "Bannière principale",
@@ -178,7 +181,9 @@ export function CopyEditor({
 export function CollectionEditor({
   type,
   ...props
-}: EditorProps & { type: "treatments" | "faqs" | "steps" | "navigation" }) {
+}: EditorProps & {
+  type: "treatments" | "visualGuides" | "faqs" | "steps" | "navigation";
+}) {
   const items = props.content[type] as unknown as Record<string, unknown>[];
   const move = (index: number, by: number) => {
     const next = [...items];
@@ -202,6 +207,7 @@ export function CollectionEditor({
       item.slug = `intervention-${crypto.randomUUID().slice(0, 8)}`;
       item.number = String(items.length + 1).padStart(2, "0");
     }
+    if (type === "visualGuides") item.title = "Nouveau guide visuel";
     if (type === "navigation") {
       item.label = "Nouveau lien";
       item.href = "/contact";
@@ -215,6 +221,8 @@ export function CollectionEditor({
           {items.length}{" "}
           {type === "treatments"
             ? "interventions"
+            : type === "visualGuides"
+              ? "guides visuels"
             : type === "faqs"
               ? "questions"
               : type === "steps"
@@ -241,9 +249,11 @@ export function CollectionEditor({
             .includes(props.search.toLowerCase())
         )
           return null;
-        const protectedSlug =
-          type === "treatments" &&
-          seed.treatments.some((x) => x.slug === item.slug);
+        const protectedItem =
+          (type === "treatments" &&
+            seed.treatments.some((x) => x.slug === item.slug)) ||
+          (type === "visualGuides" &&
+            seed.visualGuides.some((x) => x.id === item.id));
         return (
           <details
             key={String(item.id || item.slug || index)}
@@ -273,7 +283,7 @@ export function CollectionEditor({
                 </button>
                 <button
                   className="danger"
-                  disabled={protectedSlug}
+                  disabled={protectedItem}
                   onClick={() =>
                     props.update(
                       [type],
@@ -284,9 +294,9 @@ export function CollectionEditor({
                   <Trash2 size={16} />
                   Supprimer
                 </button>
-                {protectedSlug && (
+                {protectedItem && (
                   <small>
-                    Adresse historique conservée. Utilisez « Visible » pour
+                    Élément fourni conservé. Utilisez « Visible » pour le
                     masquer.
                   </small>
                 )}
@@ -294,7 +304,8 @@ export function CollectionEditor({
               {Object.entries(item)
                 .filter(([key]) => key !== "id")
                 .map(([key, value]) =>
-                  type === "treatments" && key === "image" ? (
+                  (type === "treatments" || type === "visualGuides") &&
+                  key === "image" ? (
                     <div className="admin-fields" key={key}>
                       {Boolean(value) && (
                         <div className="admin-asset-preview">
@@ -313,17 +324,26 @@ export function CollectionEditor({
                           }
                         >
                           <option value="">Aucune image</option>
-                          {seed.treatments.find(
-                            (entry) => entry.slug === item.slug && entry.image,
-                          )?.image && (
+                          {(type === "treatments"
+                            ? seed.treatments.find(
+                                (entry) =>
+                                  entry.slug === item.slug && entry.image,
+                              )?.image
+                            : seed.visualGuides.find(
+                                (entry) => entry.id === item.id && entry.image,
+                              )?.image) && (
                             <option
                               value={
-                                seed.treatments.find(
-                                  (entry) => entry.slug === item.slug,
-                                )!.image
+                                type === "treatments"
+                                  ? seed.treatments.find(
+                                      (entry) => entry.slug === item.slug,
+                                    )!.image
+                                  : seed.visualGuides.find(
+                                      (entry) => entry.id === item.id,
+                                    )!.image
                               }
                             >
-                              Illustration fournie
+                              Visuel fourni
                             </option>
                           )}
                           {props.media.map((media) => (
@@ -353,7 +373,7 @@ export function CollectionEditor({
                       key={key}
                       label={names[key] || key}
                       value={value as string | boolean}
-                      readOnly={key === "slug" && protectedSlug}
+                      readOnly={key === "slug" && protectedItem}
                       onChange={(value) =>
                         props.update([type, index, key], value)
                       }

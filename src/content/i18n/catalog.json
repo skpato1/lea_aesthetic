@@ -109,7 +109,8 @@
     "source": "Augmentation mammaire",
     "contexts": [
       "gallery.items.1.title",
-      "treatments.3.name"
+      "treatments.3.name",
+      "visualGuides.13.title"
     ]
   },
   {
@@ -148,7 +149,7 @@
     ]
   },
   {
-    "source": "Le chirurgien",
+    "source": "Les chirurgiens",
     "contexts": [
       "navigation.2.label",
       "copy.chirurgien.text001"
@@ -172,7 +173,8 @@
   {
     "source": "Rhinoplastie",
     "contexts": [
-      "treatments.0.name"
+      "treatments.0.name",
+      "visualGuides.9.title"
     ]
   },
   {
@@ -324,7 +326,8 @@
   {
     "source": "Abdominoplastie",
     "contexts": [
-      "treatments.2.name"
+      "treatments.2.name",
+      "visualGuides.10.title"
     ]
   },
   {
@@ -541,7 +544,8 @@
   {
     "source": "Lifting du visage",
     "contexts": [
-      "treatments.5.name"
+      "treatments.5.name",
+      "visualGuides.7.title"
     ]
   },
   {
@@ -1248,15 +1252,15 @@
   {
     "source": "Pehlivan.",
     "contexts": [
-      "copy.home.text041",
-      "copy.chirurgien.text003"
+      "copy.home.text041"
     ]
   },
   {
     "source": "Chirurgie plastique, reconstructrice et esthétique",
     "contexts": [
       "copy.home.text042",
-      "copy.chirurgien.text018"
+      "copy.chirurgien.text018",
+      "copy.chirurgien.text027"
     ]
   },
   {
@@ -1503,6 +1507,72 @@
     ]
   },
   {
+    "source": "Comprendre en images",
+    "contexts": [
+      "copy.interventions.text007"
+    ]
+  },
+  {
+    "source": "Des guides visuels pour préparer vos questions.",
+    "contexts": [
+      "copy.interventions.text008"
+    ]
+  },
+  {
+    "source": "Explorez des schémas simples des zones concernées et des principes généraux de certaines interventions.",
+    "contexts": [
+      "copy.interventions.text009"
+    ]
+  },
+  {
+    "source": "Illustration pédagogique",
+    "contexts": [
+      "copy.interventions.text010"
+    ]
+  },
+  {
+    "source": "Ces images sont des schémas généraux, pas des photographies de patients ni une promesse de résultat. La technique, les indications, les risques et les suites varient selon chaque personne et doivent être expliqués par le professionnel de santé.",
+    "contexts": [
+      "copy.interventions.text011"
+    ]
+  },
+  {
+    "source": "Tous les guides",
+    "contexts": [
+      "copy.interventions.text012"
+    ]
+  },
+  {
+    "source": "Voir le guide",
+    "contexts": [
+      "copy.interventions.text013"
+    ]
+  },
+  {
+    "source": "Fermer le guide",
+    "contexts": [
+      "copy.interventions.text014"
+    ]
+  },
+  {
+    "source": "Voir la fiche de l’intervention",
+    "contexts": [
+      "copy.interventions.text015"
+    ]
+  },
+  {
+    "source": "La présence d’un guide ne confirme pas que l’intervention est proposée. Contactez LEA pour vérifier les possibilités et organiser une évaluation médicale.",
+    "contexts": [
+      "copy.interventions.text016"
+    ]
+  },
+  {
+    "source": "Visuel fourni en français",
+    "contexts": [
+      "copy.interventions.text017"
+    ]
+  },
+  {
     "source": "Accueil",
     "contexts": [
       "copy.treatment.text001"
@@ -1576,13 +1646,19 @@
     ]
   },
   {
-    "source": "Dr Anıl",
+    "source": "Des parcours exigeants.",
     "contexts": [
       "copy.chirurgien.text002"
     ]
   },
   {
-    "source": "Chirurgie plastique, reconstructrice et esthétique.",
+    "source": "Une écoute attentive.",
+    "contexts": [
+      "copy.chirurgien.text003"
+    ]
+  },
+  {
+    "source": "Découvrez les chirurgiens présentés par LEA et préparez votre consultation avec des informations claires sur leur formation et leur pratique.",
     "contexts": [
       "copy.chirurgien.text004"
     ]
@@ -1657,6 +1733,199 @@
     "source": "Préparer un premier échange",
     "contexts": [
       "copy.chirurgien.text024"
+    ]
+  },
+  {
+    "source": "Les profils",
+    "contexts": [
+      "copy.chirurgien.text025"
+    ]
+  },
+  {
+    "source": "Dr Anıl Pehlivan",
+    "contexts": [
+      "copy.chirurgien.text026"
+    ]
+  },
+  {
+    "source": "Voir son parcours",
+    "contexts": [
+      "copy.chirurgien.text028",
+      "copy.chirurgien.text031"
+    ]
+  },
+  {
+    "source": "Dr Teoman Eraslan",
+    "contexts": [
+      "copy.chirurgien.text029"
+    ]
+  },
+  {
+    "source": "Chirurgie plastique, reconstructrice et esthétique · main et membre supérieur",
+    "contexts": [
+      "copy.chirurgien.text030"
+    ]
+  },
+  {
+    "source": "Dr Teoman Eraslan, portrait issu du CV fourni par LEA",
+    "contexts": [
+      "copy.chirurgien.text032"
+    ]
+  },
+  {
+    "source": "Dr Teoman ERASLAN",
+    "contexts": [
+      "copy.chirurgien.text033"
+    ]
+  },
+  {
+    "source": "Formation, pratique et expertise",
+    "contexts": [
+      "copy.chirurgien.text034"
+    ]
+  },
+  {
+    "source": "Dr Teoman",
+    "contexts": [
+      "copy.chirurgien.text035"
+    ]
+  },
+  {
+    "source": "Eraslan.",
+    "contexts": [
+      "copy.chirurgien.text036"
+    ]
+  },
+  {
+    "source": "Le Dr Teoman Eraslan est chirurgien plasticien, reconstructeur et esthétique. Son CV fait état d’un parcours associant pratique clinique, chirurgie de la main et des membres supérieurs, reconstruction et chirurgie esthétique.",
+    "contexts": [
+      "copy.chirurgien.text037"
+    ]
+  },
+  {
+    "source": "Formation médicale",
+    "contexts": [
+      "copy.chirurgien.text038"
+    ]
+  },
+  {
+    "source": "Faculté de médecine de l’Université de Trakya",
+    "contexts": [
+      "copy.chirurgien.text039"
+    ]
+  },
+  {
+    "source": "Formation de spécialiste en chirurgie plastique et reconstructrice à l’Hôpital de formation et de recherche Haydarpaşa Numune",
+    "contexts": [
+      "copy.chirurgien.text040"
+    ]
+  },
+  {
+    "source": "Parcours professionnel",
+    "contexts": [
+      "copy.chirurgien.text041"
+    ]
+  },
+  {
+    "source": "Son CV mentionne des fonctions de médecin résident, de médecin généraliste, puis de chirurgien au Burdur State Hospital et au Sancaktepe Training and Research Hospital, avant une activité en pratique privée comme fondateur et chirurgien principal.",
+    "contexts": [
+      "copy.chirurgien.text042"
+    ]
+  },
+  {
+    "source": "Domaines d’expertise",
+    "contexts": [
+      "copy.chirurgien.text043"
+    ]
+  },
+  {
+    "source": "Esthétique du visage",
+    "contexts": [
+      "copy.chirurgien.text044"
+    ]
+  },
+  {
+    "source": "Chirurgie mammaire",
+    "contexts": [
+      "copy.chirurgien.text045"
+    ]
+  },
+  {
+    "source": "Remodelage de la silhouette",
+    "contexts": [
+      "copy.chirurgien.text046"
+    ]
+  },
+  {
+    "source": "Chirurgie reconstructrice",
+    "contexts": [
+      "copy.chirurgien.text047"
+    ]
+  },
+  {
+    "source": "Chirurgie de la main et du membre supérieur",
+    "contexts": [
+      "copy.chirurgien.text048"
+    ]
+  },
+  {
+    "source": "Reconstruction cutanée et des tissus mous",
+    "contexts": [
+      "copy.chirurgien.text049"
+    ]
+  },
+  {
+    "source": "Microchirurgie esthétique et reconstructrice",
+    "contexts": [
+      "copy.chirurgien.text050"
+    ]
+  },
+  {
+    "source": "Langues",
+    "contexts": [
+      "copy.chirurgien.text051"
+    ]
+  },
+  {
+    "source": "Turc — langue maternelle",
+    "contexts": [
+      "copy.chirurgien.text052"
+    ]
+  },
+  {
+    "source": "Anglais — courant",
+    "contexts": [
+      "copy.chirurgien.text053"
+    ]
+  },
+  {
+    "source": "Français — niveau intermédiaire",
+    "contexts": [
+      "copy.chirurgien.text054"
+    ]
+  },
+  {
+    "source": "Italien — niveau intermédiaire",
+    "contexts": [
+      "copy.chirurgien.text055"
+    ]
+  },
+  {
+    "source": "Activité scientifique",
+    "contexts": [
+      "copy.chirurgien.text056"
+    ]
+  },
+  {
+    "source": "Le CV fourni mentionne des publications et des présentations consacrées notamment à la chirurgie de la main, à la reconstruction et à la chirurgie plastique, ainsi que des formations suivies entre 2008 et 2014.",
+    "contexts": [
+      "copy.chirurgien.text057"
+    ]
+  },
+  {
+    "source": "Informations issues du CV transmis par LEA. La consultation permet de confirmer l’expérience pertinente pour votre projet et d’échanger directement avec le professionnel.",
+    "contexts": [
+      "copy.chirurgien.text058"
     ]
   },
   {
@@ -2289,13 +2558,13 @@
     ]
   },
   {
-    "source": "Dr Anıl Pehlivan, le chirurgien",
+    "source": "Dr Anıl Pehlivan et Dr Teoman Eraslan, chirurgiens",
     "contexts": [
       "seo.chirurgien.title"
     ]
   },
   {
-    "source": "Découvrez la formation du Dr Anıl Pehlivan en chirurgie plastique, reconstructrice et esthétique : Université d’Istanbul et Université Adnan Menderes.",
+    "source": "Découvrez les parcours des Dr Anıl Pehlivan et Dr Teoman Eraslan en chirurgie plastique, reconstructrice et esthétique à Istanbul.",
     "contexts": [
       "seo.chirurgien.description"
     ]
@@ -2418,6 +2687,264 @@
     "source": "Fermer le document",
     "contexts": [
       "certificates.closeLabel"
+    ]
+  },
+  {
+    "source": "Gynécomastie",
+    "contexts": [
+      "visualGuides.0.title"
+    ]
+  },
+  {
+    "source": "Homme",
+    "contexts": [
+      "visualGuides.0.category",
+      "visualGuides.1.category",
+      "visualGuides.2.category",
+      "visualGuides.3.category"
+    ]
+  },
+  {
+    "source": "Illustration pédagogique simplifiée pour préparer vos questions avant une consultation médicale individuelle.",
+    "contexts": [
+      "visualGuides.0.summary",
+      "visualGuides.1.summary",
+      "visualGuides.2.summary",
+      "visualGuides.3.summary",
+      "visualGuides.4.summary",
+      "visualGuides.5.summary",
+      "visualGuides.6.summary",
+      "visualGuides.7.summary",
+      "visualGuides.8.summary",
+      "visualGuides.9.summary",
+      "visualGuides.10.summary",
+      "visualGuides.11.summary",
+      "visualGuides.12.summary",
+      "visualGuides.13.summary",
+      "visualGuides.14.summary",
+      "visualGuides.15.summary",
+      "visualGuides.16.summary",
+      "visualGuides.17.summary"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique de la gynécomastie et des principes généraux de sa prise en charge chirurgicale",
+    "contexts": [
+      "visualGuides.0.imageAlt"
+    ]
+  },
+  {
+    "source": "Liposuccion VASER 360° — homme",
+    "contexts": [
+      "visualGuides.1.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique de la liposuccion VASER 360 degrés chez l’homme",
+    "contexts": [
+      "visualGuides.1.imageAlt"
+    ]
+  },
+  {
+    "source": "Liposuccion VASER 360° — copie fournie",
+    "contexts": [
+      "visualGuides.2.title"
+    ]
+  },
+  {
+    "source": "Copie du schéma pédagogique de la liposuccion VASER 360 degrés chez l’homme",
+    "contexts": [
+      "visualGuides.2.imageAlt"
+    ]
+  },
+  {
+    "source": "G/J-Plasma — homme",
+    "contexts": [
+      "visualGuides.3.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique du traitement G/J-Plasma appliqué à la silhouette masculine",
+    "contexts": [
+      "visualGuides.3.imageAlt"
+    ]
+  },
+  {
+    "source": "Sleeve gastrique",
+    "contexts": [
+      "visualGuides.4.title"
+    ]
+  },
+  {
+    "source": "Chirurgie bariatrique",
+    "contexts": [
+      "visualGuides.4.category"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant le principe général d’une sleeve gastrique",
+    "contexts": [
+      "visualGuides.4.imageAlt"
+    ]
+  },
+  {
+    "source": "Lifting du visage et du cou",
+    "contexts": [
+      "visualGuides.5.title"
+    ]
+  },
+  {
+    "source": "Visage",
+    "contexts": [
+      "visualGuides.5.category",
+      "visualGuides.6.category",
+      "visualGuides.7.category",
+      "visualGuides.8.category",
+      "visualGuides.9.category",
+      "visualGuides.11.category"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’un lifting du visage et du cou",
+    "contexts": [
+      "visualGuides.5.imageAlt"
+    ]
+  },
+  {
+    "source": "Lifting endoscopique du visage",
+    "contexts": [
+      "visualGuides.6.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’un lifting endoscopique du visage",
+    "contexts": [
+      "visualGuides.6.imageAlt"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’un lifting du visage",
+    "contexts": [
+      "visualGuides.7.imageAlt"
+    ]
+  },
+  {
+    "source": "Blépharoplastie",
+    "contexts": [
+      "visualGuides.8.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’une chirurgie des paupières",
+    "contexts": [
+      "visualGuides.8.imageAlt"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’une rhinoplastie",
+    "contexts": [
+      "visualGuides.9.imageAlt"
+    ]
+  },
+  {
+    "source": "Silhouette",
+    "contexts": [
+      "visualGuides.10.category",
+      "visualGuides.12.category",
+      "visualGuides.14.category",
+      "visualGuides.16.category",
+      "visualGuides.17.category"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’une abdominoplastie",
+    "contexts": [
+      "visualGuides.10.imageAlt"
+    ]
+  },
+  {
+    "source": "Liposuccion du double menton",
+    "contexts": [
+      "visualGuides.11.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’une liposuccion du double menton",
+    "contexts": [
+      "visualGuides.11.imageAlt"
+    ]
+  },
+  {
+    "source": "G/J-Plasma — femme",
+    "contexts": [
+      "visualGuides.12.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique du traitement G/J-Plasma appliqué à la silhouette féminine",
+    "contexts": [
+      "visualGuides.12.imageAlt"
+    ]
+  },
+  {
+    "source": "Poitrine",
+    "contexts": [
+      "visualGuides.13.category",
+      "visualGuides.15.category"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’une augmentation mammaire",
+    "contexts": [
+      "visualGuides.13.imageAlt"
+    ]
+  },
+  {
+    "source": "Diastasis des muscles abdominaux",
+    "contexts": [
+      "visualGuides.14.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’un diastasis des muscles abdominaux",
+    "contexts": [
+      "visualGuides.14.imageAlt"
+    ]
+  },
+  {
+    "source": "Réduction mammaire",
+    "contexts": [
+      "visualGuides.15.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’une réduction mammaire",
+    "contexts": [
+      "visualGuides.15.imageAlt"
+    ]
+  },
+  {
+    "source": "BBL — Brazilian Butt Lift",
+    "contexts": [
+      "visualGuides.16.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique présentant les principes généraux d’un transfert de graisse vers les fesses",
+    "contexts": [
+      "visualGuides.16.imageAlt"
+    ]
+  },
+  {
+    "source": "Liposuccion VASER 360° — femme",
+    "contexts": [
+      "visualGuides.17.title"
+    ]
+  },
+  {
+    "source": "Schéma pédagogique de la liposuccion VASER 360 degrés chez la femme",
+    "contexts": [
+      "visualGuides.17.imageAlt"
     ]
   },
   {

@@ -46,7 +46,24 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
   );
   delete (old.treatments[0] as Partial<(typeof old.treatments)[number]>).image;
   delete (old.treatments[0] as Partial<(typeof old.treatments)[number]>).imageAlt;
+  delete (old.settings.assets as Partial<typeof old.settings.assets>)
+    .teomanPortrait;
+  for (let index = 25; index <= 58; index++)
+    delete (old.copy.chirurgien as Record<string, string>)[
+      `text${String(index).padStart(3, "0")}`
+    ];
+  old.copy.chirurgien.text001 = "Le chirurgien";
+  old.copy.chirurgien.text002 = "Dr Anıl";
+  old.copy.chirurgien.text003 = "Pehlivan.";
+  old.navigation.find((item) => item.href === "/chirurgien")!.label =
+    "Le chirurgien";
+  old.seo.chirurgien.title = "Dr Anıl Pehlivan, le chirurgien";
   delete (old as Partial<SiteContent>).translations;
+  delete (old as Partial<SiteContent>).visualGuides;
+  for (let index = 7; index <= 17; index++)
+    delete (old.copy.interventions as Record<string, string>)[
+      `text${String(index).padStart(3, "0")}`
+    ];
   const migrated = upgradeContent(old);
   assert.equal(migrated.copy.home.text002, old.copy.home.text002);
   assert.match(migrated.copy.interventions.text005, /Opérations pour homme/);
@@ -56,8 +73,21 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
   );
   assert.equal(migrated.treatments[0].image, "");
   assert.equal(migrated.treatments[0].imageAlt, "");
+  assert.equal(migrated.navigation[2].label, "Les chirurgiens");
+  assert.equal(
+    migrated.settings.assets.teomanPortrait,
+    "/images/dr-teoman-eraslan-cv.jpg",
+  );
+  assert.equal(migrated.copy.chirurgien.text029, "Dr Teoman Eraslan");
+  assert.match(migrated.seo.chirurgien.title, /Teoman Eraslan/);
   assert.deepEqual(migrated.gallery, old.gallery);
   assert.deepEqual(migrated.translations, initialTranslations());
+  assert.equal(migrated.visualGuides.length, 18);
+  assert.equal(
+    migrated.visualGuides.filter((guide) => guide.visible).length,
+    17,
+  );
+  assert.equal(migrated.copy.interventions.text017, "Visuel fourni en français");
   assert.deepEqual(upgradeContent(migrated), migrated);
   migrated.translations.ru.enabled = false;
   assert.deepEqual(enabledLocales(migrated.translations), [

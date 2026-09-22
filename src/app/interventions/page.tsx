@@ -3,6 +3,7 @@ import Link from "@/components/localized-link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { ContactInvitation, PageIntro } from "@/components/ui";
+import { VisualGuides } from "@/components/visual-guides";
 import { managedMetadata } from "@/lib/metadata";
 export async function generateMetadata() {
   return managedMetadata("interventions");
@@ -61,6 +62,10 @@ export default async function Treatments() {
           {copy.text006}
         </p>
       </section>
+      <VisualGuides
+        guides={cms.visualGuides.filter((guide) => guide.visible)}
+        copy={copy}
+      />
       <ContactInvitation />
     </>
   );

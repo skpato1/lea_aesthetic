@@ -120,12 +120,14 @@ test("navigation et menu mobile au clavier", async ({ page, isMobile }) => {
   }
   await page
     .getByRole("navigation", { name: "Navigation principale" })
-    .getByRole("link", { name: "Le chirurgien", exact: true })
+    .getByRole("link", { name: /Les? chirurgiens?/ })
     .click();
   await expect(page).toHaveURL(/\/chirurgien$/);
   await expect(page.getByRole("heading", { level: 1 })).toContainText(
-    "Pehlivan",
+    "Des parcours exigeants.",
   );
+  await expect(page.getByText("Dr Anıl Pehlivan", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText("Dr Teoman Eraslan", { exact: true }).first()).toBeVisible();
   if (isMobile)
     await expect(
       page.getByRole("button", { name: "Ouvrir le menu" }),
@@ -141,6 +143,21 @@ test("les neuf interventions, images, WhatsApp encodé et présélection contact
   for (const slug of maleSlugs) {
     await expect(page.locator(`a[href="/interventions/${slug}"]`)).toHaveCount(1);
   }
+  const guides = page.locator("#guides-visuels article");
+  await expect(guides).toHaveCount(17);
+  await guides.first().getByRole("button").first().click();
+  const guideDialog = page.getByRole("dialog");
+  await expect(guideDialog).toBeVisible();
+  await expect(guideDialog).toContainText("pas des photographies de patients");
+  await expect
+    .poll(() =>
+      guideDialog
+        .locator("img")
+        .evaluate((image) => (image as HTMLImageElement).naturalWidth),
+    )
+    .toBeGreaterThan(0);
+  await guideDialog.getByRole("button", { name: "Fermer le guide" }).click();
+  await expect(guideDialog).toHaveCount(0);
   for (const slug of slugs) {
     const response = await page.goto(`/interventions/${slug}`);
     expect(response?.status()).toBe(200);

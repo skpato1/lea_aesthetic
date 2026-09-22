@@ -557,6 +557,72 @@
         "label": "Texte — Toute intervention comporte des risques et des limites. Seul le professionnel de sant",
         "section": "container",
         "kind": "text"
+      },
+      {
+        "key": "text007",
+        "label": "Libellé — Comprendre en images",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text008",
+        "label": "Titre — Des guides visuels pour préparer vos questions",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text009",
+        "label": "Introduction des guides visuels",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text010",
+        "label": "Badge — Illustration pédagogique",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text011",
+        "label": "Avertissement médical affiché près des visuels",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text012",
+        "label": "Filtre — Tous les guides",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text013",
+        "label": "Bouton — Voir le guide",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text014",
+        "label": "Bouton — Fermer le guide",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text015",
+        "label": "Lien — Voir la fiche de l’intervention",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text016",
+        "label": "Note sur la disponibilité des interventions",
+        "section": "Guides visuels",
+        "kind": "text"
+      },
+      {
+        "key": "text017",
+        "label": "Indication de langue du visuel",
+        "section": "Guides visuels",
+        "kind": "text"
       }
     ]
   },
@@ -650,29 +716,29 @@
     ]
   },
   "chirurgien": {
-    "label": "Le chirurgien",
+    "label": "Les chirurgiens",
     "fields": [
       {
         "key": "text001",
-        "label": "Libellé — Le chirurgien",
+        "label": "Libellé — Les chirurgiens",
         "section": "Introduction",
         "kind": "text"
       },
       {
         "key": "text002",
-        "label": "Texte — Dr Anıl",
+        "label": "Titre — Des parcours exigeants.",
         "section": "Introduction",
         "kind": "text"
       },
       {
         "key": "text003",
-        "label": "Texte mis en valeur — Pehlivan.",
+        "label": "Texte mis en valeur — Une écoute attentive.",
         "section": "Introduction",
         "kind": "text"
       },
       {
         "key": "text004",
-        "label": "Texte — Chirurgie plastique, reconstructrice et esthétique.",
+        "label": "Introduction de la page",
         "section": "Introduction",
         "kind": "text"
       },
@@ -794,6 +860,210 @@
         "key": "text024",
         "label": "Texte — Préparer un premier échange",
         "section": "container",
+        "kind": "text"
+      },
+      {
+        "key": "text025",
+        "label": "Surtitre — Les profils",
+        "section": "Sélection des profils",
+        "kind": "text"
+      },
+      {
+        "key": "text026",
+        "label": "Nom — Dr Anıl Pehlivan",
+        "section": "Sélection des profils",
+        "kind": "text"
+      },
+      {
+        "key": "text027",
+        "label": "Spécialité — Dr Anıl Pehlivan",
+        "section": "Sélection des profils",
+        "kind": "text"
+      },
+      {
+        "key": "text028",
+        "label": "Lien — Voir son parcours",
+        "section": "Sélection des profils",
+        "kind": "text"
+      },
+      {
+        "key": "text029",
+        "label": "Nom — Dr Teoman Eraslan",
+        "section": "Sélection des profils",
+        "kind": "text"
+      },
+      {
+        "key": "text030",
+        "label": "Spécialité — Dr Teoman Eraslan",
+        "section": "Sélection des profils",
+        "kind": "text"
+      },
+      {
+        "key": "text031",
+        "label": "Lien — Voir son parcours",
+        "section": "Sélection des profils",
+        "kind": "text"
+      },
+      {
+        "key": "text032",
+        "label": "Texte alternatif du portrait",
+        "section": "Dr Teoman Eraslan — présentation",
+        "kind": "text"
+      },
+      {
+        "key": "text033",
+        "label": "Légende du portrait",
+        "section": "Dr Teoman Eraslan — présentation",
+        "kind": "text"
+      },
+      {
+        "key": "text034",
+        "label": "Surtitre — Formation, pratique et expertise",
+        "section": "Dr Teoman Eraslan — présentation",
+        "kind": "text"
+      },
+      {
+        "key": "text035",
+        "label": "Prénom et titre",
+        "section": "Dr Teoman Eraslan — présentation",
+        "kind": "text"
+      },
+      {
+        "key": "text036",
+        "label": "Nom mis en valeur",
+        "section": "Dr Teoman Eraslan — présentation",
+        "kind": "text"
+      },
+      {
+        "key": "text037",
+        "label": "Présentation professionnelle",
+        "section": "Dr Teoman Eraslan — présentation",
+        "kind": "text"
+      },
+      {
+        "key": "text038",
+        "label": "Titre — Formation médicale",
+        "section": "Dr Teoman Eraslan — parcours",
+        "kind": "text"
+      },
+      {
+        "key": "text039",
+        "label": "Diplôme de médecine",
+        "section": "Dr Teoman Eraslan — parcours",
+        "kind": "text"
+      },
+      {
+        "key": "text040",
+        "label": "Formation de spécialiste",
+        "section": "Dr Teoman Eraslan — parcours",
+        "kind": "text"
+      },
+      {
+        "key": "text041",
+        "label": "Titre — Parcours professionnel",
+        "section": "Dr Teoman Eraslan — parcours",
+        "kind": "text"
+      },
+      {
+        "key": "text042",
+        "label": "Résumé du parcours professionnel",
+        "section": "Dr Teoman Eraslan — parcours",
+        "kind": "text"
+      },
+      {
+        "key": "text043",
+        "label": "Titre — Domaines d’expertise",
+        "section": "Dr Teoman Eraslan — expertises",
+        "kind": "text"
+      },
+      {
+        "key": "text044",
+        "label": "Expertise 1",
+        "section": "Dr Teoman Eraslan — expertises",
+        "kind": "text"
+      },
+      {
+        "key": "text045",
+        "label": "Expertise 2",
+        "section": "Dr Teoman Eraslan — expertises",
+        "kind": "text"
+      },
+      {
+        "key": "text046",
+        "label": "Expertise 3",
+        "section": "Dr Teoman Eraslan — expertises",
+        "kind": "text"
+      },
+      {
+        "key": "text047",
+        "label": "Expertise 4",
+        "section": "Dr Teoman Eraslan — expertises",
+        "kind": "text"
+      },
+      {
+        "key": "text048",
+        "label": "Expertise 5",
+        "section": "Dr Teoman Eraslan — expertises",
+        "kind": "text"
+      },
+      {
+        "key": "text049",
+        "label": "Expertise 6",
+        "section": "Dr Teoman Eraslan — expertises",
+        "kind": "text"
+      },
+      {
+        "key": "text050",
+        "label": "Expertise 7",
+        "section": "Dr Teoman Eraslan — expertises",
+        "kind": "text"
+      },
+      {
+        "key": "text051",
+        "label": "Titre — Langues",
+        "section": "Dr Teoman Eraslan — langues et recherche",
+        "kind": "text"
+      },
+      {
+        "key": "text052",
+        "label": "Langue 1",
+        "section": "Dr Teoman Eraslan — langues et recherche",
+        "kind": "text"
+      },
+      {
+        "key": "text053",
+        "label": "Langue 2",
+        "section": "Dr Teoman Eraslan — langues et recherche",
+        "kind": "text"
+      },
+      {
+        "key": "text054",
+        "label": "Langue 3",
+        "section": "Dr Teoman Eraslan — langues et recherche",
+        "kind": "text"
+      },
+      {
+        "key": "text055",
+        "label": "Langue 4",
+        "section": "Dr Teoman Eraslan — langues et recherche",
+        "kind": "text"
+      },
+      {
+        "key": "text056",
+        "label": "Titre — Activité scientifique",
+        "section": "Dr Teoman Eraslan — langues et recherche",
+        "kind": "text"
+      },
+      {
+        "key": "text057",
+        "label": "Résumé de l’activité scientifique",
+        "section": "Dr Teoman Eraslan — langues et recherche",
+        "kind": "text"
+      },
+      {
+        "key": "text058",
+        "label": "Note sur la source des informations",
+        "section": "Dr Teoman Eraslan — langues et recherche",
         "kind": "text"
       }
     ]

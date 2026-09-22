@@ -148,6 +148,19 @@ async function connect(): Promise<Connection> {
       !Object.hasOwn(state.published, "translations") ||
       !Object.hasOwn(state.draft, "certificates") ||
       !Object.hasOwn(state.published, "certificates") ||
+      !Object.hasOwn(state.draft, "visualGuides") ||
+      !Object.hasOwn(state.published, "visualGuides") ||
+      seed.visualGuides.some(
+        (template) =>
+          !state.draft.visualGuides?.some(
+            (item) => item.id === template.id,
+          ) ||
+          !state.published.visualGuides?.some(
+            (item) => item.id === template.id,
+          ),
+      ) ||
+      !Object.hasOwn(state.draft.copy.interventions, "text017") ||
+      !Object.hasOwn(state.published.copy.interventions, "text017") ||
       seed.treatments.some(
         (template) =>
           !state.draft.treatments.some((item) => item.slug === template.slug) ||
@@ -166,7 +179,11 @@ async function connect(): Promise<Connection> {
         (item) => !Object.hasOwn(item, "imageAlt"),
       ) ||
       !Object.hasOwn(state.draft.settings.assets, "healthTurkiye") ||
-      !Object.hasOwn(state.published.settings.assets, "healthTurkiye")
+      !Object.hasOwn(state.published.settings.assets, "healthTurkiye") ||
+      !Object.hasOwn(state.draft.settings.assets, "teomanPortrait") ||
+      !Object.hasOwn(state.published.settings.assets, "teomanPortrait") ||
+      !Object.hasOwn(state.draft.copy.chirurgien, "text025") ||
+      !Object.hasOwn(state.published.copy.chirurgien, "text025")
     ) {
       state.draft = upgradeContent(state.draft);
       state.published = upgradeContent(state.published);

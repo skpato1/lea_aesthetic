@@ -13,3 +13,6 @@ playwright-report/
 .data/
 .next-admin-dev/
 .next-i18n-dev/
+
+.vercel
+.env*

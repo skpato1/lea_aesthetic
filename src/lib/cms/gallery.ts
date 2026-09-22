@@ -113,6 +113,10 @@ export function contentAssets(
       .filter((item) => !publicOnly || item.visible)
       .map((item) => item.image)
       .filter(Boolean),
+    ...content.visualGuides
+      .filter((item) => !publicOnly || item.visible)
+      .map((item) => item.image)
+      .filter(Boolean),
     ...cases.flatMap((item) =>
       !publicOnly || item.mode === "photos"
         ? [item.beforeImage, item.afterImage].filter(Boolean)

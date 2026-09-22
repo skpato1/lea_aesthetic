@@ -58,6 +58,7 @@ const sections = [
   { id: "home", label: "Accueil", icon: LayoutList },
   { id: "agence", label: "L’agence", icon: FileText },
   { id: "interventions", label: "Interventions", icon: FileText },
+  { id: "visualGuides", label: "Guides visuels", icon: ImageIcon },
   { id: "gallery", label: "Avant / après", icon: ImageIcon },
   {
     id: "certificates",
@@ -420,6 +421,7 @@ export function AdminPanel({
     "settings",
     "navigation",
     "treatments",
+    "visualGuides",
     "gallery",
     "certificates",
     "steps",
@@ -436,6 +438,7 @@ export function AdminPanel({
           settings: "Coordonnées et images",
           navigation: "Navigation",
           treatments: "Interventions",
+          visualGuides: "Guides visuels",
           gallery: "Avant / après",
           certificates: "Certificats et autorisations",
           steps: "Étapes du parcours",
@@ -955,6 +958,18 @@ export function AdminPanel({
                     <CopyEditor group="interventions" {...props} />
                     <h3>Textes communs des fiches</h3>
                     <CopyEditor group="treatment" {...props} />
+                  </>
+                )}
+                {active === "visualGuides" && (
+                  <>
+                    <p className="admin-hint">
+                      Gérez les titres, catégories, images, ordre, association à
+                      une intervention et visibilité. Les guides fournis peuvent
+                      être masqués, mais restent disponibles dans le panneau.
+                    </p>
+                    <CollectionEditor type="visualGuides" {...props} />
+                    <h3>Présentation et avertissements</h3>
+                    <CopyEditor group="interventions" {...props} />
                   </>
                 )}
                 {active === "gallery" && (

@@ -103,6 +103,15 @@ test("Médias : les images d’intervention publiées sont protégées par leur 
   assert.equal(contentAssets(draft, true).includes(treatment.image), false);
   assert.ok(contentAssets(draft).includes(treatment.image));
 });
+test("Médias : les guides visuels suivent leur réglage de visibilité", () => {
+  const draft = content();
+  const guide = draft.visualGuides[0];
+  guide.image = `/media/${randomUUID()}`;
+  assert.ok(contentAssets(draft, true).includes(guide.image));
+  guide.visible = false;
+  assert.equal(contentAssets(draft, true).includes(guide.image), false);
+  assert.ok(contentAssets(draft).includes(guide.image));
+});
 test("Remplacement et restauration nécessitent une nouvelle confirmation", () => {
   const before = content();
   before.gallery.items = [fixture()];

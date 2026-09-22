@@ -5,6 +5,7 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { ButtonLink, Eyebrow } from "@/components/ui";
 import { pageMetadata } from "@/lib/metadata";
+import { VisualGuides } from "@/components/visual-guides";
 
 export async function generateMetadata({
   params,
@@ -104,6 +105,13 @@ export default async function Treatment({
           </Link>
         </aside>
       </section>
+      <VisualGuides
+        compact
+        guides={cms.visualGuides.filter(
+          (guide) => guide.visible && guide.treatmentSlug === t.slug,
+        )}
+        copy={cms.copy.interventions}
+      />
       <section className="container related-treatments">
         <h2>{copy.text014}</h2>
         <div>
