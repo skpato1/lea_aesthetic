@@ -79,8 +79,39 @@
   overflow: hidden;
   border-radius: 9px;
 }
+.result-photo-placeholder {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(110deg, transparent 32%, rgba(255, 255, 255, 0.72) 46%, transparent 60%),
+    linear-gradient(145deg, #eee7e9, #e4dadd);
+  background-size: 240% 100%, 100% 100%;
+  animation: result-photo-loading 1.25s ease-in-out infinite;
+  transition: opacity 220ms ease;
+}
 .result-photo img {
-  transition: transform 420ms ease;
+  opacity: 0;
+  transition:
+    opacity 240ms ease,
+    transform 420ms ease;
+}
+.result-photo.is-loaded img {
+  opacity: 1;
+}
+.result-photo.is-loaded .result-photo-placeholder,
+.result-photo.is-error .result-photo-placeholder {
+  opacity: 0;
+  animation: none;
+}
+.result-photo.is-error {
+  background:
+    linear-gradient(135deg, rgba(138, 56, 88, 0.06), transparent),
+    #ece6e8;
+}
+@keyframes result-photo-loading {
+  to {
+    background-position: -160% 0, 0 0;
+  }
 }
 .result-pair figcaption {
   font-size: 12px;
@@ -352,5 +383,10 @@
   }
   .result-instagram-cover {
     padding: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .result-photo-placeholder {
+    animation: none;
   }
 }

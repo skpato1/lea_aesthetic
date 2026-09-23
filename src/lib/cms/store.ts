@@ -244,10 +244,28 @@ export async function transaction<T>(
   return (await database()).transaction(fn);
 }
 export async function readValue<T>(key: string) {
-  return transaction((store) => store.get<T>(key));
+  const rows = await (await database()).query(
+    "SELECT key,value FROM lea_cms WHERE key=$1",
+    [key],
+  );
+  return rows[0] ? (JSON.parse(rows[0].value) as T) : undefined;
 }
 export async function listValues<T>(prefix: string) {
-  return transaction((store) => store.list<T>(prefix));
+  return (
+    await (await database()).query(
+      "SELECT key,value FROM lea_cms WHERE key LIKE $1 ORDER BY key",
+      [`${prefix}%`],
+    )
+  ).map((row) => JSON.parse(row.value) as T);
+}
+export async function readValues(keys: readonly string[]) {
+  if (!keys.length) return new Map<string, unknown>();
+  const placeholders = keys.map((_, index) => `$${index + 1}`).join(",");
+  const rows = await (await database()).query(
+    `SELECT key,value FROM lea_cms WHERE key IN (${placeholders})`,
+    [...keys],
+  );
+  return new Map(rows.map((row) => [row.key, JSON.parse(row.value)]));
 }
 export function initialState(): ContentState {
   return {

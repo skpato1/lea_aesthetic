@@ -1,7 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from "react";
 import { ArrowUpRight, Expand, Instagram, X } from "lucide-react";
 import type { ResultCase, SiteContent } from "@/lib/cms/types";
 import { instagramPostUrl } from "@/lib/cms/gallery";
@@ -25,25 +31,70 @@ const serverReady = () => false;
 const useReady = () =>
   useSyncExternalStore(subscribe, clientReady, serverReady);
 
-function PhotoPair({ item }: { item: PublicResult }) {
+function PhotoPair({
+  item,
+  eager = false,
+}: {
+  item: PublicResult;
+  eager?: boolean;
+}) {
   const t = useTranslate();
   return (
     <div className="result-pair">
       {(["before", "after"] as const).map((side) => (
         <figure key={side}>
-          <div className="result-photo">
-            <Image
-              src={item[`${side}Image`]}
-              alt={item[`${side}Alt`]}
-              fill
-              sizes="(max-width: 760px) 44vw, 26vw"
-              unoptimized
-              style={{ objectFit: "contain" }}
-            />
-          </div>
+          <ResultImage
+            src={item[`${side}Image`]}
+            alt={item[`${side}Alt`]}
+            eager={eager}
+          />
           <figcaption>{t(side === "before" ? "Avant" : "Après")}</figcaption>
         </figure>
       ))}
+    </div>
+  );
+}
+
+function ResultImage({
+  src,
+  alt,
+  eager = false,
+}: {
+  src: string;
+  alt: string;
+  eager?: boolean;
+}) {
+  const [status, setStatus] = useState<"loading" | "loaded" | "error">(
+    "loading",
+  );
+  const syncCachedImage = useCallback((node: HTMLImageElement | null) => {
+    if (!node?.complete) return;
+    const next = node.naturalWidth > 0 ? "loaded" : "error";
+    queueMicrotask(() =>
+      setStatus((current) => (current === next ? current : next)),
+    );
+  }, []);
+
+  return (
+    <div
+      className={`result-photo is-${status}`}
+      aria-busy={status === "loading"}
+    >
+      <span className="result-photo-placeholder" aria-hidden="true" />
+      <Image
+        ref={syncCachedImage}
+        src={src}
+        alt={alt}
+        fill
+        sizes="(max-width: 760px) 44vw, 26vw"
+        unoptimized
+        loading={eager ? "eager" : "lazy"}
+        fetchPriority={eager ? "low" : "auto"}
+        decoding="async"
+        onLoad={() => setStatus("loaded")}
+        onError={() => setStatus("error")}
+        style={{ objectFit: "contain" }}
+      />
     </div>
   );
 }
@@ -172,11 +223,11 @@ export function ResultsGallery({ copy, items, instagram, handle }: Props) {
               )}
             </p>
             <div className="results-grid">
-              {filtered.slice(0, limit).map((item) => (
+              {filtered.slice(0, limit).map((item, index) => (
                 <article className="result-card" key={item.id}>
                   {item.mode === "photos" ? (
                     <div className="result-visual">
-                      <PhotoPair item={item} />
+                      <PhotoPair item={item} eager={index < 3} />
                       <button
                         type="button"
                         className="result-expand"
@@ -280,7 +331,7 @@ export function ResultsGallery({ copy, items, instagram, handle }: Props) {
                 <X />
               </button>
             </div>
-            <PhotoPair item={selected} />
+            <PhotoPair key={selected.id} item={selected} eager />
             <p>{selected.caption}</p>
             {selected.interval && (
               <p>

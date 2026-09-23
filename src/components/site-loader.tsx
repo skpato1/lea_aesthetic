@@ -47,8 +47,7 @@ function criticalPageImages() {
     (image) => {
       if (image.hasAttribute("data-site-loader-image")) return false;
       if (image.hasAttribute("data-site-loader-priority")) return true;
-      if (image.fetchPriority === "high" || image.loading === "eager")
-        return true;
+      if (image.fetchPriority === "high") return true;
       const bounds = image.getBoundingClientRect();
       return (
         bounds.bottom >= -VIEWPORT_MARGIN &&
