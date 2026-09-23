@@ -10,11 +10,10 @@ export async function GET(
 ) {
   const { id } = await params;
   if (!/^[a-f0-9-]{36}$/.test(id)) return new Response(null, { status: 404 });
-  const values = await readValues([
-    "content",
-    `media-info:${id}`,
-    `media:${id}`,
-  ]);
+  const values = await readValues(
+    ["content", `media-info:${id}`, `media:${id}`],
+    { initialize: false },
+  );
   const state = values.get("content") as ContentState | undefined;
   const metadata = values.get(`media-info:${id}`) as MediaItem | undefined;
   const isPublic =

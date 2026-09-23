@@ -21,6 +21,7 @@ type Connection = {
 };
 const globalCMS = globalThis as unknown as {
   leaDatabase?: Promise<Connection>;
+  leaInitializedDatabase?: Promise<Connection>;
 };
 export function storageConfigured() {
   return process.env.VERCEL !== "1" || !!process.env.DATABASE_URL;
@@ -136,6 +137,9 @@ async function connect(): Promise<Connection> {
       },
     };
   }
+  return connection;
+}
+async function initialize(connection: Connection) {
   await connection.query(
     "CREATE TABLE IF NOT EXISTS lea_cms (key TEXT PRIMARY KEY,value TEXT NOT NULL)",
   );
@@ -228,15 +232,23 @@ async function connect(): Promise<Connection> {
       }
     }
   });
-  return connection;
 }
-async function database() {
+async function database(initializeStore = true) {
   if (!globalCMS.leaDatabase)
     globalCMS.leaDatabase = connect().catch((error) => {
       delete globalCMS.leaDatabase;
       throw error;
     });
-  return globalCMS.leaDatabase;
+  const connection = await globalCMS.leaDatabase;
+  if (!initializeStore) return connection;
+  if (!globalCMS.leaInitializedDatabase)
+    globalCMS.leaInitializedDatabase = initialize(connection)
+      .then(() => connection)
+      .catch((error) => {
+        delete globalCMS.leaInitializedDatabase;
+        throw error;
+      });
+  return globalCMS.leaInitializedDatabase;
 }
 export async function transaction<T>(
   fn: (store: Store) => Promise<T>,
@@ -258,10 +270,13 @@ export async function listValues<T>(prefix: string) {
     )
   ).map((row) => JSON.parse(row.value) as T);
 }
-export async function readValues(keys: readonly string[]) {
+export async function readValues(
+  keys: readonly string[],
+  options: { initialize?: boolean } = {},
+) {
   if (!keys.length) return new Map<string, unknown>();
   const placeholders = keys.map((_, index) => `$${index + 1}`).join(",");
-  const rows = await (await database()).query(
+  const rows = await (await database(options.initialize !== false)).query(
     `SELECT key,value FROM lea_cms WHERE key IN (${placeholders})`,
     [...keys],
   );
