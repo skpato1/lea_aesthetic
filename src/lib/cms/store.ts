@@ -198,6 +198,12 @@ async function connect(): Promise<Connection> {
         currentState.published.settings.assets,
         "teomanPortrait",
       ) ||
+      currentState.draft.navigation.some(
+        (item) => item.href === "/agence" && item.label === "L’agence",
+      ) ||
+      currentState.published.navigation.some(
+        (item) => item.href === "/agence" && item.label === "L’agence",
+      ) ||
       !Object.hasOwn(currentState.draft.copy.chirurgien, "text025") ||
       !Object.hasOwn(currentState.published.copy.chirurgien, "text025")
     ) {

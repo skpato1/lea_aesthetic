@@ -389,7 +389,7 @@
     ]
   },
   "agence": {
-    "label": "L’agence",
+    "label": "À propos",
     "fields": [
       {
         "key": "text001",

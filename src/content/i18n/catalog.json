@@ -208,9 +208,14 @@
     ]
   },
   {
+    "source": "À propos",
+    "contexts": [
+      "navigation.0.label"
+    ]
+  },
+  {
     "source": "L’agence",
     "contexts": [
-      "navigation.0.label",
       "seo.agence.title"
     ]
   },

@@ -56,7 +56,7 @@ type HistoryItem = {
 const sections = [
   { id: "overview", label: "Vue d’ensemble", icon: House },
   { id: "home", label: "Accueil", icon: LayoutList },
-  { id: "agence", label: "L’agence", icon: FileText },
+  { id: "agence", label: "À propos", icon: FileText },
   { id: "interventions", label: "Interventions", icon: FileText },
   { id: "visualGuides", label: "Guides visuels", icon: ImageIcon },
   { id: "gallery", label: "Avant / après", icon: ImageIcon },

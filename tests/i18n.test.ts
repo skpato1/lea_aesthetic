@@ -62,6 +62,7 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
   old.copy.chirurgien.text003 = "Pehlivan.";
   old.navigation.find((item) => item.href === "/chirurgien")!.label =
     "Le chirurgien";
+  old.navigation.find((item) => item.href === "/agence")!.label = "L’agence";
   old.seo.chirurgien.title = "Dr Anıl Pehlivan, le chirurgien";
   delete (old as Partial<SiteContent>).translations;
   delete (old as Partial<SiteContent>).visualGuides;
@@ -79,6 +80,7 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
   assert.equal(migrated.treatments[0].image, "");
   assert.equal(migrated.treatments[0].imageAlt, "");
   assert.equal(migrated.navigation[2].label, "Les chirurgiens");
+  assert.equal(migrated.navigation[0].label, "À propos");
   assert.equal(
     migrated.settings.assets.teomanPortrait,
     "/images/dr-teoman-eraslan-cv.webp",
@@ -106,6 +108,15 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
     "pt",
     "tr",
   ]);
+});
+test("About navigation migration preserves an existing translated label", () => {
+  const old = structuredClone(seed) as SiteContent;
+  old.navigation.find((item) => item.href === "/agence")!.label = "L’agence";
+  old.translations.en.messages["L’agence"] = "Our agency";
+  const migrated = upgradeContent(old);
+  assert.equal(migrated.navigation[0].label, "À propos");
+  assert.equal(migrated.translations.en.messages["À propos"], "Our agency");
+  assert.equal(migrated.translations.en.messages["L’agence"], "Our agency");
 });
 test("Image migration replaces legacy JPEG paths and removes the supplied duplicate only", () => {
   const old = structuredClone(seed) as SiteContent;

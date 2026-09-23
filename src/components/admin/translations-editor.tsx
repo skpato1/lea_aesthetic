@@ -21,7 +21,7 @@ const groups: Record<string, string> = {
   gallery: "Avant / après",
   certificates: "Certificats et autorisations",
   home: "Accueil",
-  agence: "L’agence",
+  agence: "À propos",
   chirurgien: "Le chirurgien",
   interventions: "Interventions",
   treatment: "Fiches interventions",

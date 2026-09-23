@@ -74,6 +74,16 @@ export function upgradeContent(input: SiteContent): SiteContent {
   );
   if (surgeonNavigation?.label === "Le chirurgien")
     surgeonNavigation.label = "Les chirurgiens";
+  const aboutNavigation = content.navigation.find(
+    (item) => item.href === "/agence",
+  );
+  if (aboutNavigation?.label === "L’agence")
+    aboutNavigation.label = "À propos";
+  for (const locale of Object.values(content.translations || {})) {
+    if (!Object.hasOwn(locale.messages, "L’agence")) continue;
+    if (!Object.hasOwn(locale.messages, "À propos"))
+      locale.messages["À propos"] = locale.messages["L’agence"];
+  }
   if (!Object.hasOwn(content.settings.assets, "teomanPortrait"))
     content.settings.assets.teomanPortrait =
       seed.settings.assets.teomanPortrait;
