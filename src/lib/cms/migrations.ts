@@ -9,6 +9,8 @@ const suppliedDuplicateGuideImages = new Set([
 ]);
 
 function optimizedImagePath(value: string) {
+  if (value === "/images/lea-logo-rose.png")
+    return "/images/lea-logo-rose.webp";
   if (value === "/images/dr-teoman-eraslan-cv.jpg")
     return "/images/dr-teoman-eraslan-cv.webp";
   if (/^\/images\/guides\/.+\.jpe?g$/i.test(value))
@@ -25,6 +27,8 @@ function isSuppliedDuplicateGuide(guide: SiteContent["visualGuides"][number]) {
 
 export function contentNeedsImageMigration(content: SiteContent) {
   return (
+    optimizedImagePath(content.settings.assets.logo || "") !==
+      (content.settings.assets.logo || "") ||
     optimizedImagePath(content.settings.assets.teomanPortrait || "") !==
       (content.settings.assets.teomanPortrait || "") ||
     (content.visualGuides || []).some(
@@ -75,6 +79,9 @@ export function upgradeContent(input: SiteContent): SiteContent {
       seed.settings.assets.teomanPortrait;
   content.settings.assets.teomanPortrait = optimizedImagePath(
     content.settings.assets.teomanPortrait,
+  );
+  content.settings.assets.logo = optimizedImagePath(
+    content.settings.assets.logo,
   );
   if (content.seo.chirurgien.title === "Dr Anıl Pehlivan, le chirurgien") {
     content.seo.chirurgien.title = seed.seo.chirurgien.title;

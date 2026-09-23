@@ -93,6 +93,7 @@ export default async function Home() {
               fill
               sizes="(max-width: 760px) 100vw, 48vw"
               priority
+              data-site-loader-priority
             />
             <div className="image-shade" />
             <div className="city-caption">

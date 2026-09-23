@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export function LogoLoader({
-  logo = "/images/lea-logo-rose.png",
+  logo = "/images/lea-logo-rose.webp",
   active = true,
   label = "Chargement des visuels",
   loaded = 0,

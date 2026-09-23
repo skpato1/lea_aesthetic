@@ -236,7 +236,7 @@ textarea:focus-visible {
 .skip-link:focus {
   top: 12px;
 }
-/* Transition globale : le logo reste visible jusqu'au chargement des images. */
+/* Transition globale : seuls les visuels du premier écran sont bloquants. */
 html.site-loading {
   overflow: hidden;
 }
@@ -252,8 +252,8 @@ html.site-loading {
   visibility: hidden;
   pointer-events: none;
   transition:
-    opacity 0.38s ease,
-    visibility 0s linear 0.38s;
+    opacity 0.24s ease,
+    visibility 0s linear 0.24s;
 }
 .site-loader.is-active {
   opacity: 1;

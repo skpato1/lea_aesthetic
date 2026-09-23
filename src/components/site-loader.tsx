@@ -7,7 +7,10 @@ import { useTranslate } from "./locale-provider";
 
 export const SITE_NAVIGATION_START_EVENT = "lea:navigation-start";
 
-const MAXIMUM_WAIT = 12_000;
+// The loader only protects the first visible screen. Images lower on the page
+// keep Next.js' native lazy-loading and must never block interaction.
+const MAXIMUM_WAIT = 2_500;
+const VIEWPORT_MARGIN = 96;
 
 function delay(milliseconds: number) {
   return new Promise<void>((resolve) =>
@@ -24,36 +27,34 @@ function nextPaint() {
 }
 
 async function loadPageImage(image: HTMLImageElement) {
-  if (image.complete) {
-    if (image.naturalWidth > 0)
-      try {
-        await image.decode();
-      } catch {
-        // A decoded fallback is optional once the browser has the image bytes.
-      }
-    return;
-  }
-  await new Promise<void>((resolve) => {
-    const preload = new window.Image();
-    let settled = false;
-    const finish = () => {
-      if (settled) return;
-      settled = true;
-      resolve();
-    };
-    preload.decoding = "async";
-    preload.onload = finish;
-    preload.onerror = finish;
-    if (image.sizes) preload.sizes = image.sizes;
-    if (image.srcset) preload.srcset = image.srcset;
-    preload.src = image.currentSrc || image.src;
-    if (preload.complete) finish();
-  });
+  if (!image.complete)
+    await new Promise<void>((resolve) => {
+      const finish = () => resolve();
+      image.addEventListener("load", finish, { once: true });
+      image.addEventListener("error", finish, { once: true });
+      if (image.complete) finish();
+    });
+  if (image.naturalWidth > 0)
+    try {
+      await image.decode();
+    } catch {
+      // The bytes are available; decoding can continue after the loader closes.
+    }
 }
 
-function pageImages() {
+function criticalPageImages() {
   return [...document.images].filter(
-    (image) => !image.hasAttribute("data-site-loader-image"),
+    (image) => {
+      if (image.hasAttribute("data-site-loader-image")) return false;
+      if (image.hasAttribute("data-site-loader-priority")) return true;
+      if (image.fetchPriority === "high" || image.loading === "eager")
+        return true;
+      const bounds = image.getBoundingClientRect();
+      return (
+        bounds.bottom >= -VIEWPORT_MARGIN &&
+        bounds.top <= window.innerHeight + VIEWPORT_MARGIN
+      );
+    },
   );
 }
 
@@ -88,7 +89,7 @@ export function SiteLoader({ logo }: { logo: string }) {
         await delay(60);
 
       if (expectedGeneration !== generation.current) return;
-      const images = pageImages();
+      const images = criticalPageImages();
       setState((current) => ({
         ...current,
         loaded: 0,
@@ -104,9 +105,8 @@ export function SiteLoader({ logo }: { logo: string }) {
             setState((current) => ({ ...current, loaded }));
         }),
       );
-      const fontsReady = document.fonts?.ready ?? Promise.resolve();
       await Promise.race([
-        Promise.allSettled([imagesReady, fontsReady]),
+        imagesReady,
         delay(MAXIMUM_WAIT),
       ]);
 
@@ -139,13 +139,13 @@ export function SiteLoader({ logo }: { logo: string }) {
     const expectedGeneration = generation.current;
     safetyTimer.current = window.setTimeout(
       () => hide(expectedGeneration),
-      MAXIMUM_WAIT + 3_000,
+      MAXIMUM_WAIT + 750,
     );
   }, [hide]);
 
   useEffect(() => {
     document.documentElement.classList.add("site-loading");
-    scheduleFinish(0, 480);
+    scheduleFinish(0, 200);
 
     const onClick = (event: MouseEvent) => {
       if (
@@ -206,7 +206,7 @@ export function SiteLoader({ logo }: { logo: string }) {
       firstPath.current = false;
       return;
     }
-    if (active.current) scheduleFinish(40);
+    if (active.current) scheduleFinish(30, 120);
   }, [pathname, scheduleFinish]);
 
   return (

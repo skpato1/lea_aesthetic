@@ -108,6 +108,34 @@ test("accueil : images, ancrages historiques, liens, débordement et accessibili
     .analyze();
   expect(results.violations).toEqual([]);
 });
+test("le loader de l’accueil attend seulement les visuels du premier écran", async ({
+  page,
+}) => {
+  let belowFoldPortraitRequested = false;
+  page.on("request", (request) => {
+    const url = new URL(request.url());
+    if (
+      url.pathname.includes("dr-anil-pehlivan.webp") ||
+      url.searchParams.get("url")?.includes("dr-anil-pehlivan.webp")
+    )
+      belowFoldPortraitRequested = true;
+  });
+
+  await page.goto("/", { waitUntil: "domcontentloaded" });
+  await expect(page.locator("[data-site-loader]")).toHaveAttribute(
+    "data-state",
+    "hidden",
+    { timeout: 2_000 },
+  );
+  expect(belowFoldPortraitRequested).toBe(false);
+  await expect
+    .poll(() =>
+      page
+        .locator(".hero-image img")
+        .evaluate((image) => (image as HTMLImageElement).naturalWidth),
+    )
+    .toBeGreaterThan(0);
+});
 test("navigation et menu mobile au clavier", async ({ page, isMobile }) => {
   await page.goto("/");
   if (isMobile) {

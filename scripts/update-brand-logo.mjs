@@ -7,7 +7,7 @@ try {
 } catch (error) {
   if (error.code !== "ENOENT") throw error;
 }
-const logo = "/images/lea-logo-rose.png";
+const logo = "/images/lea-logo-rose.webp";
 let db, pool, client;
 try {
   if (process.env.DATABASE_URL) {

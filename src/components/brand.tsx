@@ -30,6 +30,7 @@ export function Brand({
           style={{ objectFit: "contain" }}
           unoptimized={src.startsWith("/media/")}
           priority={priority}
+          data-site-loader-priority={priority ? "true" : undefined}
         />
       </span>
       {caption && (

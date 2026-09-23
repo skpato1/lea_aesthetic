@@ -182,7 +182,7 @@ export function validateContent(value: unknown): SiteContent {
     if (
       ![
         "/images/lea-logo.png",
-        "/images/lea-logo-rose.png",
+        "/images/lea-logo-rose.webp",
         "/images/dr-anil-pehlivan.webp",
         "/images/dr-teoman-eraslan-cv.webp",
         "/images/istanbul.webp",

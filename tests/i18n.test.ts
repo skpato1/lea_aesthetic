@@ -109,6 +109,7 @@ test("Migration keeps existing source edits, media, gallery approvals and indepe
 });
 test("Image migration replaces legacy JPEG paths and removes the supplied duplicate only", () => {
   const old = structuredClone(seed) as SiteContent;
+  old.settings.assets.logo = "/images/lea-logo-rose.png";
   old.settings.assets.teomanPortrait = "/images/dr-teoman-eraslan-cv.jpg";
   old.visualGuides[0].image = "/images/guides/gynecomastie.jpeg";
   old.visualGuides.splice(2, 0, {
@@ -125,6 +126,7 @@ test("Image migration replaces legacy JPEG paths and removes the supplied duplic
   });
   assert.equal(contentNeedsImageMigration(old), true);
   const migrated = upgradeContent(old);
+  assert.equal(migrated.settings.assets.logo, "/images/lea-logo-rose.webp");
   assert.equal(migrated.settings.assets.teomanPortrait.endsWith(".webp"), true);
   assert.equal(migrated.visualGuides[0].image.endsWith(".webp"), true);
   assert.equal(
